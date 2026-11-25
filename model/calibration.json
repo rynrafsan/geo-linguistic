@@ -1,0 +1,99 @@
+{
+  "model_name": "GEO combined: V4.1-A for dialect, v3.1 for gender and age",
+  "dialect_model": "dialect_model.pt",
+  "temperature": {
+    "dialect": 1.2667442560195923,
+    "gender": 1.0,
+    "age": 1.0
+  },
+  "logit_bias": {},
+  "min_confidence": {
+    "dialect": 0.6,
+    "gender": 0.65,
+    "age": 0.6
+  },
+  "unknown_voice": {
+    "threshold": 13.615679740905762,
+    "percentile": 95,
+    "reference": "district centroids of the dialect model (V4.1-A)"
+  },
+  "calibrated_on": "dialect (V4.1-A): temperature and unknown-voice limit set on RBVD + RegSpeech12 validation; gender and age (v3.1): not calibrated",
+  "unknown_voice_text": "This recording is far from the training data of all eight districts, so the dialect answer is not reliable.",
+  "model_card": {
+    "caption": "Test results of the models this app uses, scored the way the app scores a recording",
+    "rows": [
+      [
+        "Dialect (V4.1-A)",
+        "RBVD: the nine original voices, unseen sentences",
+        "Macro-F1 0.963"
+      ],
+      [
+        "Dialect (V4.1-A)",
+        "RegSpeech12: speakers never heard in training (5 districts)",
+        "Accuracy 73.1%, per speaker group 87.5%"
+      ],
+      [
+        "Dialect (V4.1-A)",
+        "BanglaAccent: new speakers reading standard Bangla (another corpus)",
+        "Accuracy 9.3% (chance 12.5%)"
+      ],
+      [
+        "Gender (v3.1)",
+        "Common Voice test speakers",
+        "Accuracy 93.3%"
+      ],
+      [
+        "Gender (v3.1)",
+        "BanglaAccent speakers (another corpus)",
+        "Accuracy 96.1%"
+      ],
+      [
+        "Age group (v3.1)",
+        "Common Voice test speakers",
+        "Balanced accuracy 0.612"
+      ]
+    ],
+    "description": "Two trained copies of the same network work together. Each reads the log-mel spectrogram (ResNet-50) and the MFCC sequence (two-layer Bi-LSTM) of every 5-second window. The dialect answer comes from GEO V4.1-A, which learned dialect from RBVD (8 districts) and RegSpeech12 (Chattogram, Barishal, Rangpur, Noakhali, Tangail). Gender and age come from GEO v3.1, which learned them from Mozilla Common Voice Bangla. No gender or age label was taken from RBVD."
+  },
+  "limits": [
+    {
+      "title": "Dialect: Chattogram, Barishal, Rangpur, Noakhali, Tangail",
+      "text": "Learned from many speakers. On RegSpeech12 speakers it never heard, 73.1% of clips were right (Rangpur 93%, Chottogram 74%, Barishal 63%, Tangail 60%). Read speech in standard Bangla is much harder: 9.3% on BanglaAccent."
+    },
+    {
+      "title": "Dialect: Mymensingh, Jamalpur, Natore",
+      "text": "Still learned from one RBVD speaker each, so answers for new speakers from these districts are not reliable."
+    },
+    {
+      "title": "Gender and age group",
+      "text": "Gender was right for 93.3% of Common Voice speakers it never heard. Age has two groups (under 30, 30+) because Common Voice Bangla has no labelled speakers aged 60 or over; its balanced accuracy is 0.61, so treat it as a rough guess."
+    }
+  ],
+  "report": {
+    "source": "V4.1 Kaggle run, 25 Nov 2026 (v41_results.json)",
+    "dialect_model": {
+      "name": "V4.1-A",
+      "RBVD test macro-F1 (known voices)": 0.9626547987616099,
+      "RegSpeech12 test accuracy (new speakers)": 0.7307692307692307,
+      "RegSpeech12 test macro-F1 (5 districts)": 0.6201426741587357,
+      "RegSpeech12 group-balanced accuracy": 0.8005678997141118,
+      "RegSpeech12 per-speaker-group accuracy (majority)": 0.875,
+      "RegSpeech12 clips sent to RBVD-only districts": 0.0,
+      "BanglaAccent dialect accuracy": 0.09333333333333334
+    },
+    "gender_age_model": {
+      "name": "v3.1",
+      "BanglaAccent gender accuracy": 0.9611111111111111,
+      "CV gender accuracy": 0.9325153374233128,
+      "CV gender macro-F1": 0.9284913477942969,
+      "CV age balanced accuracy": 0.6118768549725841,
+      "CV age macro-F1": 0.5807809212064531,
+      "CV age: share answered Adult (true share 0.21)": 0.3476482617586912
+    },
+    "unknown_voice_flagged": {
+      "validation (known + unseen speakers of the 8 districts)": 0.0504950495049505,
+      "BanglaAccent places outside the 8 districts": 0.43859649122807015
+    },
+    "note": "The combination was chosen after the V4.1 results were seen; each part's numbers were measured on the same test clips before that choice."
+  }
+}

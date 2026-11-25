@@ -1,0 +1,25 @@
+group,district,segments,closest_train_group,similarity,flag_99,flag_95,V4.1-A correct
+Barishal|Barishal_c0,Barishal,42,Barishal|Barishal_c5,0.7435680702530653,True,True,0.9285714285714286
+Chottogram|Chottogram_c10,Chottogram,82,Chottogram|Chottogram_c14,0.694369546989076,True,True,0.3902439024390244
+Rangpur|Rangpur_c16,Rangpur,10,Rangpur|Rangpur_c3,0.6783714011406177,True,True,1.0
+Rangpur|Rangpur_c2,Rangpur,74,Rangpur|Rangpur_c18,0.6476606378588939,True,True,1.0
+Tangail|Tangail_c6,Tangail,51,Tangail|Tangail_c26,0.6424657191774574,True,True,1.0
+Rangpur|Rangpur_c6,Rangpur,65,Rangpur|Rangpur_c0,0.6064385057971035,True,True,0.8
+Tangail|Tangail_c12,Tangail,53,Tangail|Tangail_c22,0.6025962024953614,False,True,0.9433962264150944
+Chottogram|Chottogram_c27,Chottogram,10,Chottogram|Chottogram_c19,0.5891542951500712,False,True,0.6
+Barishal|Barishal_c8,Barishal,22,Barishal|Barishal_c28,0.5782922329674007,False,True,0.3181818181818182
+Tangail|Tangail_c11,Tangail,10,Tangail|Tangail_c7,0.5632718129193743,False,True,1.0
+Chottogram|Chottogram_c12,Chottogram,53,Chottogram|Chottogram_c0,0.5560786757534202,False,True,0.8113207547169812
+Barishal|Barishal_c26,Barishal,12,Barishal|Barishal_c5,0.5392736855743195,False,True,1.0
+Chottogram|Chottogram_c20,Chottogram,89,Chottogram|Chottogram_c6,0.5119014945763517,False,True,0.9438202247191011
+Chottogram|Chottogram_c2,Chottogram,31,Chottogram|Chottogram_c26,0.49133233053911535,False,True,1.0
+Barishal|Barishal_c10,Barishal,50,Barishal|Barishal_c24,0.48543070453102705,False,True,0.74
+Barishal|Barishal_c3,Barishal,28,Barishal|Barishal_c24,0.47473177683527257,False,False,0.07142857142857142
+Rangpur|Rangpur_c31,Rangpur,1,Rangpur|Rangpur_c12,0.4684741904438573,False,False,1.0
+Rangpur|Rangpur_c21,Rangpur,3,Rangpur|Rangpur_c1,0.4406016049545594,False,False,0.6666666666666666
+Noakhali|Noakhali_c3,Noakhali,2,Noakhali|Noakhali_c1,0.43607757862735896,False,False,1.0
+Rangpur|Rangpur_c13,Rangpur,40,Rangpur|Rangpur_c25,0.42225183625416873,False,False,1.0
+Tangail|Tangail_c24,Tangail,1,Tangail|Tangail_c5,0.4145674723241239,False,False,1.0
+Tangail|Tangail_c2,Tangail,2,Tangail|Tangail_c21,0.357298600971282,False,False,1.0
+Tangail|Tangail_c19,Tangail,74,Tangail|Tangail_c7,0.3457658139185605,False,False,0.0
+Noakhali|Noakhali_c5,Noakhali,1,Noakhali|Noakhali_c7,0.2878814641355839,False,False,1.0

@@ -1,0 +1,40 @@
+{
+ "source": "Notebook outputs: Geo_Linguistic_Dialect_Demographics (v1) and (V2) on Google Colab; V3 and V3.1 Kaggle runs (v3.1 numbers from its notebook's own evaluation, before the web app's scoring).",
+ "versions": [
+  {
+   "name": "GEO v1",
+   "platform": "Google Colab (T4)",
+   "notebook": "Geo_Linguistic_Dialect_Demographics (v1).ipynb",
+   "question": "Does the proposed ResNet-50 + Bi-LSTM network run end to end on RBVD?",
+   "data": "RBVD only, split 70/15/15 at random by clip. The Common Voice step failed (the official Hugging Face repository no longer loads), so gender came from the two Rangpur folders and age was not trained.",
+   "result": "Dialect macro-F1 0.995 on 161 test clips; gender 100% on 36 Rangpur clips. The same nine voices and the same 119 sentences were on both sides of the split.",
+   "decision": "Replaced: the random split let the model recognise voices and sentences it had already heard.",
+   "short": "99.5% on a random clip split: same voices in training and test",
+   "status": "replaced"
+  },
+  {
+   "name": "GEO v2",
+   "platform": "Google Colab (T4)",
+   "notebook": "Geo_Linguistic_Dialect_Demographics (V2).ipynb",
+   "question": "Can Common Voice teach gender and age before the dialect stage?",
+   "data": "Stage 1 on about 4,000 Common Voice Bangla clips through the fixie-ai mirror (gender; 3 age groups: under 25, 25-45, 45+); Stage 2 on RBVD with all three outputs; ResNet layer4 trained (15.9 M trainable parameters).",
+   "result": "The pipeline worked, but the network overfitted the 1,067 RBVD clips, and the random clip split still mixed voices and sentences. The saved notebook keeps no final scores.",
+   "decision": "Replaced by V3: smaller trainable network, stronger dropout and a sentence-disjoint test.",
+   "short": "Common Voice added; still a random split, and overfitting",
+   "status": "replaced"
+  },
+  {
+   "name": "GEO V3",
+   "platform": "Kaggle (T4 x2); Colab and local copies",
+   "notebook": "V3 notebook (Kaggle, Colab and local versions)",
+   "question": "What does the model score when test sentences and speakers are really new?",
+   "data": "ResNet-50 trunk frozen (0.9 M trainable parameters), fusion dropout 0.6; RBVD for dialect only; 5-fold sentence-disjoint test and a held-out Rangpur speaker.",
+   "result": "Dialect 0.981 macro-F1 on unseen sentences, but 4.2% and 0.8% on the two held-out Rangpur speakers. Gender 92.8% with only 55% recall for women; age 92.0%, which was simply always answering Young (no labelled speakers over 60).",
+   "decision": "Replaced by V3.1: the gender and age data needed balancing.",
+   "short": "Unseen sentences 98%, unseen speaker 0-4%: dialect equals speaker in RBVD",
+   "status": "replaced"
+  }
+ ],
+ "v31_extra_data": "Common Voice drawn with gender and age quotas and split by speaker; age reduced to two groups (under 30, 30+).",
+ "v31_extra_result": "Branch ablation (sentence-disjoint 5-fold macro-F1): fused 0.987, spectral only 0.929, temporal only 0.981."
+}

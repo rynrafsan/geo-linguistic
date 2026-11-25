@@ -1,0 +1,1068 @@
+filepath,folder,filename,sentence_id,split
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(1).mp3,Barishal,Barishal(1).mp3,1,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(10).mp3,Barishal,Barishal(10).mp3,10,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(100).mp3,Barishal,Barishal(100).mp3,100,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(101).mp3,Barishal,Barishal(101).mp3,101,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(102).mp3,Barishal,Barishal(102).mp3,102,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(103).mp3,Barishal,Barishal(103).mp3,103,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(104).mp3,Barishal,Barishal(104).mp3,104,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(105).mp3,Barishal,Barishal(105).mp3,105,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(106).mp3,Barishal,Barishal(106).mp3,106,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(107).mp3,Barishal,Barishal(107).mp3,107,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(108).mp3,Barishal,Barishal(108).mp3,108,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(109).mp3,Barishal,Barishal(109).mp3,109,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(11).mp3,Barishal,Barishal(11).mp3,11,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(110).mp3,Barishal,Barishal(110).mp3,110,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(111).mp3,Barishal,Barishal(111).mp3,111,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(112).mp3,Barishal,Barishal(112).mp3,112,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(113).mp3,Barishal,Barishal(113).mp3,113,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(114).mp3,Barishal,Barishal(114).mp3,114,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(115).mp3,Barishal,Barishal(115).mp3,115,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(116).mp3,Barishal,Barishal(116).mp3,116,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(117).mp3,Barishal,Barishal(117).mp3,117,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(118).mp3,Barishal,Barishal(118).mp3,118,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(119).mp3,Barishal,Barishal(119).mp3,119,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(12).mp3,Barishal,Barishal(12).mp3,12,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(13).mp3,Barishal,Barishal(13).mp3,13,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(14).mp3,Barishal,Barishal(14).mp3,14,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(15).mp3,Barishal,Barishal(15).mp3,15,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(16).mp3,Barishal,Barishal(16).mp3,16,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(17).mp3,Barishal,Barishal(17).mp3,17,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(18).mp3,Barishal,Barishal(18).mp3,18,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(19).mp3,Barishal,Barishal(19).mp3,19,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(2).mp3,Barishal,Barishal(2).mp3,2,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(20).mp3,Barishal,Barishal(20).mp3,20,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(21).mp3,Barishal,Barishal(21).mp3,21,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(22).mp3,Barishal,Barishal(22).mp3,22,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(23).mp3,Barishal,Barishal(23).mp3,23,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(24).mp3,Barishal,Barishal(24).mp3,24,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(25).mp3,Barishal,Barishal(25).mp3,25,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(26).mp3,Barishal,Barishal(26).mp3,26,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(27).mp3,Barishal,Barishal(27).mp3,27,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(28).mp3,Barishal,Barishal(28).mp3,28,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(29).mp3,Barishal,Barishal(29).mp3,29,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(3).mp3,Barishal,Barishal(3).mp3,3,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(30).mp3,Barishal,Barishal(30).mp3,30,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(31).mp3,Barishal,Barishal(31).mp3,31,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(32).mp3,Barishal,Barishal(32).mp3,32,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(33).mp3,Barishal,Barishal(33).mp3,33,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(34).mp3,Barishal,Barishal(34).mp3,34,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(35).mp3,Barishal,Barishal(35).mp3,35,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(36).mp3,Barishal,Barishal(36).mp3,36,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(37).mp3,Barishal,Barishal(37).mp3,37,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(38).mp3,Barishal,Barishal(38).mp3,38,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(39).mp3,Barishal,Barishal(39).mp3,39,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(4).mp3,Barishal,Barishal(4).mp3,4,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(40).mp3,Barishal,Barishal(40).mp3,40,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(41).mp3,Barishal,Barishal(41).mp3,41,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(42).mp3,Barishal,Barishal(42).mp3,42,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(43).mp3,Barishal,Barishal(43).mp3,43,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(44).mp3,Barishal,Barishal(44).mp3,44,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(45).mp3,Barishal,Barishal(45).mp3,45,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(46).mp3,Barishal,Barishal(46).mp3,46,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(47).mp3,Barishal,Barishal(47).mp3,47,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(48).mp3,Barishal,Barishal(48).mp3,48,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(49).mp3,Barishal,Barishal(49).mp3,49,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(5).mp3,Barishal,Barishal(5).mp3,5,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(50).mp3,Barishal,Barishal(50).mp3,50,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(51).mp3,Barishal,Barishal(51).mp3,51,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(52).mp3,Barishal,Barishal(52).mp3,52,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(53).mp3,Barishal,Barishal(53).mp3,53,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(54).mp3,Barishal,Barishal(54).mp3,54,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(55).mp3,Barishal,Barishal(55).mp3,55,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(56).mp3,Barishal,Barishal(56).mp3,56,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(57).mp3,Barishal,Barishal(57).mp3,57,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(58).mp3,Barishal,Barishal(58).mp3,58,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(59).mp3,Barishal,Barishal(59).mp3,59,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(6).mp3,Barishal,Barishal(6).mp3,6,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(60).mp3,Barishal,Barishal(60).mp3,60,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(61).mp3,Barishal,Barishal(61).mp3,61,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(62).mp3,Barishal,Barishal(62).mp3,62,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(63).mp3,Barishal,Barishal(63).mp3,63,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(64).mp3,Barishal,Barishal(64).mp3,64,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(65).mp3,Barishal,Barishal(65).mp3,65,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(66).mp3,Barishal,Barishal(66).mp3,66,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(67).mp3,Barishal,Barishal(67).mp3,67,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(68).mp3,Barishal,Barishal(68).mp3,68,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(69).mp3,Barishal,Barishal(69).mp3,69,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(7).mp3,Barishal,Barishal(7).mp3,7,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(70).mp3,Barishal,Barishal(70).mp3,70,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(71).mp3,Barishal,Barishal(71).mp3,71,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(72).mp3,Barishal,Barishal(72).mp3,72,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(73).mp3,Barishal,Barishal(73).mp3,73,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(74).mp3,Barishal,Barishal(74).mp3,74,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(75).mp3,Barishal,Barishal(75).mp3,75,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(76).mp3,Barishal,Barishal(76).mp3,76,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(77).mp3,Barishal,Barishal(77).mp3,77,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(78).mp3,Barishal,Barishal(78).mp3,78,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(79).mp3,Barishal,Barishal(79).mp3,79,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(8).mp3,Barishal,Barishal(8).mp3,8,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(80).mp3,Barishal,Barishal(80).mp3,80,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(81).mp3,Barishal,Barishal(81).mp3,81,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(82).mp3,Barishal,Barishal(82).mp3,82,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(83).mp3,Barishal,Barishal(83).mp3,83,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(84).mp3,Barishal,Barishal(84).mp3,84,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(85).mp3,Barishal,Barishal(85).mp3,85,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(86).mp3,Barishal,Barishal(86).mp3,86,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(87).mp3,Barishal,Barishal(87).mp3,87,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(88).mp3,Barishal,Barishal(88).mp3,88,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(89).mp3,Barishal,Barishal(89).mp3,89,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(9).mp3,Barishal,Barishal(9).mp3,9,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(90).mp3,Barishal,Barishal(90).mp3,90,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(91).mp3,Barishal,Barishal(91).mp3,91,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(92).mp3,Barishal,Barishal(92).mp3,92,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(93).mp3,Barishal,Barishal(93).mp3,93,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(94).mp3,Barishal,Barishal(94).mp3,94,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(95).mp3,Barishal,Barishal(95).mp3,95,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(96).mp3,Barishal,Barishal(96).mp3,96,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(97).mp3,Barishal,Barishal(97).mp3,97,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(98).mp3,Barishal,Barishal(98).mp3,98,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(99).mp3,Barishal,Barishal(99).mp3,99,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(1).mp3,Chottogram,Chottogram(1).mp3,1,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(10).mp3,Chottogram,Chottogram(10).mp3,10,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(100).mp3,Chottogram,Chottogram(100).mp3,100,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(101).mp3,Chottogram,Chottogram(101).mp3,101,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(102).mp3,Chottogram,Chottogram(102).mp3,102,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(103).mp3,Chottogram,Chottogram(103).mp3,103,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(104).mp3,Chottogram,Chottogram(104).mp3,104,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(105).mp3,Chottogram,Chottogram(105).mp3,105,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(106).mp3,Chottogram,Chottogram(106).mp3,106,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(107).mp3,Chottogram,Chottogram(107).mp3,107,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(108).mp3,Chottogram,Chottogram(108).mp3,108,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(109).mp3,Chottogram,Chottogram(109).mp3,109,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(11).mp3,Chottogram,Chottogram(11).mp3,11,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(110).mp3,Chottogram,Chottogram(110).mp3,110,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(111).mp3,Chottogram,Chottogram(111).mp3,111,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(112).mp3,Chottogram,Chottogram(112).mp3,112,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(113).mp3,Chottogram,Chottogram(113).mp3,113,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(114).mp3,Chottogram,Chottogram(114).mp3,114,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(115).mp3,Chottogram,Chottogram(115).mp3,115,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(116).mp3,Chottogram,Chottogram(116).mp3,116,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(117).mp3,Chottogram,Chottogram(117).mp3,117,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(118).mp3,Chottogram,Chottogram(118).mp3,118,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(119).mp3,Chottogram,Chottogram(119).mp3,119,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(12).mp3,Chottogram,Chottogram(12).mp3,12,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(13).mp3,Chottogram,Chottogram(13).mp3,13,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(14).mp3,Chottogram,Chottogram(14).mp3,14,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(15).mp3,Chottogram,Chottogram(15).mp3,15,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(16).mp3,Chottogram,Chottogram(16).mp3,16,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(17).mp3,Chottogram,Chottogram(17).mp3,17,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(18).mp3,Chottogram,Chottogram(18).mp3,18,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(19).mp3,Chottogram,Chottogram(19).mp3,19,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(2).mp3,Chottogram,Chottogram(2).mp3,2,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(20).mp3,Chottogram,Chottogram(20).mp3,20,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(21).mp3,Chottogram,Chottogram(21).mp3,21,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(22).mp3,Chottogram,Chottogram(22).mp3,22,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(23).mp3,Chottogram,Chottogram(23).mp3,23,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(24).mp3,Chottogram,Chottogram(24).mp3,24,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(25).mp3,Chottogram,Chottogram(25).mp3,25,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(26).mp3,Chottogram,Chottogram(26).mp3,26,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(27).mp3,Chottogram,Chottogram(27).mp3,27,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(28).mp3,Chottogram,Chottogram(28).mp3,28,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(29).mp3,Chottogram,Chottogram(29).mp3,29,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(3).mp3,Chottogram,Chottogram(3).mp3,3,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(30).mp3,Chottogram,Chottogram(30).mp3,30,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(31).mp3,Chottogram,Chottogram(31).mp3,31,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(32).mp3,Chottogram,Chottogram(32).mp3,32,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(33).mp3,Chottogram,Chottogram(33).mp3,33,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(34).mp3,Chottogram,Chottogram(34).mp3,34,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(35).mp3,Chottogram,Chottogram(35).mp3,35,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(36).mp3,Chottogram,Chottogram(36).mp3,36,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(37).mp3,Chottogram,Chottogram(37).mp3,37,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(38).mp3,Chottogram,Chottogram(38).mp3,38,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(39).mp3,Chottogram,Chottogram(39).mp3,39,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(4).mp3,Chottogram,Chottogram(4).mp3,4,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(40).mp3,Chottogram,Chottogram(40).mp3,40,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(41).mp3,Chottogram,Chottogram(41).mp3,41,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(42).mp3,Chottogram,Chottogram(42).mp3,42,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(43).mp3,Chottogram,Chottogram(43).mp3,43,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(44).mp3,Chottogram,Chottogram(44).mp3,44,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(45).mp3,Chottogram,Chottogram(45).mp3,45,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(46).mp3,Chottogram,Chottogram(46).mp3,46,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(47).mp3,Chottogram,Chottogram(47).mp3,47,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(48).mp3,Chottogram,Chottogram(48).mp3,48,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(49).mp3,Chottogram,Chottogram(49).mp3,49,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(5).mp3,Chottogram,Chottogram(5).mp3,5,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(50).mp3,Chottogram,Chottogram(50).mp3,50,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(51).mp3,Chottogram,Chottogram(51).mp3,51,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(52).mp3,Chottogram,Chottogram(52).mp3,52,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(53).mp3,Chottogram,Chottogram(53).mp3,53,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(54).mp3,Chottogram,Chottogram(54).mp3,54,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(55).mp3,Chottogram,Chottogram(55).mp3,55,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(56).mp3,Chottogram,Chottogram(56).mp3,56,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(57).mp3,Chottogram,Chottogram(57).mp3,57,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(58).mp3,Chottogram,Chottogram(58).mp3,58,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(59).mp3,Chottogram,Chottogram(59).mp3,59,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(6).mp3,Chottogram,Chottogram(6).mp3,6,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(60).mp3,Chottogram,Chottogram(60).mp3,60,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(61).mp3,Chottogram,Chottogram(61).mp3,61,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(62).mp3,Chottogram,Chottogram(62).mp3,62,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(63).mp3,Chottogram,Chottogram(63).mp3,63,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(64).mp3,Chottogram,Chottogram(64).mp3,64,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(65).mp3,Chottogram,Chottogram(65).mp3,65,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(66).mp3,Chottogram,Chottogram(66).mp3,66,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(67).mp3,Chottogram,Chottogram(67).mp3,67,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(68).mp3,Chottogram,Chottogram(68).mp3,68,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(69).mp3,Chottogram,Chottogram(69).mp3,69,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(7).mp3,Chottogram,Chottogram(7).mp3,7,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(70).mp3,Chottogram,Chottogram(70).mp3,70,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(71).mp3,Chottogram,Chottogram(71).mp3,71,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(72).mp3,Chottogram,Chottogram(72).mp3,72,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(73).mp3,Chottogram,Chottogram(73).mp3,73,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(74).mp3,Chottogram,Chottogram(74).mp3,74,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(75).mp3,Chottogram,Chottogram(75).mp3,75,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(76).mp3,Chottogram,Chottogram(76).mp3,76,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(77).mp3,Chottogram,Chottogram(77).mp3,77,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(78).mp3,Chottogram,Chottogram(78).mp3,78,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(79).mp3,Chottogram,Chottogram(79).mp3,79,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(8).mp3,Chottogram,Chottogram(8).mp3,8,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(80).mp3,Chottogram,Chottogram(80).mp3,80,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(81).mp3,Chottogram,Chottogram(81).mp3,81,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(82).mp3,Chottogram,Chottogram(82).mp3,82,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(83).mp3,Chottogram,Chottogram(83).mp3,83,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(84).mp3,Chottogram,Chottogram(84).mp3,84,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(85).mp3,Chottogram,Chottogram(85).mp3,85,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(86).mp3,Chottogram,Chottogram(86).mp3,86,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(87).mp3,Chottogram,Chottogram(87).mp3,87,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(88).mp3,Chottogram,Chottogram(88).mp3,88,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(89).mp3,Chottogram,Chottogram(89).mp3,89,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(9).mp3,Chottogram,Chottogram(9).mp3,9,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(90).mp3,Chottogram,Chottogram(90).mp3,90,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(91).mp3,Chottogram,Chottogram(91).mp3,91,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(92).mp3,Chottogram,Chottogram(92).mp3,92,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(93).mp3,Chottogram,Chottogram(93).mp3,93,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(94).mp3,Chottogram,Chottogram(94).mp3,94,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(95).mp3,Chottogram,Chottogram(95).mp3,95,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(96).mp3,Chottogram,Chottogram(96).mp3,96,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(97).mp3,Chottogram,Chottogram(97).mp3,97,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(98).mp3,Chottogram,Chottogram(98).mp3,98,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(99).mp3,Chottogram,Chottogram(99).mp3,99,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(1).mp3,Jamalpur,Jamalpur(1).mp3,1,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(10).mp3,Jamalpur,Jamalpur(10).mp3,10,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(100).mp3,Jamalpur,Jamalpur(100).mp3,100,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(101).mp3,Jamalpur,Jamalpur(101).mp3,101,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(102).mp3,Jamalpur,Jamalpur(102).mp3,102,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(103).mp3,Jamalpur,Jamalpur(103).mp3,103,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(104).mp3,Jamalpur,Jamalpur(104).mp3,104,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(105).mp3,Jamalpur,Jamalpur(105).mp3,105,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(106).mp3,Jamalpur,Jamalpur(106).mp3,106,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(107).mp3,Jamalpur,Jamalpur(107).mp3,107,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(108).mp3,Jamalpur,Jamalpur(108).mp3,108,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(109).mp3,Jamalpur,Jamalpur(109).mp3,109,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(11).mp3,Jamalpur,Jamalpur(11).mp3,11,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(110).mp3,Jamalpur,Jamalpur(110).mp3,110,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(111).mp3,Jamalpur,Jamalpur(111).mp3,111,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(112).mp3,Jamalpur,Jamalpur(112).mp3,112,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(113).mp3,Jamalpur,Jamalpur(113).mp3,113,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(114).mp3,Jamalpur,Jamalpur(114).mp3,114,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(115).mp3,Jamalpur,Jamalpur(115).mp3,115,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(116).mp3,Jamalpur,Jamalpur(116).mp3,116,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(117).mp3,Jamalpur,Jamalpur(117).mp3,117,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(118).mp3,Jamalpur,Jamalpur(118).mp3,118,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(119).mp3,Jamalpur,Jamalpur(119).mp3,119,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(12).mp3,Jamalpur,Jamalpur(12).mp3,12,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(13).mp3,Jamalpur,Jamalpur(13).mp3,13,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(14).mp3,Jamalpur,Jamalpur(14).mp3,14,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(15).mp3,Jamalpur,Jamalpur(15).mp3,15,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(16).mp3,Jamalpur,Jamalpur(16).mp3,16,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(17).mp3,Jamalpur,Jamalpur(17).mp3,17,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(18).mp3,Jamalpur,Jamalpur(18).mp3,18,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(19).mp3,Jamalpur,Jamalpur(19).mp3,19,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(2).mp3,Jamalpur,Jamalpur(2).mp3,2,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(20).mp3,Jamalpur,Jamalpur(20).mp3,20,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(21).mp3,Jamalpur,Jamalpur(21).mp3,21,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(22).mp3,Jamalpur,Jamalpur(22).mp3,22,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(23).mp3,Jamalpur,Jamalpur(23).mp3,23,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(24).mp3,Jamalpur,Jamalpur(24).mp3,24,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(25).mp3,Jamalpur,Jamalpur(25).mp3,25,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(26).mp3,Jamalpur,Jamalpur(26).mp3,26,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(27).mp3,Jamalpur,Jamalpur(27).mp3,27,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(28).mp3,Jamalpur,Jamalpur(28).mp3,28,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(29).mp3,Jamalpur,Jamalpur(29).mp3,29,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(3).mp3,Jamalpur,Jamalpur(3).mp3,3,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(30).mp3,Jamalpur,Jamalpur(30).mp3,30,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(31).mp3,Jamalpur,Jamalpur(31).mp3,31,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(32).mp3,Jamalpur,Jamalpur(32).mp3,32,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(33).mp3,Jamalpur,Jamalpur(33).mp3,33,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(34).mp3,Jamalpur,Jamalpur(34).mp3,34,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(35).mp3,Jamalpur,Jamalpur(35).mp3,35,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(36).mp3,Jamalpur,Jamalpur(36).mp3,36,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(37).mp3,Jamalpur,Jamalpur(37).mp3,37,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(38).mp3,Jamalpur,Jamalpur(38).mp3,38,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(39).mp3,Jamalpur,Jamalpur(39).mp3,39,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(4).mp3,Jamalpur,Jamalpur(4).mp3,4,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(40).mp3,Jamalpur,Jamalpur(40).mp3,40,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(41).mp3,Jamalpur,Jamalpur(41).mp3,41,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(42).mp3,Jamalpur,Jamalpur(42).mp3,42,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(43).mp3,Jamalpur,Jamalpur(43).mp3,43,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(44).mp3,Jamalpur,Jamalpur(44).mp3,44,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(45).mp3,Jamalpur,Jamalpur(45).mp3,45,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(46).mp3,Jamalpur,Jamalpur(46).mp3,46,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(47).mp3,Jamalpur,Jamalpur(47).mp3,47,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(48).mp3,Jamalpur,Jamalpur(48).mp3,48,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(49).mp3,Jamalpur,Jamalpur(49).mp3,49,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(5).mp3,Jamalpur,Jamalpur(5).mp3,5,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(50).mp3,Jamalpur,Jamalpur(50).mp3,50,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(51).mp3,Jamalpur,Jamalpur(51).mp3,51,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(52).mp3,Jamalpur,Jamalpur(52).mp3,52,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(53).mp3,Jamalpur,Jamalpur(53).mp3,53,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(54).mp3,Jamalpur,Jamalpur(54).mp3,54,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(55).mp3,Jamalpur,Jamalpur(55).mp3,55,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(56).mp3,Jamalpur,Jamalpur(56).mp3,56,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(57).mp3,Jamalpur,Jamalpur(57).mp3,57,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(58).mp3,Jamalpur,Jamalpur(58).mp3,58,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(59).mp3,Jamalpur,Jamalpur(59).mp3,59,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(6).mp3,Jamalpur,Jamalpur(6).mp3,6,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(60).mp3,Jamalpur,Jamalpur(60).mp3,60,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(61).mp3,Jamalpur,Jamalpur(61).mp3,61,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(62).mp3,Jamalpur,Jamalpur(62).mp3,62,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(63).mp3,Jamalpur,Jamalpur(63).mp3,63,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(64).mp3,Jamalpur,Jamalpur(64).mp3,64,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(65).mp3,Jamalpur,Jamalpur(65).mp3,65,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(66).mp3,Jamalpur,Jamalpur(66).mp3,66,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(67).mp3,Jamalpur,Jamalpur(67).mp3,67,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(68).mp3,Jamalpur,Jamalpur(68).mp3,68,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(69).mp3,Jamalpur,Jamalpur(69).mp3,69,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(7).mp3,Jamalpur,Jamalpur(7).mp3,7,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(70).mp3,Jamalpur,Jamalpur(70).mp3,70,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(71).mp3,Jamalpur,Jamalpur(71).mp3,71,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(72).mp3,Jamalpur,Jamalpur(72).mp3,72,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(73).mp3,Jamalpur,Jamalpur(73).mp3,73,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(74).mp3,Jamalpur,Jamalpur(74).mp3,74,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(75).mp3,Jamalpur,Jamalpur(75).mp3,75,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(76).mp3,Jamalpur,Jamalpur(76).mp3,76,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(77).mp3,Jamalpur,Jamalpur(77).mp3,77,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(78).mp3,Jamalpur,Jamalpur(78).mp3,78,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(79).mp3,Jamalpur,Jamalpur(79).mp3,79,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(8).mp3,Jamalpur,Jamalpur(8).mp3,8,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(80).mp3,Jamalpur,Jamalpur(80).mp3,80,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(81).mp3,Jamalpur,Jamalpur(81).mp3,81,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(82).mp3,Jamalpur,Jamalpur(82).mp3,82,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(83).mp3,Jamalpur,Jamalpur(83).mp3,83,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(84).mp3,Jamalpur,Jamalpur(84).mp3,84,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(85).mp3,Jamalpur,Jamalpur(85).mp3,85,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(86).mp3,Jamalpur,Jamalpur(86).mp3,86,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(87).mp3,Jamalpur,Jamalpur(87).mp3,87,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(88).mp3,Jamalpur,Jamalpur(88).mp3,88,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(89).mp3,Jamalpur,Jamalpur(89).mp3,89,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(9).mp3,Jamalpur,Jamalpur(9).mp3,9,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(90).mp3,Jamalpur,Jamalpur(90).mp3,90,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(91).mp3,Jamalpur,Jamalpur(91).mp3,91,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(92).mp3,Jamalpur,Jamalpur(92).mp3,92,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(93).mp3,Jamalpur,Jamalpur(93).mp3,93,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(94).mp3,Jamalpur,Jamalpur(94).mp3,94,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(95).mp3,Jamalpur,Jamalpur(95).mp3,95,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(96).mp3,Jamalpur,Jamalpur(96).mp3,96,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(97).mp3,Jamalpur,Jamalpur(97).mp3,97,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(98).mp3,Jamalpur,Jamalpur(98).mp3,98,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(99).mp3,Jamalpur,Jamalpur(99).mp3,99,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(1).mp3,Mymensingh,Mymensingh(1).mp3,1,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(10).mp3,Mymensingh,Mymensingh(10).mp3,10,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(100).mp3,Mymensingh,Mymensingh(100).mp3,100,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(101).mp3,Mymensingh,Mymensingh(101).mp3,101,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(102).mp3,Mymensingh,Mymensingh(102).mp3,102,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(103).mp3,Mymensingh,Mymensingh(103).mp3,103,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(104).mp3,Mymensingh,Mymensingh(104).mp3,104,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(105).mp3,Mymensingh,Mymensingh(105).mp3,105,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(106).mp3,Mymensingh,Mymensingh(106).mp3,106,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(107).mp3,Mymensingh,Mymensingh(107).mp3,107,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(108).mp3,Mymensingh,Mymensingh(108).mp3,108,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(109).mp3,Mymensingh,Mymensingh(109).mp3,109,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(11).mp3,Mymensingh,Mymensingh(11).mp3,11,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(110).mp3,Mymensingh,Mymensingh(110).mp3,110,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(111).mp3,Mymensingh,Mymensingh(111).mp3,111,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(112).mp3,Mymensingh,Mymensingh(112).mp3,112,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(113).mp3,Mymensingh,Mymensingh(113).mp3,113,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(114).mp3,Mymensingh,Mymensingh(114).mp3,114,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(115).mp3,Mymensingh,Mymensingh(115).mp3,115,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(116).mp3,Mymensingh,Mymensingh(116).mp3,116,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(117).mp3,Mymensingh,Mymensingh(117).mp3,117,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(12).mp3,Mymensingh,Mymensingh(12).mp3,12,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(13).mp3,Mymensingh,Mymensingh(13).mp3,13,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(14).mp3,Mymensingh,Mymensingh(14).mp3,14,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(15).mp3,Mymensingh,Mymensingh(15).mp3,15,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(16).mp3,Mymensingh,Mymensingh(16).mp3,16,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(17).mp3,Mymensingh,Mymensingh(17).mp3,17,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(18).mp3,Mymensingh,Mymensingh(18).mp3,18,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(19).mp3,Mymensingh,Mymensingh(19).mp3,19,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(2).mp3,Mymensingh,Mymensingh(2).mp3,2,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(20).mp3,Mymensingh,Mymensingh(20).mp3,20,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(21).mp3,Mymensingh,Mymensingh(21).mp3,21,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(22).mp3,Mymensingh,Mymensingh(22).mp3,22,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(23).mp3,Mymensingh,Mymensingh(23).mp3,23,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(24).mp3,Mymensingh,Mymensingh(24).mp3,24,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(25).mp3,Mymensingh,Mymensingh(25).mp3,25,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(26).mp3,Mymensingh,Mymensingh(26).mp3,26,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(27).mp3,Mymensingh,Mymensingh(27).mp3,27,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(28).mp3,Mymensingh,Mymensingh(28).mp3,28,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(29).mp3,Mymensingh,Mymensingh(29).mp3,29,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(3).mp3,Mymensingh,Mymensingh(3).mp3,3,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(30).mp3,Mymensingh,Mymensingh(30).mp3,30,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(31).mp3,Mymensingh,Mymensingh(31).mp3,31,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(32).mp3,Mymensingh,Mymensingh(32).mp3,32,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(33).mp3,Mymensingh,Mymensingh(33).mp3,33,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(34).mp3,Mymensingh,Mymensingh(34).mp3,34,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(35).mp3,Mymensingh,Mymensingh(35).mp3,35,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(36).mp3,Mymensingh,Mymensingh(36).mp3,36,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(37).mp3,Mymensingh,Mymensingh(37).mp3,37,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(38).mp3,Mymensingh,Mymensingh(38).mp3,38,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(39).mp3,Mymensingh,Mymensingh(39).mp3,39,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(4).mp3,Mymensingh,Mymensingh(4).mp3,4,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(40).mp3,Mymensingh,Mymensingh(40).mp3,40,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(41).mp3,Mymensingh,Mymensingh(41).mp3,41,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(42).mp3,Mymensingh,Mymensingh(42).mp3,42,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(43).mp3,Mymensingh,Mymensingh(43).mp3,43,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(44).mp3,Mymensingh,Mymensingh(44).mp3,44,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(45).mp3,Mymensingh,Mymensingh(45).mp3,45,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(46).mp3,Mymensingh,Mymensingh(46).mp3,46,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(47).mp3,Mymensingh,Mymensingh(47).mp3,47,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(48).mp3,Mymensingh,Mymensingh(48).mp3,48,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(49).mp3,Mymensingh,Mymensingh(49).mp3,49,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(5).mp3,Mymensingh,Mymensingh(5).mp3,5,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(50).mp3,Mymensingh,Mymensingh(50).mp3,50,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(51).mp3,Mymensingh,Mymensingh(51).mp3,51,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(52).mp3,Mymensingh,Mymensingh(52).mp3,52,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(53).mp3,Mymensingh,Mymensingh(53).mp3,53,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(54).mp3,Mymensingh,Mymensingh(54).mp3,54,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(55).mp3,Mymensingh,Mymensingh(55).mp3,55,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(56).mp3,Mymensingh,Mymensingh(56).mp3,56,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(57).mp3,Mymensingh,Mymensingh(57).mp3,57,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(58).mp3,Mymensingh,Mymensingh(58).mp3,58,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(59).mp3,Mymensingh,Mymensingh(59).mp3,59,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(6).mp3,Mymensingh,Mymensingh(6).mp3,6,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(60).mp3,Mymensingh,Mymensingh(60).mp3,60,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(61).mp3,Mymensingh,Mymensingh(61).mp3,61,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(62).mp3,Mymensingh,Mymensingh(62).mp3,62,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(63).mp3,Mymensingh,Mymensingh(63).mp3,63,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(64).mp3,Mymensingh,Mymensingh(64).mp3,64,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(65).mp3,Mymensingh,Mymensingh(65).mp3,65,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(66).mp3,Mymensingh,Mymensingh(66).mp3,66,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(67).mp3,Mymensingh,Mymensingh(67).mp3,67,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(68).mp3,Mymensingh,Mymensingh(68).mp3,68,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(69).mp3,Mymensingh,Mymensingh(69).mp3,69,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(7).mp3,Mymensingh,Mymensingh(7).mp3,7,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(70).mp3,Mymensingh,Mymensingh(70).mp3,70,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(71).mp3,Mymensingh,Mymensingh(71).mp3,71,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(72).mp3,Mymensingh,Mymensingh(72).mp3,72,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(73).mp3,Mymensingh,Mymensingh(73).mp3,73,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(74).mp3,Mymensingh,Mymensingh(74).mp3,74,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(75).mp3,Mymensingh,Mymensingh(75).mp3,75,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(76).mp3,Mymensingh,Mymensingh(76).mp3,76,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(77).mp3,Mymensingh,Mymensingh(77).mp3,77,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(78).mp3,Mymensingh,Mymensingh(78).mp3,78,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(79).mp3,Mymensingh,Mymensingh(79).mp3,79,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(8).mp3,Mymensingh,Mymensingh(8).mp3,8,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(80).mp3,Mymensingh,Mymensingh(80).mp3,80,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(81).mp3,Mymensingh,Mymensingh(81).mp3,81,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(82).mp3,Mymensingh,Mymensingh(82).mp3,82,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(83).mp3,Mymensingh,Mymensingh(83).mp3,83,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(84).mp3,Mymensingh,Mymensingh(84).mp3,84,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(85).mp3,Mymensingh,Mymensingh(85).mp3,85,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(86).mp3,Mymensingh,Mymensingh(86).mp3,86,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(87).mp3,Mymensingh,Mymensingh(87).mp3,87,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(88).mp3,Mymensingh,Mymensingh(88).mp3,88,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(89).mp3,Mymensingh,Mymensingh(89).mp3,89,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(9).mp3,Mymensingh,Mymensingh(9).mp3,9,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(90).mp3,Mymensingh,Mymensingh(90).mp3,90,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(91).mp3,Mymensingh,Mymensingh(91).mp3,91,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(92).mp3,Mymensingh,Mymensingh(92).mp3,92,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(93).mp3,Mymensingh,Mymensingh(93).mp3,93,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(94).mp3,Mymensingh,Mymensingh(94).mp3,94,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(95).mp3,Mymensingh,Mymensingh(95).mp3,95,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(96).mp3,Mymensingh,Mymensingh(96).mp3,96,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(97).mp3,Mymensingh,Mymensingh(97).mp3,97,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(98).mp3,Mymensingh,Mymensingh(98).mp3,98,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(99).mp3,Mymensingh,Mymensingh(99).mp3,99,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(1).mp3,Natore,Natore(1).mp3,1,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(10).mp3,Natore,Natore(10).mp3,10,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(100).mp3,Natore,Natore(100).mp3,100,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(101).mp3,Natore,Natore(101).mp3,101,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(102).mp3,Natore,Natore(102).mp3,102,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(103).mp3,Natore,Natore(103).mp3,103,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(104).mp3,Natore,Natore(104).mp3,104,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(105).mp3,Natore,Natore(105).mp3,105,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(106).mp3,Natore,Natore(106).mp3,106,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(107).mp3,Natore,Natore(107).mp3,107,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(108).mp3,Natore,Natore(108).mp3,108,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(109).mp3,Natore,Natore(109).mp3,109,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(11).mp3,Natore,Natore(11).mp3,11,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(110).mp3,Natore,Natore(110).mp3,110,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(111).mp3,Natore,Natore(111).mp3,111,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(112).mp3,Natore,Natore(112).mp3,112,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(113).mp3,Natore,Natore(113).mp3,113,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(114).mp3,Natore,Natore(114).mp3,114,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(115).mp3,Natore,Natore(115).mp3,115,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(116).mp3,Natore,Natore(116).mp3,116,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(117).mp3,Natore,Natore(117).mp3,117,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(118).mp3,Natore,Natore(118).mp3,118,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(12).mp3,Natore,Natore(12).mp3,12,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(13).mp3,Natore,Natore(13).mp3,13,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(14).mp3,Natore,Natore(14).mp3,14,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(15).mp3,Natore,Natore(15).mp3,15,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(16).mp3,Natore,Natore(16).mp3,16,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(17).mp3,Natore,Natore(17).mp3,17,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(18).mp3,Natore,Natore(18).mp3,18,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(19).mp3,Natore,Natore(19).mp3,19,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(2).mp3,Natore,Natore(2).mp3,2,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(20).mp3,Natore,Natore(20).mp3,20,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(21).mp3,Natore,Natore(21).mp3,21,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(22).mp3,Natore,Natore(22).mp3,22,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(23).mp3,Natore,Natore(23).mp3,23,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(24).mp3,Natore,Natore(24).mp3,24,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(25).mp3,Natore,Natore(25).mp3,25,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(26).mp3,Natore,Natore(26).mp3,26,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(27).mp3,Natore,Natore(27).mp3,27,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(28).mp3,Natore,Natore(28).mp3,28,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(29).mp3,Natore,Natore(29).mp3,29,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(3).mp3,Natore,Natore(3).mp3,3,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(30).mp3,Natore,Natore(30).mp3,30,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(31).mp3,Natore,Natore(31).mp3,31,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(32).mp3,Natore,Natore(32).mp3,32,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(33).mp3,Natore,Natore(33).mp3,33,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(34).mp3,Natore,Natore(34).mp3,34,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(35).mp3,Natore,Natore(35).mp3,35,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(36).mp3,Natore,Natore(36).mp3,36,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(37).mp3,Natore,Natore(37).mp3,37,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(38).mp3,Natore,Natore(38).mp3,38,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(39).mp3,Natore,Natore(39).mp3,39,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(4).mp3,Natore,Natore(4).mp3,4,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(40).mp3,Natore,Natore(40).mp3,40,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(41).mp3,Natore,Natore(41).mp3,41,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(42).mp3,Natore,Natore(42).mp3,42,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(43).mp3,Natore,Natore(43).mp3,43,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(44).mp3,Natore,Natore(44).mp3,44,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(45).mp3,Natore,Natore(45).mp3,45,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(46).mp3,Natore,Natore(46).mp3,46,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(47).mp3,Natore,Natore(47).mp3,47,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(48).mp3,Natore,Natore(48).mp3,48,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(49).mp3,Natore,Natore(49).mp3,49,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(5).mp3,Natore,Natore(5).mp3,5,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(50).mp3,Natore,Natore(50).mp3,50,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(51).mp3,Natore,Natore(51).mp3,51,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(52).mp3,Natore,Natore(52).mp3,52,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(53).mp3,Natore,Natore(53).mp3,53,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(54).mp3,Natore,Natore(54).mp3,54,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(55).mp3,Natore,Natore(55).mp3,55,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(56).mp3,Natore,Natore(56).mp3,56,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(57).mp3,Natore,Natore(57).mp3,57,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(58).mp3,Natore,Natore(58).mp3,58,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(59).mp3,Natore,Natore(59).mp3,59,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(6).mp3,Natore,Natore(6).mp3,6,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(60).mp3,Natore,Natore(60).mp3,60,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(61).mp3,Natore,Natore(61).mp3,61,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(62).mp3,Natore,Natore(62).mp3,62,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(63).mp3,Natore,Natore(63).mp3,63,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(64).mp3,Natore,Natore(64).mp3,64,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(65).mp3,Natore,Natore(65).mp3,65,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(66).mp3,Natore,Natore(66).mp3,66,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(67).mp3,Natore,Natore(67).mp3,67,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(68).mp3,Natore,Natore(68).mp3,68,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(69).mp3,Natore,Natore(69).mp3,69,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(7).mp3,Natore,Natore(7).mp3,7,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(70).mp3,Natore,Natore(70).mp3,70,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(71).mp3,Natore,Natore(71).mp3,71,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(72).mp3,Natore,Natore(72).mp3,72,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(73).mp3,Natore,Natore(73).mp3,73,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(74).mp3,Natore,Natore(74).mp3,74,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(75).mp3,Natore,Natore(75).mp3,75,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(76).mp3,Natore,Natore(76).mp3,76,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(77).mp3,Natore,Natore(77).mp3,77,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(78).mp3,Natore,Natore(78).mp3,78,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(79).mp3,Natore,Natore(79).mp3,79,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(8).mp3,Natore,Natore(8).mp3,8,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(80).mp3,Natore,Natore(80).mp3,80,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(81).mp3,Natore,Natore(81).mp3,81,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(82).mp3,Natore,Natore(82).mp3,82,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(83).mp3,Natore,Natore(83).mp3,83,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(84).mp3,Natore,Natore(84).mp3,84,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(85).mp3,Natore,Natore(85).mp3,85,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(86).mp3,Natore,Natore(86).mp3,86,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(87).mp3,Natore,Natore(87).mp3,87,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(88).mp3,Natore,Natore(88).mp3,88,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(89).mp3,Natore,Natore(89).mp3,89,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(9).mp3,Natore,Natore(9).mp3,9,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(90).mp3,Natore,Natore(90).mp3,90,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(91).mp3,Natore,Natore(91).mp3,91,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(92).mp3,Natore,Natore(92).mp3,92,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(93).mp3,Natore,Natore(93).mp3,93,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(94).mp3,Natore,Natore(94).mp3,94,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(95).mp3,Natore,Natore(95).mp3,95,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(96).mp3,Natore,Natore(96).mp3,96,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(97).mp3,Natore,Natore(97).mp3,97,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(98).mp3,Natore,Natore(98).mp3,98,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(99).mp3,Natore,Natore(99).mp3,99,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(1).mp3,Noakhali,Noakhali(1).mp3,1,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(10).mp3,Noakhali,Noakhali(10).mp3,10,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(100).mp3,Noakhali,Noakhali(100).mp3,100,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(101).mp3,Noakhali,Noakhali(101).mp3,101,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(102).mp3,Noakhali,Noakhali(102).mp3,102,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(103).mp3,Noakhali,Noakhali(103).mp3,103,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(104).mp3,Noakhali,Noakhali(104).mp3,104,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(105).mp3,Noakhali,Noakhali(105).mp3,105,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(106).mp3,Noakhali,Noakhali(106).mp3,106,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(107).mp3,Noakhali,Noakhali(107).mp3,107,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(108).mp3,Noakhali,Noakhali(108).mp3,108,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(109).mp3,Noakhali,Noakhali(109).mp3,109,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(11).mp3,Noakhali,Noakhali(11).mp3,11,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(110).mp3,Noakhali,Noakhali(110).mp3,110,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(111).mp3,Noakhali,Noakhali(111).mp3,111,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(112).mp3,Noakhali,Noakhali(112).mp3,112,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(113).mp3,Noakhali,Noakhali(113).mp3,113,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(114).mp3,Noakhali,Noakhali(114).mp3,114,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(115).mp3,Noakhali,Noakhali(115).mp3,115,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(116).mp3,Noakhali,Noakhali(116).mp3,116,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(117).mp3,Noakhali,Noakhali(117).mp3,117,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(118).mp3,Noakhali,Noakhali(118).mp3,118,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(119).mp3,Noakhali,Noakhali(119).mp3,119,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(12).mp3,Noakhali,Noakhali(12).mp3,12,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(13).mp3,Noakhali,Noakhali(13).mp3,13,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(14).mp3,Noakhali,Noakhali(14).mp3,14,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(15).mp3,Noakhali,Noakhali(15).mp3,15,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(16).mp3,Noakhali,Noakhali(16).mp3,16,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(17).mp3,Noakhali,Noakhali(17).mp3,17,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(18).mp3,Noakhali,Noakhali(18).mp3,18,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(19).mp3,Noakhali,Noakhali(19).mp3,19,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(2).mp3,Noakhali,Noakhali(2).mp3,2,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(20).mp3,Noakhali,Noakhali(20).mp3,20,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(21).mp3,Noakhali,Noakhali(21).mp3,21,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(22).mp3,Noakhali,Noakhali(22).mp3,22,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(23).mp3,Noakhali,Noakhali(23).mp3,23,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(24).mp3,Noakhali,Noakhali(24).mp3,24,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(25).mp3,Noakhali,Noakhali(25).mp3,25,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(26).mp3,Noakhali,Noakhali(26).mp3,26,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(27).mp3,Noakhali,Noakhali(27).mp3,27,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(28).mp3,Noakhali,Noakhali(28).mp3,28,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(29).mp3,Noakhali,Noakhali(29).mp3,29,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(3).mp3,Noakhali,Noakhali(3).mp3,3,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(30).mp3,Noakhali,Noakhali(30).mp3,30,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(31).mp3,Noakhali,Noakhali(31).mp3,31,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(32).mp3,Noakhali,Noakhali(32).mp3,32,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(33).mp3,Noakhali,Noakhali(33).mp3,33,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(34).mp3,Noakhali,Noakhali(34).mp3,34,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(35).mp3,Noakhali,Noakhali(35).mp3,35,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(36).mp3,Noakhali,Noakhali(36).mp3,36,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(37).mp3,Noakhali,Noakhali(37).mp3,37,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(38).mp3,Noakhali,Noakhali(38).mp3,38,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(39).mp3,Noakhali,Noakhali(39).mp3,39,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(4).mp3,Noakhali,Noakhali(4).mp3,4,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(40).mp3,Noakhali,Noakhali(40).mp3,40,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(41).mp3,Noakhali,Noakhali(41).mp3,41,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(42).mp3,Noakhali,Noakhali(42).mp3,42,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(43).mp3,Noakhali,Noakhali(43).mp3,43,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(44).mp3,Noakhali,Noakhali(44).mp3,44,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(45).mp3,Noakhali,Noakhali(45).mp3,45,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(46).mp3,Noakhali,Noakhali(46).mp3,46,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(47).mp3,Noakhali,Noakhali(47).mp3,47,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(48).mp3,Noakhali,Noakhali(48).mp3,48,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(49).mp3,Noakhali,Noakhali(49).mp3,49,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(5).mp3,Noakhali,Noakhali(5).mp3,5,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(50).mp3,Noakhali,Noakhali(50).mp3,50,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(51).mp3,Noakhali,Noakhali(51).mp3,51,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(52).mp3,Noakhali,Noakhali(52).mp3,52,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(53).mp3,Noakhali,Noakhali(53).mp3,53,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(54).mp3,Noakhali,Noakhali(54).mp3,54,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(55).mp3,Noakhali,Noakhali(55).mp3,55,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(56).mp3,Noakhali,Noakhali(56).mp3,56,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(57).mp3,Noakhali,Noakhali(57).mp3,57,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(58).mp3,Noakhali,Noakhali(58).mp3,58,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(59).mp3,Noakhali,Noakhali(59).mp3,59,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(6).mp3,Noakhali,Noakhali(6).mp3,6,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(60).mp3,Noakhali,Noakhali(60).mp3,60,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(61).mp3,Noakhali,Noakhali(61).mp3,61,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(62).mp3,Noakhali,Noakhali(62).mp3,62,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(63).mp3,Noakhali,Noakhali(63).mp3,63,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(64).mp3,Noakhali,Noakhali(64).mp3,64,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(65).mp3,Noakhali,Noakhali(65).mp3,65,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(66).mp3,Noakhali,Noakhali(66).mp3,66,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(67).mp3,Noakhali,Noakhali(67).mp3,67,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(68).mp3,Noakhali,Noakhali(68).mp3,68,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(69).mp3,Noakhali,Noakhali(69).mp3,69,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(7).mp3,Noakhali,Noakhali(7).mp3,7,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(70).mp3,Noakhali,Noakhali(70).mp3,70,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(71).mp3,Noakhali,Noakhali(71).mp3,71,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(72).mp3,Noakhali,Noakhali(72).mp3,72,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(73).mp3,Noakhali,Noakhali(73).mp3,73,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(74).mp3,Noakhali,Noakhali(74).mp3,74,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(75).mp3,Noakhali,Noakhali(75).mp3,75,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(76).mp3,Noakhali,Noakhali(76).mp3,76,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(77).mp3,Noakhali,Noakhali(77).mp3,77,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(78).mp3,Noakhali,Noakhali(78).mp3,78,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(79).mp3,Noakhali,Noakhali(79).mp3,79,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(8).mp3,Noakhali,Noakhali(8).mp3,8,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(80).mp3,Noakhali,Noakhali(80).mp3,80,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(81).mp3,Noakhali,Noakhali(81).mp3,81,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(82).mp3,Noakhali,Noakhali(82).mp3,82,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(83).mp3,Noakhali,Noakhali(83).mp3,83,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(84).mp3,Noakhali,Noakhali(84).mp3,84,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(85).mp3,Noakhali,Noakhali(85).mp3,85,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(86).mp3,Noakhali,Noakhali(86).mp3,86,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(87).mp3,Noakhali,Noakhali(87).mp3,87,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(88).mp3,Noakhali,Noakhali(88).mp3,88,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(89).mp3,Noakhali,Noakhali(89).mp3,89,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(9).mp3,Noakhali,Noakhali(9).mp3,9,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(90).mp3,Noakhali,Noakhali(90).mp3,90,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(91).mp3,Noakhali,Noakhali(91).mp3,91,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(92).mp3,Noakhali,Noakhali(92).mp3,92,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(93).mp3,Noakhali,Noakhali(93).mp3,93,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(94).mp3,Noakhali,Noakhali(94).mp3,94,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(95).mp3,Noakhali,Noakhali(95).mp3,95,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(96).mp3,Noakhali,Noakhali(96).mp3,96,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(97).mp3,Noakhali,Noakhali(97).mp3,97,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(98).mp3,Noakhali,Noakhali(98).mp3,98,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(99).mp3,Noakhali,Noakhali(99).mp3,99,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (1).mp3,Rangpur_Female,Rangpur_Female (1).mp3,1,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (10).mp3,Rangpur_Female,Rangpur_Female (10).mp3,10,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (100).mp3,Rangpur_Female,Rangpur_Female (100).mp3,100,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (101).mp3,Rangpur_Female,Rangpur_Female (101).mp3,101,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (102).mp3,Rangpur_Female,Rangpur_Female (102).mp3,102,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (103).mp3,Rangpur_Female,Rangpur_Female (103).mp3,103,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (104).mp3,Rangpur_Female,Rangpur_Female (104).mp3,104,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (105).mp3,Rangpur_Female,Rangpur_Female (105).mp3,105,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (106).mp3,Rangpur_Female,Rangpur_Female (106).mp3,106,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (107).mp3,Rangpur_Female,Rangpur_Female (107).mp3,107,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (108).mp3,Rangpur_Female,Rangpur_Female (108).mp3,108,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (109).mp3,Rangpur_Female,Rangpur_Female (109).mp3,109,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (11).mp3,Rangpur_Female,Rangpur_Female (11).mp3,11,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (110).mp3,Rangpur_Female,Rangpur_Female (110).mp3,110,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (111).mp3,Rangpur_Female,Rangpur_Female (111).mp3,111,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (112).mp3,Rangpur_Female,Rangpur_Female (112).mp3,112,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (113).mp3,Rangpur_Female,Rangpur_Female (113).mp3,113,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (114).mp3,Rangpur_Female,Rangpur_Female (114).mp3,114,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (115).mp3,Rangpur_Female,Rangpur_Female (115).mp3,115,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (116).mp3,Rangpur_Female,Rangpur_Female (116).mp3,116,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (117).mp3,Rangpur_Female,Rangpur_Female (117).mp3,117,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (118).mp3,Rangpur_Female,Rangpur_Female (118).mp3,118,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (12).mp3,Rangpur_Female,Rangpur_Female (12).mp3,12,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (13).mp3,Rangpur_Female,Rangpur_Female (13).mp3,13,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (14).mp3,Rangpur_Female,Rangpur_Female (14).mp3,14,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (15).mp3,Rangpur_Female,Rangpur_Female (15).mp3,15,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (16).mp3,Rangpur_Female,Rangpur_Female (16).mp3,16,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (17).mp3,Rangpur_Female,Rangpur_Female (17).mp3,17,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (18).mp3,Rangpur_Female,Rangpur_Female (18).mp3,18,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (19).mp3,Rangpur_Female,Rangpur_Female (19).mp3,19,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (2).mp3,Rangpur_Female,Rangpur_Female (2).mp3,2,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (20).mp3,Rangpur_Female,Rangpur_Female (20).mp3,20,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (21).mp3,Rangpur_Female,Rangpur_Female (21).mp3,21,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (22).mp3,Rangpur_Female,Rangpur_Female (22).mp3,22,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (23).mp3,Rangpur_Female,Rangpur_Female (23).mp3,23,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (24).mp3,Rangpur_Female,Rangpur_Female (24).mp3,24,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (25).mp3,Rangpur_Female,Rangpur_Female (25).mp3,25,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (26).mp3,Rangpur_Female,Rangpur_Female (26).mp3,26,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (27).mp3,Rangpur_Female,Rangpur_Female (27).mp3,27,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (28).mp3,Rangpur_Female,Rangpur_Female (28).mp3,28,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (29).mp3,Rangpur_Female,Rangpur_Female (29).mp3,29,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (3).mp3,Rangpur_Female,Rangpur_Female (3).mp3,3,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (30).mp3,Rangpur_Female,Rangpur_Female (30).mp3,30,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (31).mp3,Rangpur_Female,Rangpur_Female (31).mp3,31,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (32).mp3,Rangpur_Female,Rangpur_Female (32).mp3,32,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (33).mp3,Rangpur_Female,Rangpur_Female (33).mp3,33,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (34).mp3,Rangpur_Female,Rangpur_Female (34).mp3,34,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (35).mp3,Rangpur_Female,Rangpur_Female (35).mp3,35,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (36).mp3,Rangpur_Female,Rangpur_Female (36).mp3,36,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (37).mp3,Rangpur_Female,Rangpur_Female (37).mp3,37,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (38).mp3,Rangpur_Female,Rangpur_Female (38).mp3,38,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (39).mp3,Rangpur_Female,Rangpur_Female (39).mp3,39,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (4).mp3,Rangpur_Female,Rangpur_Female (4).mp3,4,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (40).mp3,Rangpur_Female,Rangpur_Female (40).mp3,40,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (41).mp3,Rangpur_Female,Rangpur_Female (41).mp3,41,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (42).mp3,Rangpur_Female,Rangpur_Female (42).mp3,42,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (43).mp3,Rangpur_Female,Rangpur_Female (43).mp3,43,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (44).mp3,Rangpur_Female,Rangpur_Female (44).mp3,44,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (45).mp3,Rangpur_Female,Rangpur_Female (45).mp3,45,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (46).mp3,Rangpur_Female,Rangpur_Female (46).mp3,46,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (47).mp3,Rangpur_Female,Rangpur_Female (47).mp3,47,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (48).mp3,Rangpur_Female,Rangpur_Female (48).mp3,48,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (49).mp3,Rangpur_Female,Rangpur_Female (49).mp3,49,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (5).mp3,Rangpur_Female,Rangpur_Female (5).mp3,5,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (50).mp3,Rangpur_Female,Rangpur_Female (50).mp3,50,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (51).mp3,Rangpur_Female,Rangpur_Female (51).mp3,51,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (52).mp3,Rangpur_Female,Rangpur_Female (52).mp3,52,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (53).mp3,Rangpur_Female,Rangpur_Female (53).mp3,53,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (54).mp3,Rangpur_Female,Rangpur_Female (54).mp3,54,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (55).mp3,Rangpur_Female,Rangpur_Female (55).mp3,55,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (56).mp3,Rangpur_Female,Rangpur_Female (56).mp3,56,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (57).mp3,Rangpur_Female,Rangpur_Female (57).mp3,57,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (58).mp3,Rangpur_Female,Rangpur_Female (58).mp3,58,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (59).mp3,Rangpur_Female,Rangpur_Female (59).mp3,59,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (6).mp3,Rangpur_Female,Rangpur_Female (6).mp3,6,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (60).mp3,Rangpur_Female,Rangpur_Female (60).mp3,60,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (61).mp3,Rangpur_Female,Rangpur_Female (61).mp3,61,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (62).mp3,Rangpur_Female,Rangpur_Female (62).mp3,62,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (63).mp3,Rangpur_Female,Rangpur_Female (63).mp3,63,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (64).mp3,Rangpur_Female,Rangpur_Female (64).mp3,64,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (65).mp3,Rangpur_Female,Rangpur_Female (65).mp3,65,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (66).mp3,Rangpur_Female,Rangpur_Female (66).mp3,66,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (67).mp3,Rangpur_Female,Rangpur_Female (67).mp3,67,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (68).mp3,Rangpur_Female,Rangpur_Female (68).mp3,68,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (69).mp3,Rangpur_Female,Rangpur_Female (69).mp3,69,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (7).mp3,Rangpur_Female,Rangpur_Female (7).mp3,7,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (70).mp3,Rangpur_Female,Rangpur_Female (70).mp3,70,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (71).mp3,Rangpur_Female,Rangpur_Female (71).mp3,71,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (72).mp3,Rangpur_Female,Rangpur_Female (72).mp3,72,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (73).mp3,Rangpur_Female,Rangpur_Female (73).mp3,73,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (74).mp3,Rangpur_Female,Rangpur_Female (74).mp3,74,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (75).mp3,Rangpur_Female,Rangpur_Female (75).mp3,75,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (76).mp3,Rangpur_Female,Rangpur_Female (76).mp3,76,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (77).mp3,Rangpur_Female,Rangpur_Female (77).mp3,77,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (78).mp3,Rangpur_Female,Rangpur_Female (78).mp3,78,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (79).mp3,Rangpur_Female,Rangpur_Female (79).mp3,79,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (8).mp3,Rangpur_Female,Rangpur_Female (8).mp3,8,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (80).mp3,Rangpur_Female,Rangpur_Female (80).mp3,80,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (81).mp3,Rangpur_Female,Rangpur_Female (81).mp3,81,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (82).mp3,Rangpur_Female,Rangpur_Female (82).mp3,82,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (83).mp3,Rangpur_Female,Rangpur_Female (83).mp3,83,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (84).mp3,Rangpur_Female,Rangpur_Female (84).mp3,84,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (85).mp3,Rangpur_Female,Rangpur_Female (85).mp3,85,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (86).mp3,Rangpur_Female,Rangpur_Female (86).mp3,86,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (87).mp3,Rangpur_Female,Rangpur_Female (87).mp3,87,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (88).mp3,Rangpur_Female,Rangpur_Female (88).mp3,88,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (89).mp3,Rangpur_Female,Rangpur_Female (89).mp3,89,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (9).mp3,Rangpur_Female,Rangpur_Female (9).mp3,9,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (90).mp3,Rangpur_Female,Rangpur_Female (90).mp3,90,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (91).mp3,Rangpur_Female,Rangpur_Female (91).mp3,91,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (92).mp3,Rangpur_Female,Rangpur_Female (92).mp3,92,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (93).mp3,Rangpur_Female,Rangpur_Female (93).mp3,93,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (94).mp3,Rangpur_Female,Rangpur_Female (94).mp3,94,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (95).mp3,Rangpur_Female,Rangpur_Female (95).mp3,95,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (96).mp3,Rangpur_Female,Rangpur_Female (96).mp3,96,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (97).mp3,Rangpur_Female,Rangpur_Female (97).mp3,97,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (98).mp3,Rangpur_Female,Rangpur_Female (98).mp3,98,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (99).mp3,Rangpur_Female,Rangpur_Female (99).mp3,99,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(1).mp3,Rangpur_Male,Rangpure_male(1).mp3,1,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(10).mp3,Rangpur_Male,Rangpure_male(10).mp3,10,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(100).mp3,Rangpur_Male,Rangpure_male(100).mp3,100,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(101).mp3,Rangpur_Male,Rangpure_male(101).mp3,101,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(102).mp3,Rangpur_Male,Rangpure_male(102).mp3,102,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(103).mp3,Rangpur_Male,Rangpure_male(103).mp3,103,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(104).mp3,Rangpur_Male,Rangpure_male(104).mp3,104,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(105).mp3,Rangpur_Male,Rangpure_male(105).mp3,105,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(106).mp3,Rangpur_Male,Rangpure_male(106).mp3,106,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(107).mp3,Rangpur_Male,Rangpure_male(107).mp3,107,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(108).mp3,Rangpur_Male,Rangpure_male(108).mp3,108,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(109).mp3,Rangpur_Male,Rangpure_male(109).mp3,109,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(11).mp3,Rangpur_Male,Rangpure_male(11).mp3,11,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(110).mp3,Rangpur_Male,Rangpure_male(110).mp3,110,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(111).mp3,Rangpur_Male,Rangpure_male(111).mp3,111,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(112).mp3,Rangpur_Male,Rangpure_male(112).mp3,112,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(113).mp3,Rangpur_Male,Rangpure_male(113).mp3,113,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(114).mp3,Rangpur_Male,Rangpure_male(114).mp3,114,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(115).mp3,Rangpur_Male,Rangpure_male(115).mp3,115,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(116).mp3,Rangpur_Male,Rangpure_male(116).mp3,116,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(117).mp3,Rangpur_Male,Rangpure_male(117).mp3,117,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(118).mp3,Rangpur_Male,Rangpure_male(118).mp3,118,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(119).mp3,Rangpur_Male,Rangpure_male(119).mp3,119,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(12).mp3,Rangpur_Male,Rangpure_male(12).mp3,12,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(13).mp3,Rangpur_Male,Rangpure_male(13).mp3,13,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(14).mp3,Rangpur_Male,Rangpure_male(14).mp3,14,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(15).mp3,Rangpur_Male,Rangpure_male(15).mp3,15,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(16).mp3,Rangpur_Male,Rangpure_male(16).mp3,16,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(17).mp3,Rangpur_Male,Rangpure_male(17).mp3,17,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(18).mp3,Rangpur_Male,Rangpure_male(18).mp3,18,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(19).mp3,Rangpur_Male,Rangpure_male(19).mp3,19,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(2).mp3,Rangpur_Male,Rangpure_male(2).mp3,2,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(20).mp3,Rangpur_Male,Rangpure_male(20).mp3,20,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(21).mp3,Rangpur_Male,Rangpure_male(21).mp3,21,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(22).mp3,Rangpur_Male,Rangpure_male(22).mp3,22,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(23).mp3,Rangpur_Male,Rangpure_male(23).mp3,23,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(24).mp3,Rangpur_Male,Rangpure_male(24).mp3,24,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(25).mp3,Rangpur_Male,Rangpure_male(25).mp3,25,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(26).mp3,Rangpur_Male,Rangpure_male(26).mp3,26,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(27).mp3,Rangpur_Male,Rangpure_male(27).mp3,27,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(28).mp3,Rangpur_Male,Rangpure_male(28).mp3,28,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(29).mp3,Rangpur_Male,Rangpure_male(29).mp3,29,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(3).mp3,Rangpur_Male,Rangpure_male(3).mp3,3,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(30).mp3,Rangpur_Male,Rangpure_male(30).mp3,30,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(31).mp3,Rangpur_Male,Rangpure_male(31).mp3,31,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(32).mp3,Rangpur_Male,Rangpure_male(32).mp3,32,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(33).mp3,Rangpur_Male,Rangpure_male(33).mp3,33,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(34).mp3,Rangpur_Male,Rangpure_male(34).mp3,34,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(35).mp3,Rangpur_Male,Rangpure_male(35).mp3,35,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(36).mp3,Rangpur_Male,Rangpure_male(36).mp3,36,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(37).mp3,Rangpur_Male,Rangpure_male(37).mp3,37,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(38).mp3,Rangpur_Male,Rangpure_male(38).mp3,38,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(39).mp3,Rangpur_Male,Rangpure_male(39).mp3,39,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(4).mp3,Rangpur_Male,Rangpure_male(4).mp3,4,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(40).mp3,Rangpur_Male,Rangpure_male(40).mp3,40,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(41).mp3,Rangpur_Male,Rangpure_male(41).mp3,41,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(42).mp3,Rangpur_Male,Rangpure_male(42).mp3,42,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(43).mp3,Rangpur_Male,Rangpure_male(43).mp3,43,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(44).mp3,Rangpur_Male,Rangpure_male(44).mp3,44,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(45).mp3,Rangpur_Male,Rangpure_male(45).mp3,45,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(46).mp3,Rangpur_Male,Rangpure_male(46).mp3,46,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(47).mp3,Rangpur_Male,Rangpure_male(47).mp3,47,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(48).mp3,Rangpur_Male,Rangpure_male(48).mp3,48,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(49).mp3,Rangpur_Male,Rangpure_male(49).mp3,49,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(5).mp3,Rangpur_Male,Rangpure_male(5).mp3,5,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(50).mp3,Rangpur_Male,Rangpure_male(50).mp3,50,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(51).mp3,Rangpur_Male,Rangpure_male(51).mp3,51,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(52).mp3,Rangpur_Male,Rangpure_male(52).mp3,52,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(53).mp3,Rangpur_Male,Rangpure_male(53).mp3,53,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(54).mp3,Rangpur_Male,Rangpure_male(54).mp3,54,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(55).mp3,Rangpur_Male,Rangpure_male(55).mp3,55,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(56).mp3,Rangpur_Male,Rangpure_male(56).mp3,56,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(57).mp3,Rangpur_Male,Rangpure_male(57).mp3,57,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(58).mp3,Rangpur_Male,Rangpure_male(58).mp3,58,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(59).mp3,Rangpur_Male,Rangpure_male(59).mp3,59,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(6).mp3,Rangpur_Male,Rangpure_male(6).mp3,6,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(60).mp3,Rangpur_Male,Rangpure_male(60).mp3,60,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(61).mp3,Rangpur_Male,Rangpure_male(61).mp3,61,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(62).mp3,Rangpur_Male,Rangpure_male(62).mp3,62,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(63).mp3,Rangpur_Male,Rangpure_male(63).mp3,63,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(64).mp3,Rangpur_Male,Rangpure_male(64).mp3,64,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(65).mp3,Rangpur_Male,Rangpure_male(65).mp3,65,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(66).mp3,Rangpur_Male,Rangpure_male(66).mp3,66,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(67).mp3,Rangpur_Male,Rangpure_male(67).mp3,67,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(68).mp3,Rangpur_Male,Rangpure_male(68).mp3,68,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(69).mp3,Rangpur_Male,Rangpure_male(69).mp3,69,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(7).mp3,Rangpur_Male,Rangpure_male(7).mp3,7,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(70).mp3,Rangpur_Male,Rangpure_male(70).mp3,70,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(71).mp3,Rangpur_Male,Rangpure_male(71).mp3,71,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(72).mp3,Rangpur_Male,Rangpure_male(72).mp3,72,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(73).mp3,Rangpur_Male,Rangpure_male(73).mp3,73,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(74).mp3,Rangpur_Male,Rangpure_male(74).mp3,74,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(75).mp3,Rangpur_Male,Rangpure_male(75).mp3,75,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(76).mp3,Rangpur_Male,Rangpure_male(76).mp3,76,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(77).mp3,Rangpur_Male,Rangpure_male(77).mp3,77,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(78).mp3,Rangpur_Male,Rangpure_male(78).mp3,78,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(79).mp3,Rangpur_Male,Rangpure_male(79).mp3,79,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(8).mp3,Rangpur_Male,Rangpure_male(8).mp3,8,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(80).mp3,Rangpur_Male,Rangpure_male(80).mp3,80,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(81).mp3,Rangpur_Male,Rangpure_male(81).mp3,81,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(82).mp3,Rangpur_Male,Rangpure_male(82).mp3,82,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(83).mp3,Rangpur_Male,Rangpure_male(83).mp3,83,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(84).mp3,Rangpur_Male,Rangpure_male(84).mp3,84,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(85).mp3,Rangpur_Male,Rangpure_male(85).mp3,85,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(86).mp3,Rangpur_Male,Rangpure_male(86).mp3,86,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(87).mp3,Rangpur_Male,Rangpure_male(87).mp3,87,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(88).mp3,Rangpur_Male,Rangpure_male(88).mp3,88,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(89).mp3,Rangpur_Male,Rangpure_male(89).mp3,89,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(9).mp3,Rangpur_Male,Rangpure_male(9).mp3,9,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(90).mp3,Rangpur_Male,Rangpure_male(90).mp3,90,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(91).mp3,Rangpur_Male,Rangpure_male(91).mp3,91,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(92).mp3,Rangpur_Male,Rangpure_male(92).mp3,92,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(93).mp3,Rangpur_Male,Rangpure_male(93).mp3,93,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(94).mp3,Rangpur_Male,Rangpure_male(94).mp3,94,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(95).mp3,Rangpur_Male,Rangpure_male(95).mp3,95,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(96).mp3,Rangpur_Male,Rangpure_male(96).mp3,96,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(97).mp3,Rangpur_Male,Rangpure_male(97).mp3,97,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(98).mp3,Rangpur_Male,Rangpure_male(98).mp3,98,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(99).mp3,Rangpur_Male,Rangpure_male(99).mp3,99,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(1).mp3,Tangail,Tangail(1).mp3,1,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(10).mp3,Tangail,Tangail(10).mp3,10,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(100).mp3,Tangail,Tangail(100).mp3,100,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(101).mp3,Tangail,Tangail(101).mp3,101,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(102).mp3,Tangail,Tangail(102).mp3,102,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(103).mp3,Tangail,Tangail(103).mp3,103,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(104).mp3,Tangail,Tangail(104).mp3,104,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(105).mp3,Tangail,Tangail(105).mp3,105,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(106).mp3,Tangail,Tangail(106).mp3,106,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(107).mp3,Tangail,Tangail(107).mp3,107,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(108).mp3,Tangail,Tangail(108).mp3,108,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(109).mp3,Tangail,Tangail(109).mp3,109,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(11).mp3,Tangail,Tangail(11).mp3,11,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(110).mp3,Tangail,Tangail(110).mp3,110,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(111).mp3,Tangail,Tangail(111).mp3,111,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(112).mp3,Tangail,Tangail(112).mp3,112,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(113).mp3,Tangail,Tangail(113).mp3,113,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(114).mp3,Tangail,Tangail(114).mp3,114,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(115).mp3,Tangail,Tangail(115).mp3,115,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(116).mp3,Tangail,Tangail(116).mp3,116,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(117).mp3,Tangail,Tangail(117).mp3,117,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(118).mp3,Tangail,Tangail(118).mp3,118,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(119).mp3,Tangail,Tangail(119).mp3,119,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(12).mp3,Tangail,Tangail(12).mp3,12,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(13).mp3,Tangail,Tangail(13).mp3,13,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(14).mp3,Tangail,Tangail(14).mp3,14,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(15).mp3,Tangail,Tangail(15).mp3,15,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(16).mp3,Tangail,Tangail(16).mp3,16,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(17).mp3,Tangail,Tangail(17).mp3,17,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(18).mp3,Tangail,Tangail(18).mp3,18,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(19).mp3,Tangail,Tangail(19).mp3,19,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(2).mp3,Tangail,Tangail(2).mp3,2,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(20).mp3,Tangail,Tangail(20).mp3,20,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(21).mp3,Tangail,Tangail(21).mp3,21,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(22).mp3,Tangail,Tangail(22).mp3,22,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(23).mp3,Tangail,Tangail(23).mp3,23,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(24).mp3,Tangail,Tangail(24).mp3,24,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(25).mp3,Tangail,Tangail(25).mp3,25,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(26).mp3,Tangail,Tangail(26).mp3,26,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(27).mp3,Tangail,Tangail(27).mp3,27,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(28).mp3,Tangail,Tangail(28).mp3,28,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(29).mp3,Tangail,Tangail(29).mp3,29,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(3).mp3,Tangail,Tangail(3).mp3,3,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(30).mp3,Tangail,Tangail(30).mp3,30,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(31).mp3,Tangail,Tangail(31).mp3,31,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(32).mp3,Tangail,Tangail(32).mp3,32,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(33).mp3,Tangail,Tangail(33).mp3,33,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(34).mp3,Tangail,Tangail(34).mp3,34,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(35).mp3,Tangail,Tangail(35).mp3,35,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(36).mp3,Tangail,Tangail(36).mp3,36,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(37).mp3,Tangail,Tangail(37).mp3,37,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(38).mp3,Tangail,Tangail(38).mp3,38,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(39).mp3,Tangail,Tangail(39).mp3,39,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(4).mp3,Tangail,Tangail(4).mp3,4,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(40).mp3,Tangail,Tangail(40).mp3,40,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(41).mp3,Tangail,Tangail(41).mp3,41,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(42).mp3,Tangail,Tangail(42).mp3,42,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(43).mp3,Tangail,Tangail(43).mp3,43,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(44).mp3,Tangail,Tangail(44).mp3,44,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(45).mp3,Tangail,Tangail(45).mp3,45,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(46).mp3,Tangail,Tangail(46).mp3,46,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(47).mp3,Tangail,Tangail(47).mp3,47,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(48).mp3,Tangail,Tangail(48).mp3,48,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(49).mp3,Tangail,Tangail(49).mp3,49,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(5).mp3,Tangail,Tangail(5).mp3,5,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(50).mp3,Tangail,Tangail(50).mp3,50,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(51).mp3,Tangail,Tangail(51).mp3,51,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(52).mp3,Tangail,Tangail(52).mp3,52,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(53).mp3,Tangail,Tangail(53).mp3,53,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(54).mp3,Tangail,Tangail(54).mp3,54,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(55).mp3,Tangail,Tangail(55).mp3,55,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(56).mp3,Tangail,Tangail(56).mp3,56,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(57).mp3,Tangail,Tangail(57).mp3,57,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(58).mp3,Tangail,Tangail(58).mp3,58,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(59).mp3,Tangail,Tangail(59).mp3,59,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(6).mp3,Tangail,Tangail(6).mp3,6,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(60).mp3,Tangail,Tangail(60).mp3,60,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(61).mp3,Tangail,Tangail(61).mp3,61,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(62).mp3,Tangail,Tangail(62).mp3,62,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(63).mp3,Tangail,Tangail(63).mp3,63,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(64).mp3,Tangail,Tangail(64).mp3,64,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(65).mp3,Tangail,Tangail(65).mp3,65,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(66).mp3,Tangail,Tangail(66).mp3,66,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(67).mp3,Tangail,Tangail(67).mp3,67,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(68).mp3,Tangail,Tangail(68).mp3,68,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(69).mp3,Tangail,Tangail(69).mp3,69,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(7).mp3,Tangail,Tangail(7).mp3,7,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(70).mp3,Tangail,Tangail(70).mp3,70,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(71).mp3,Tangail,Tangail(71).mp3,71,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(72).mp3,Tangail,Tangail(72).mp3,72,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(73).mp3,Tangail,Tangail(73).mp3,73,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(74).mp3,Tangail,Tangail(74).mp3,74,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(75).mp3,Tangail,Tangail(75).mp3,75,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(76).mp3,Tangail,Tangail(76).mp3,76,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(77).mp3,Tangail,Tangail(77).mp3,77,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(78).mp3,Tangail,Tangail(78).mp3,78,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(79).mp3,Tangail,Tangail(79).mp3,79,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(8).mp3,Tangail,Tangail(8).mp3,8,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(80).mp3,Tangail,Tangail(80).mp3,80,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(81).mp3,Tangail,Tangail(81).mp3,81,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(82).mp3,Tangail,Tangail(82).mp3,82,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(83).mp3,Tangail,Tangail(83).mp3,83,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(84).mp3,Tangail,Tangail(84).mp3,84,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(85).mp3,Tangail,Tangail(85).mp3,85,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(86).mp3,Tangail,Tangail(86).mp3,86,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(87).mp3,Tangail,Tangail(87).mp3,87,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(88).mp3,Tangail,Tangail(88).mp3,88,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(89).mp3,Tangail,Tangail(89).mp3,89,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(9).mp3,Tangail,Tangail(9).mp3,9,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(90).mp3,Tangail,Tangail(90).mp3,90,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(91).mp3,Tangail,Tangail(91).mp3,91,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(92).mp3,Tangail,Tangail(92).mp3,92,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(93).mp3,Tangail,Tangail(93).mp3,93,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(94).mp3,Tangail,Tangail(94).mp3,94,val
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(95).mp3,Tangail,Tangail(95).mp3,95,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(96).mp3,Tangail,Tangail(96).mp3,96,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(97).mp3,Tangail,Tangail(97).mp3,97,test
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(98).mp3,Tangail,Tangail(98).mp3,98,train
+/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(99).mp3,Tangail,Tangail(99).mp3,99,train

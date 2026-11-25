@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Geo-Linguistic Audio Analysis</title>
+<meta name="description" content="Geo-Linguistic Audio Analysis: Automated Identification of Native Dialects and Speaker Attributes for Inclusive Services. Final Year Design Project, Daffodil International University.">
+<link rel="preload" href="/web/fonts/anek-bangla-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/web/fonts/hind-siliguri-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/web/styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23BE3268'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23F3F5F0'/%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="#/"><b>Geo-Linguistic</b><span lang="bn">উপভাষা, লিঙ্গ ও বয়স</span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <ul id="nav-links">
+      <li><a href="#/analyze" data-route="analyze">Analyze</a></li>
+      <li><a href="#/results" data-route="results">Results</a></li>
+      <li><a href="#/data" data-route="data">Data</a></li>
+      <li><a href="#/model" data-route="model">Model</a></li>
+      <li><a href="#/literature" data-route="literature">Literature</a></li>
+      <li><a href="#/about" data-route="about">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1">
+
+<!-- ================================================================ HOME -->
+<section class="page" data-page="home" aria-labelledby="home-h">
+  <div class="hero">
+    <div>
+      <h1 id="home-h">Bangla dialect, gender and age from one voice clip</h1>
+      <p class="bn-line" lang="bn">একটি কণ্ঠস্বর থেকে উপভাষা, লিঙ্গ ও বয়স</p>
+      <p class="lead">A ResNet-50 and Bi-LSTM network listens to a few seconds of speech, names one of eight districts, and estimates the speaker's gender and age group. Every answer comes with a confidence and a check on whether the voice is like the ones the model learned from.</p>
+      <div class="btn-row"><a class="btn primary" href="#/analyze">Analyze a voice</a><a class="btn" href="#/results">Read the results</a></div>
+      <div class="thesis">
+        <p class="thesis-k">Final Year Design Project, Department of CSE, Daffodil International University</p>
+        <p class="thesis-t"><cite>Geo-Linguistic Audio Analysis: Automated Identification of Native Dialects and Speaker Attributes for Inclusive Services</cite></p>
+      </div>
+    </div>
+    <figure style="margin:0">
+      <div id="home-map" class="mapbox"></div>
+      <div class="map-legend">
+        <span><i></i>Learned from many speakers (RBVD and RegSpeech12)</span>
+        <span><i class="one"></i>Learned from one RBVD speaker</span>
+      </div>
+    </figure>
+  </div>
+
+  <section class="band" aria-labelledby="home-fig-h">
+    <h2 id="home-fig-h">What it reports, and how well</h2>
+    <p class="muted">Measured on speakers or sentences the model never trained on.</p>
+    <div class="figures" id="home-figures"></div>
+  </section>
+
+  <section class="band" aria-labelledby="home-flow-h">
+    <h2 id="home-flow-h">How the network listens</h2>
+    <div class="flow">
+      <div><h3>Cut the clip into 5-second windows</h3><p>Each window becomes a log-mel spectrogram (a picture of the sound's frequencies) and a sequence of 40 MFCC values per frame.</p></div>
+      <div><h3>Read it two ways</h3><p>ResNet-50 reads the spectrogram as an image; a two-layer Bi-LSTM reads the MFCC sequence over time. Their two 128-number summaries are joined.</p></div>
+      <div><h3>Answer three questions</h3><p>District, gender and age group each have their own output. Answers for all windows are averaged, so longer clips give steadier answers.</p></div>
+    </div>
+    <p class="note"><a href="#/model">More about the model</a></p>
+  </section>
+
+  <section class="band" aria-labelledby="home-path-h">
+    <h2 id="home-path-h">How the research went</h2>
+    <ol class="path" id="home-path"></ol>
+    <p class="note"><a href="#/results">Full results and the reasons behind each decision</a></p>
+  </section>
+</section>
+
+<!-- ================================================================ ANALYZE -->
+<section class="page" data-page="analyze" aria-labelledby="an-h" hidden>
+  <div class="stage">
+    <div>
+      <h1 id="an-h">Where is this voice from?</h1>
+      <p class="lead">Record or upload a few seconds of Bangla speech. The model names one of eight districts and estimates gender and age group, each with an honest confidence.</p>
+      <div class="input">
+        <div class="rec-row">
+          <button class="rec" id="rec-btn" type="button" aria-pressed="false"><span id="rec-label">Record</span></button>
+          <div class="rec-txt"><b>Speak for 5 to 20 seconds</b><span>Any sentence in your own regional Bangla</span></div>
+        </div>
+        <div class="alt">
+          <label class="btn" for="file-input">Upload a file</label>
+          <input class="sr-only" id="file-input" type="file" accept="audio/*,.wav,.mp3,.m4a,.ogg,.opus,.webm,.flac">
+          <button class="btn" id="sample-btn" type="button" aria-expanded="false" aria-controls="samples">Try a sample clip</button>
+        </div>
+        <div class="samples" id="samples" hidden>
+          <p>One clip per district from the RBVD test split: sentences the model never trained on, from voices it did learn. On new speakers it is less accurate; see <a href="#/results">Results</a>.</p>
+          <ul id="sample-list"></ul>
+        </div>
+        <div class="clip" id="clip" hidden>
+          <div class="clip-meta"><span id="clip-name"></span><span id="clip-dur"></span></div>
+          <div class="wave" id="wave" aria-hidden="true"></div>
+          <audio id="clip-audio" controls preload="metadata"></audio>
+          <div class="go"><small>The audio is analysed and then deleted; nothing is stored.</small><button class="btn primary" id="analyze-btn" type="button">Analyze voice</button></div>
+        </div>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+    <div class="mapwrap">
+      <div id="an-map"></div>
+      <div class="answer" id="answer" aria-live="polite">
+        <div class="k" id="ans-k">Eight study districts</div>
+        <div class="v empty" id="ans-v">Waiting for a voice</div>
+        <div class="b" id="ans-b" lang="bn"></div>
+        <div class="c" id="ans-c"></div>
+        <p class="hint" id="ans-hint">The districts the model knows are outlined. Record, upload or pick a sample to see which one the voice sounds like.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="result" hidden>
+    <section class="results" aria-label="All answers">
+      <div><h2>All eight districts</h2><ul class="rank" id="rank"></ul>
+        <p class="note">Probabilities are averaged over the clip's 5-second windows and calibrated on validation speakers.</p></div>
+      <div><h2>Gender</h2><div class="big"><span id="g-en"></span><span class="bn" id="g-bn" lang="bn"></span></div>
+        <div class="split" id="g-split"><span></span><span></span></div>
+        <div class="splitlab"><span id="g-l1"></span><span id="g-l2"></span></div>
+        <p class="note"><span class="chip" id="g-chip"></span></p></div>
+      <div><h2>Age group</h2><div class="big"><span id="a-en"></span><span class="bn" id="a-bn" lang="bn"></span></div>
+        <div class="split" id="a-split"><span></span><span></span></div>
+        <div class="splitlab"><span id="a-l1"></span><span id="a-l2"></span></div>
+        <p class="note"><span class="chip" id="a-chip"></span> Age is the hardest output: about 0.60 balanced accuracy on new speakers.</p></div>
+    </section>
+    <div class="voice" id="voice"><span class="ic" id="voice-ic" aria-hidden="true"></span><div id="voice-txt"></div></div>
+    <section class="timeline-wrap" id="timeline" hidden aria-labelledby="tl-h">
+      <h2 id="tl-h">What each 5-second window heard</h2>
+      <ul class="windows" id="windows"></ul>
+      <p class="note">The answer above is the average of these windows. Windows that were mostly silence are left out.</p>
+    </section>
+    <p class="meta" id="meta"></p>
+  </div>
+</section>
+
+<!-- ================================================================ RESULTS -->
+<section class="page" data-page="results" aria-labelledby="res-h" hidden>
+  <div class="page-head">
+    <h1 id="res-h">Results</h1>
+    <p class="lead">Every number here was measured on speakers or sentences the model never trained on, and scored the way this app scores a recording: 5-second windows, probabilities averaged. Ranges are 95% bootstrap intervals over speakers.</p>
+  </div>
+
+  <section class="band" aria-labelledby="ver-h">
+    <h2 id="ver-h">How the model changed</h2>
+    <p class="muted">From the first Google Colab notebooks (v1, v2) to the Kaggle runs that followed. Each version answered one question; from V4 on, its decision rule was written before training, and where the team decided otherwise, it says so.</p>
+    <ol class="versions" id="versions"></ol>
+  </section>
+
+  <section class="band" aria-labelledby="dia-h">
+    <h2 id="dia-h">Dialect</h2>
+    <p>RBVD has one speaker per district, so a model trained on it alone learns those nine voices rather than the dialects. Adding RegSpeech12, with many speakers in five districts, is what made new speakers work.</p>
+    <figure class="fig">
+      <figcaption><h3 class="fig-title">Dialect results by test</h3><p class="fig-sub">Known voices: unseen sentences from the RBVD speakers. New speakers: RegSpeech12 voice groups held out from training. Read speech: BanglaAccent, another corpus.</p></figcaption>
+      <div class="table-wrap" id="dialect-table"></div>
+    </figure>
+    <figure class="fig">
+      <figcaption><h3 class="fig-title">Right district for new speakers, by district</h3><p class="fig-sub">RegSpeech12 test clips. Chance is 12.5%. Noakhali has only 3 test clips, because its large voice groups went to training.</p></figcaption>
+      <div class="chart" id="ch-district"></div>
+    </figure>
+    <figure class="fig">
+      <figcaption><h3 class="fig-title">The app on known voices</h3><p class="fig-sub" id="known-sub"></p></figcaption>
+      <div class="chart" id="ch-confusion"></div>
+    </figure>
+    <div class="callout"><h3>Three districts still have one speaker</h3><p>Mymensingh, Jamalpur and Natore are only in RBVD, with one speaker each. There is no new-speaker test for them, and an answer of one of these districts for a new voice is not reliable.</p></div>
+  </section>
+
+  <section class="band" aria-labelledby="leak-h">
+    <h2 id="leak-h">Did the same people appear in training and test?</h2>
+    <p>RegSpeech12 has no speaker labels, so its voice groups were made by clustering voice fingerprints (ECAPA embeddings). A leakage check compared every test group with its closest training group.</p>
+    <figure class="fig">
+      <figcaption><h3 class="fig-title">Similarity to training against accuracy, per test voice group</h3><p class="fig-sub">Each dot is one RegSpeech12 test group; bigger dots have more clips. Similarity is the cosine between voice fingerprints.</p></figcaption>
+      <div class="chart" id="ch-leak"></div>
+    </figure>
+    <div class="table-wrap" id="leak-table"></div>
+  </section>
+
+  <section class="band" aria-labelledby="dem-h">
+    <h2 id="dem-h">Gender and age</h2>
+    <p>Gender and age were learned from Mozilla Common Voice Bangla; no gender or age label was taken from RBVD. Six models were scored on the same speakers. The extended test adds 110 new speakers to the original 109.</p>
+    <figure class="fig">
+      <figcaption><h3 class="fig-title">Gender accuracy</h3><p class="fig-sub">Each dot is one test; the line spans a model's lowest and highest result.</p></figcaption>
+      <div class="chart" id="ch-gender"></div>
+    </figure>
+    <figure class="fig">
+      <figcaption><h3 class="fig-title">Age group, balanced accuracy</h3><p class="fig-sub">The mean of the accuracy for under-30 and 30+ speakers, so always answering one group scores 0.50.</p></figcaption>
+      <div class="chart" id="ch-age"></div>
+    </figure>
+    <figure class="fig">
+      <figcaption><h3 class="fig-title">Which differences are real?</h3><p class="fig-sub">Difference in percentage points with its 95% range. A range that crosses zero could be chance.</p></figcaption>
+      <div class="chart" id="ch-ci"></div>
+    </figure>
+    <figure class="fig">
+      <figcaption><h3 class="fig-title">Does answering only when confident help age?</h3><p class="fig-sub">Extended test. Raising the confidence needed to give an age answer leaves fewer clips answered, and the answers that remain are nearly all one group.</p></figcaption>
+      <div class="cols">
+        <div><p class="small" style="margin:0 0 6px"><b>Balanced accuracy</b> of the clips that get an age answer</p><div class="chart" id="ch-cov-a"></div></div>
+        <div><p class="small" style="margin:0 0 6px"><b>Share of clips</b> that get an age answer</p><div class="chart" id="ch-cov-b"></div></div>
+      </div>
+    </figure>
+    <div class="callout" id="c3-callout"></div>
+    <figure class="fig" id="c3-fig-groups" hidden>
+      <figcaption><h3 class="fig-title">C3 confirmation: gender accuracy for women and men</h3><p class="fig-sub">C3 was trained again and tested on a corpus it never saw, BanglaAccent. Its gain on Common Voice is almost all on women; on BanglaAccent it is below v3.1.</p></figcaption>
+      <div class="chart" id="ch-c3-groups"></div>
+    </figure>
+    <figure class="fig" id="c3-fig-ci" hidden>
+      <figcaption><h3 class="fig-title">C3 minus v3.1, with 95% ranges</h3><p class="fig-sub">Percentage points. The rule written before the run allowed gender on BanglaAccent to be at most 1 point lower, and age at most 2 points lower.</p></figcaption>
+      <div class="chart" id="ch-c3-ci"></div>
+    </figure>
+  </section>
+</section>
+
+<!-- ================================================================ DATA -->
+<section class="page" data-page="data" aria-labelledby="data-h" hidden>
+  <div class="page-head">
+    <h1 id="data-h">Data</h1>
+    <p class="lead">Dialect comes from two regional speech corpora. Gender and age come from Mozilla Common Voice. A third corpus, BanglaAccent, is used only for testing.</p>
+  </div>
+  <section aria-label="Datasets"><div id="datasets"></div></section>
+  <section class="band" aria-labelledby="cv-h">
+    <h2 id="cv-h">The Common Voice split for gender and age</h2>
+    <p>Clips per group. A speaker never appears in more than one split. Adult women are the rarest group: about 84% of Common Voice Bangla's training audio is male (Alam et al., 2022), and few contributors give an age of 30 or more.</p>
+    <div class="table-wrap" id="cv-table"></div>
+  </section>
+  <section class="band" aria-labelledby="census-h">
+    <h2 id="census-h">How many adult voices exist in Common Voice?</h2>
+    <p>Speakers with both age and gender labels, counted in Common Voice 17 before D2 chose its extra data. Across every Bangla pool there are fewer than 60 adult women.</p>
+    <div class="table-wrap" id="census-table"></div>
+  </section>
+  <section class="band" aria-labelledby="rs-h">
+    <h2 id="rs-h">The RegSpeech12 split</h2>
+    <p>Segments per district. Whole voice groups go to one split.</p>
+    <div class="table-wrap" id="rs-table"></div>
+  </section>
+  <section class="band" aria-labelledby="lic-h">
+    <h2 id="lic-h">Licences and credit</h2>
+    <div id="licences"></div>
+  </section>
+</section>
+
+<!-- ================================================================ MODEL -->
+<section class="page" data-page="model" aria-labelledby="model-h" hidden>
+  <div class="page-head">
+    <h1 id="model-h">Model</h1>
+    <p class="lead">One network design, fixed since Phase I: a CNN for the spectrogram and a Bi-LSTM for the MFCC sequence, fused into three outputs. The app runs two trained copies of it.</p>
+  </div>
+  <figure class="arch" aria-labelledby="arch-cap">
+    <svg viewBox="0 0 980 330" role="img" aria-labelledby="arch-cap">
+      <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#566A64"/></marker></defs>
+      <rect class="box" x="10" y="130" width="130" height="70" rx="12"/><text class="t" x="75" y="160" text-anchor="middle">Audio clip</text><text class="s" x="75" y="180" text-anchor="middle">16 kHz, 5 s windows</text>
+      <rect class="box b1" x="200" y="40" width="170" height="70" rx="12"/><text class="t" x="285" y="70" text-anchor="middle">Log-mel spectrogram</text><text class="s" x="285" y="90" text-anchor="middle">3 × 128 × 157</text>
+      <rect class="box b2" x="200" y="220" width="170" height="70" rx="12"/><text class="t" x="285" y="250" text-anchor="middle">MFCC sequence</text><text class="s" x="285" y="270" text-anchor="middle">157 frames × 40</text>
+      <rect class="box b1" x="420" y="40" width="160" height="70" rx="12"/><text class="t" x="500" y="70" text-anchor="middle">ResNet-50</text><text class="s" x="500" y="90" text-anchor="middle">ImageNet start → 128</text>
+      <rect class="box b2" x="420" y="220" width="160" height="70" rx="12"/><text class="t" x="500" y="250" text-anchor="middle">Bi-LSTM, 2 layers</text><text class="s" x="500" y="270" text-anchor="middle">128 per direction → 128</text>
+      <rect class="box" x="630" y="115" width="160" height="100" rx="12"/><text class="t" x="710" y="145" text-anchor="middle">Fusion</text><text class="s" x="710" y="166" text-anchor="middle">join 256 → Dense 128</text><text class="s" x="710" y="184" text-anchor="middle">ReLU, BatchNorm</text><text class="s" x="710" y="202" text-anchor="middle">Dropout 0.6</text>
+      <rect class="box head" x="840" y="45" width="130" height="56" rx="12"/><text class="t" x="905" y="70" text-anchor="middle">District</text><text class="s" x="905" y="88" text-anchor="middle">8 classes</text>
+      <rect class="box head" x="840" y="137" width="130" height="56" rx="12"/><text class="t" x="905" y="162" text-anchor="middle">Gender</text><text class="s" x="905" y="180" text-anchor="middle">2 classes</text>
+      <rect class="box head" x="840" y="229" width="130" height="56" rx="12"/><text class="t" x="905" y="254" text-anchor="middle">Age group</text><text class="s" x="905" y="272" text-anchor="middle">under 30, 30+</text>
+      <path class="ar" d="M140 150 C170 150 170 75 198 75"/><path class="ar" d="M140 180 C170 180 170 255 198 255"/>
+      <path class="ar" d="M370 75 H418"/><path class="ar" d="M370 255 H418"/>
+      <path class="ar" d="M580 75 C605 75 605 150 628 150"/><path class="ar" d="M580 255 C605 255 605 180 628 180"/>
+      <path class="ar" d="M790 150 C815 150 815 73 838 73"/><path class="ar" d="M790 165 H838"/><path class="ar" d="M790 180 C815 180 815 257 838 257"/>
+    </svg>
+    <figcaption id="arch-cap" class="note">GeoLinguisticMultiTaskNet: 24.46 million parameters. Both branches see the same 5-second window; the three outputs share the fused 128-number summary.</figcaption>
+  </figure>
+
+  <section class="band" aria-labelledby="two-h">
+    <h2 id="two-h">Two trained copies in the app</h2>
+    <div class="cols">
+      <div><h3>District: GEO V4.1-A</h3><p>Trained on RBVD and RegSpeech12 after a first stage on Common Voice. Chosen because it is far better on new speakers (73.1% against 10.3%).</p></div>
+      <div><h3>Gender and age: GEO v3.1</h3><p>Trained on a balanced Common Voice split. Kept because V4.1-A was 3.6 points lower on BanglaAccent gender and 4.1 points lower on age. A model trained only for gender and age (C3) was also tested; it did not hold up on BanglaAccent, so v3.1 stays. Both copies read the same features, which are computed once.</p></div>
+    </div>
+    <p class="note">The combination was chosen after the V4.1 results were seen; each part's numbers were measured on the same test clips before that choice.</p>
+  </section>
+
+  <section class="band" aria-labelledby="abl-h">
+    <h2 id="abl-h">Does fusing the two branches help?</h2>
+    <p>Phase-I objective 3 asked whether combining the spectral and temporal branches beats either one alone. GEO v3.1 trained each variant five times on RBVD, each time testing on sentences it had not seen.</p>
+    <figure class="fig">
+      <figcaption><h3 class="fig-title">Dialect macro-F1 by branch, 5-fold mean</h3><p class="fig-sub">Known voices, unseen sentences. The temporal-only network was also widened to the fused network's size, so the comparison is not about parameter count.</p></figcaption>
+      <div class="chart" id="ch-ablation"></div>
+      <div class="table-wrap" id="ablation-table"></div>
+    </figure>
+  </section>
+
+  <section class="band" aria-labelledby="train-h">
+    <h2 id="train-h">How V4.1-A was trained</h2>
+    <ol class="steps">
+      <li><b>Stage 1, gender and age.</b> Common Voice Bangla, balanced by gender and age group, split by speaker (the same split as v3.1).</li>
+      <li><b>Stage 2, dialect.</b> RBVD and RegSpeech12. Each epoch draws every district equally; in the five shared districts 30% of draws come from RBVD. One RegSpeech12 voice group counts for at most 60 segments. Gender and age keep seeing Common Voice clips so they are not forgotten.</li>
+      <li><b>Choosing the epoch.</b> 0.7 × macro-F1 on new RegSpeech12 validation speakers plus 0.3 × macro-F1 on RBVD validation. The test sets are never looked at.</li>
+      <li><b>Calibration.</b> A temperature for the district answer and an unknown-voice limit, both set on validation data.</li>
+    </ol>
+    <figure class="fig">
+      <figcaption><h3 class="fig-title">Stage 2 validation, epoch by epoch</h3><p class="fig-sub">Macro-F1. Known voices are easy from the start; new speakers are what the training had to improve.</p></figcaption>
+      <div class="chart" id="ch-history"></div>
+    </figure>
+  </section>
+
+  <section class="band" aria-labelledby="score-h">
+    <h2 id="score-h">How the app scores a clip</h2>
+    <div class="facts" id="facts"></div>
+    <ol class="steps" style="margin-top:28px">
+      <li>The clip is converted to 16 kHz mono. Silence at the start and end of long recordings is trimmed.</li>
+      <li>It is cut into 5-second windows every 2.5 seconds; windows with less than 25% speech are left out. A clip shorter than 5 seconds is padded, as in training.</li>
+      <li>Each window gets probabilities for all three questions. They are averaged over the windows.</li>
+      <li>An answer below the confidence floor is marked <i>unsure</i>. The voice check measures how far the clip's fused summary is from each district's training data; beyond the limit the district answer is marked <i>unknown voice</i>.</li>
+    </ol>
+  </section>
+</section>
+
+<!-- ================================================================ LITERATURE -->
+<section class="page" data-page="literature" aria-labelledby="lit-h" hidden>
+  <div class="page-head">
+    <h1 id="lit-h">Literature</h1>
+    <p class="lead">The literature study behind the project: 29 studies in six themes, the gaps they leave, and how this project compares. Published numbers are only comparable when the tests are, so every study is checked for one thing: were the test speakers kept out of training?</p>
+  </div>
+
+  <section aria-labelledby="lit-themes-h">
+    <h2 id="lit-themes-h" class="sr-only">Themes</h2>
+    <div class="themes" id="lit-themes"></div>
+  </section>
+
+  <section class="band" aria-labelledby="lit-table-h">
+    <h2 id="lit-table-h">Studies reviewed</h2>
+    <div class="chips" id="lit-filter" role="group" aria-label="Show studies by theme"></div>
+    <p class="note" id="lit-count" aria-live="polite"></p>
+    <div class="table-wrap" id="lit-table"></div>
+  </section>
+
+  <section class="band" aria-labelledby="gap-h">
+    <h2 id="gap-h">Gap analysis</h2>
+    <p>Four gaps emerge from the review. The right-hand column says how this project addresses each, with the results it reached.</p>
+    <div class="table-wrap" id="lit-gaps"></div>
+  </section>
+
+  <section class="band" aria-labelledby="cmp-h">
+    <h2 id="cmp-h">Feature comparison with the closest work</h2>
+    <p>The six studies closest to this project, compared on the features that matter for it.</p>
+    <div class="table-wrap" id="lit-compare"></div>
+  </section>
+
+  <section class="band" aria-labelledby="lit2-h">
+    <h2 id="lit2-h">What the comparison shows</h2>
+    <ul class="limits">
+      <li><h3>Higher numbers, easier tests</h3><p>The Bangla studies that report 85% to 95% split their data by clip or segment, so the same voices are in training and test. Studies that keep speakers or channels apart report 60% to 75% for dialect.</p></li>
+      <li><h3>The closest match for age</h3><p>The only Bangla study with the same cut at age 30 (BRAC, 2019) reports 76% on 34 speaker decisions; its 95% range is about 60% to 88%.</p></li>
+      <li><h3>RBVD alone cannot test new speakers</h3><p>With one speaker per district, any RBVD split tests known voices. Our own v1 scored 99.5% on a random split and V3 scored 0 to 4% on an unseen Rangpur speaker.</p></li>
+      <li><h3>Where this project adds</h3><p>Dialect, gender and age from audio alone, tested on speakers held out from training, with a check that dialect is not just speaker identity, and with the uncertainty of each comparison reported.</p></li>
+    </ul>
+  </section>
+</section>
+
+<!-- ================================================================ ABOUT -->
+<section class="page" data-page="about" aria-labelledby="about-h" hidden>
+  <div class="page-head">
+    <h1 id="about-h" class="title-h">Geo-Linguistic Audio Analysis</h1>
+    <p class="subtitle">Automated Identification of Native Dialects and Speaker Attributes for Inclusive Services</p>
+    <p class="lead">A Final Year Design Project of the Department of Computer Science and Engineering, Daffodil International University, Dhaka.</p>
+  </div>
+  <div class="people">
+    <div><b>Raiyan Jahan</b><span>Student, ID 0242310005101599</span></div>
+    <div><b>Md. Ibna Labid</b><span>Student, ID 0242310005101180</span></div>
+    <div><b>Mushfiqur Rahman</b><span>Supervisor, Assistant Professor</span></div>
+    <div><b>Shah Md. Tanvir Siddiquee</b><span>Co-supervisor, Assistant Professor</span></div>
+  </div>
+  <section class="band" aria-labelledby="ms-h">
+    <h2 id="ms-h">Milestones</h2>
+    <ol class="milestones">
+      <li><b>21 April 2026</b><span>Title defense (Spring 2026)</span></li>
+      <li><b>3 August 2026</b><span>Phase-I evaluation (Summer 2026): design, data and the first notebooks</span></li>
+      <li><b>November 2026</b><span>Phase II: speaker-disjoint testing, the RegSpeech12 merge, gender and age experiments, and this web app</span></li>
+    </ol>
+  </section>
+  <section class="band" aria-labelledby="lim-h">
+    <h2 id="lim-h">What the model cannot do yet</h2>
+    <ul class="limits">
+      <li><h3>Three districts from one speaker</h3><p>Mymensingh, Jamalpur and Natore were learned from one RBVD speaker each, so answers for new speakers from these districts are not reliable.</p></li>
+      <li><h3>Read speech in standard Bangla</h3><p>On BanglaAccent, where speakers read the same standard sentences, dialect accuracy is 9.3%, below chance. The model relies on regional words and phrasing as well as accent.</p></li>
+      <li><h3>Age is a rough guess</h3><p>Two groups only (under 30, 30+), because Common Voice Bangla has no labelled speakers aged 60 or over and very few adult women. Balanced accuracy is about 0.60.</p></li>
+      <li><h3>Places outside the eight districts</h3><p>The model always picks one of the eight. A voice from elsewhere gets the closest one, and the voice check flags about 44% of such recordings.</p></li>
+    </ul>
+  </section>
+  <section class="band" aria-labelledby="priv-h">
+    <h2 id="priv-h">Privacy</h2>
+    <p>A recording is sent to this server, analysed, and deleted as soon as the answer is ready. It is not stored, logged or used for training. The sample clips are from RBVD (CC BY 4.0). No BanglaAccent audio is published here, as its data agreement requires.</p>
+  </section>
+  <section class="band" aria-labelledby="api-h">
+    <h2 id="api-h">For developers</h2>
+    <p><code>POST /api/predict</code> with a form field <code>audio</code> returns the three answers as JSON, including each 5-second window's district scores. <code>GET /api/info</code> describes the models and their settings; <code>GET /api/research</code> returns the numbers behind these pages.</p>
+  </section>
+</section>
+
+</main>
+
+<footer>
+  <div class="foot">
+    <p><cite>Geo-Linguistic Audio Analysis: Automated Identification of Native Dialects and Speaker Attributes for Inclusive Services.</cite> Final Year Design Project, Department of CSE, Daffodil International University. Raiyan Jahan and Md. Ibna Labid; supervisor Mushfiqur Rahman, co-supervisor Shah Md. Tanvir Siddiquee.</p>
+    <p id="map-credit">Map: district boundaries from geoBoundaries (CC BY 4.0; BBS and OCHA).</p>
+  </div>
+</footer>
+<div class="tip" id="tip" role="tooltip" hidden></div>
+<script src="/web/charts.js"></script>
+<script src="/web/app.js"></script>
+</body>
+</html>

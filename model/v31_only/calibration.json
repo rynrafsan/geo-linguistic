@@ -1,0 +1,32 @@
+{
+  "temperature": {
+    "dialect": 1.0,
+    "gender": 1.0,
+    "age": 1.0
+  },
+  "min_confidence": {
+    "dialect": 0.6,
+    "gender": 0.65,
+    "age": 0.6
+  },
+  "unknown_voice": {
+    "threshold": 10.084994316101074,
+    "percentile": 95.0
+  },
+  "calibrated_on": "dialect on the RBVD validation split; gender and age not calibrated",
+  "report": {
+    "dialect": {
+      "temperature": 1.0,
+      "test_macro_f1": 0.9664710418580388,
+      "test_accuracy": 0.9627329192546584,
+      "test_ece_before": 0.021603706460561763,
+      "test_ece_after": 0.021603706460561763
+    },
+    "unknown_voice": {
+      "threshold": 10.084994316101074,
+      "percentile": 95.0,
+      "known_voice_test_false_alarm": 0.031055900621118012,
+      "val_distance_median": 6.03746223449707
+    }
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "split_identical_to_v41": true,
+  "split_checks": {
+    "grouping method": true,
+    "segments": true,
+    "groups per district": true,
+    "segments per split": true,
+    "groups per split": true,
+    "largest groups": true
+  },
+  "fingerprints": "ECAPA speaker embeddings",
+  "different_people": {
+    "median": 0.2139500780548085,
+    "p95": 0.47915236455747306,
+    "p99": 0.605144071214196,
+    "pairs": 9765
+  },
+  "same_voice": {
+    "median": 0.969800610884473,
+    "p05": 0.872440572400038,
+    "groups": 89
+  },
+  "train_to_train_same_district": {
+    "median": 0.5321122073452402,
+    "p95": 0.695641145082695
+  },
+  "test_groups": [
+    {
+      "group": "Barishal|Barishal_c0",
+      "district": "Barishal",
+      "segments": 42,
+      "closest_train_group": "Barishal|Barishal_c5",
+      "similarity": 0.7435680702530653,
+      "flag_99": true,
+      "flag_95": true,
+      "V4.1-A correct": 0.9285714285714286
+    },
+    {
+      "group": "Chottogram|Chottogram_c10",
+      "district": "Chottogram",
+      "segments": 82,
+      "closest_train_group": "Chottogram|Chottogram_c14",
+      "similarity": 0.694369546989076,
+      "flag_99": true,
+      "flag_95": true,
+      "V4.1-A correct": 0.3902439024390244
+    },
+    {
+      "group": "Rangpur|Rangpur_c16",
+      "district": "Rangpur",
+      "segments": 10,
+      "closest_train_group": "Rangpur|Rangpur_c3",
+      "similarity": 0.6783714011406177,
+      "flag_99": true,
+      "flag_95": true,
+      "V4.1-A correct": 1.0
+    },
+    {
+      "group": "Rangpur|Rangpur_c2",
+      "district": "Rangpur",
+      "segments": 74,
+      "closest_train_group": "Rangpur|Rangpur_c18",
+      "similarity": 0.6476606378588939,
+      "flag_99": true,
+      "flag_95": true,
+      "V4.1-A correct": 1.0
+    },
+    {
+      "group": "Tangail|Tangail_c6",
+      "district": "Tangail",
+      "segments": 51,
+      "closest_train_group": "Tangail|Tangail_c26",
+      "similarity": 0.6424657191774574,
+      "flag_99": true,
+      "flag_95": true,
+      "V4.1-A correct": 1.0
+    },
+    {
+      "group": "Rangpur|Rangpur_c6",
+      "district": "Rangpur",
+      "segments": 65,
+      "closest_train_group": "Rangpur|Rangpur_c0",
+      "similarity": 0.6064385057971035,
+      "flag_99": true,
+      "flag_95": true,
+      "V4.1-A correct": 0.8
+    },
+    {
+      "group": "Tangail|Tangail_c12",
+      "district": "Tangail",
+      "segments": 53,
+      "closest_train_group": "Tangail|Tangail_c22",
+      "similarity": 0.6025962024953614,
+      "flag_99": false,
+      "flag_95": true,
+      "V4.1-A correct": 0.9433962264150944
+    },
+    {
+      "group": "Chottogram|Chottogram_c27",
+      "district": "Chottogram",
+      "segments": 10,
+      "closest_train_group": "Chottogram|Chottogram_c19",
+      "similarity": 0.5891542951500712,
+      "flag_99": false,
+      "flag_95": true,
+      "V4.1-A correct": 0.6
+    },
+    {
+      "group": "Barishal|Barishal_c8",
+      "district": "Barishal",
+      "segments": 22,
+      "closest_train_group": "Barishal|Barishal_c28",
+      "similarity": 0.5782922329674007,
+      "flag_99": false,
+      "flag_95": true,
+      "V4.1-A correct": 0.3181818181818182
+    },
+    {
+      "group": "Tangail|Tangail_c11",
+      "district": "Tangail",
+      "segments": 10,
+      "closest_train_group": "Tangail|Tangail_c7",
+      "similarity": 0.5632718129193743,
+      "flag_99": false,
+      "flag_95": true,
+      "V4.1-A correct": 1.0
+    },
+    {
+      "group": "Chottogram|Chottogram_c12",
+      "district": "Chottogram",
+      "segments": 53,
+      "closest_train_group": "Chottogram|Chottogram_c0",
+      "similarity": 0.5560786757534202,
+      "flag_99": false,
+      "flag_95": true,
+      "V4.1-A correct": 0.8113207547169812
+    },
+    {
+      "group": "Barishal|Barishal_c26",
+      "district": "Barishal",
+      "segments": 12,
+      "closest_train_group": "Barishal|Barishal_c5",
+      "similarity": 0.5392736855743195,
+      "flag_99": false,
+      "flag_95": true,
+      "V4.1-A correct": 1.0
+    },
+    {
+      "group": "Chottogram|Chottogram_c20",
+      "district": "Chottogram",
+      "segments": 89,
+      "closest_train_group": "Chottogram|Chottogram_c6",
+      "similarity": 0.5119014945763517,
+      "flag_99": false,
+      "flag_95": true,
+      "V4.1-A correct": 0.9438202247191011
+    },
+    {
+      "group": "Chottogram|Chottogram_c2",
+      "district": "Chottogram",
+      "segments": 31,
+      "closest_train_group": "Chottogram|Chottogram_c26",
+      "similarity": 0.49133233053911535,
+      "flag_99": false,
+      "flag_95": true,
+      "V4.1-A correct": 1.0
+    },
+    {
+      "group": "Barishal|Barishal_c10",
+      "district": "Barishal",
+      "segments": 50,
+      "closest_train_group": "Barishal|Barishal_c24",
+      "similarity": 0.48543070453102705,
+      "flag_99": false,
+      "flag_95": true,
+      "V4.1-A correct": 0.74
+    },
+    {
+      "group": "Barishal|Barishal_c3",
+      "district": "Barishal",
+      "segments": 28,
+      "closest_train_group": "Barishal|Barishal_c24",
+      "similarity": 0.47473177683527257,
+      "flag_99": false,
+      "flag_95": false,
+      "V4.1-A correct": 0.07142857142857142
+    },
+    {
+      "group": "Rangpur|Rangpur_c31",
+      "district": "Rangpur",
+      "segments": 1,
+      "closest_train_group": "Rangpur|Rangpur_c12",
+      "similarity": 0.4684741904438573,
+      "flag_99": false,
+      "flag_95": false,
+      "V4.1-A correct": 1.0
+    },
+    {
+      "group": "Rangpur|Rangpur_c21",
+      "district": "Rangpur",
+      "segments": 3,
+      "closest_train_group": "Rangpur|Rangpur_c1",
+      "similarity": 0.4406016049545594,
+      "flag_99": false,
+      "flag_95": false,
+      "V4.1-A correct": 0.6666666666666666
+    },
+    {
+      "group": "Noakhali|Noakhali_c3",
+      "district": "Noakhali",
+      "segments": 2,
+      "closest_train_group": "Noakhali|Noakhali_c1",
+      "similarity": 0.43607757862735896,
+      "flag_99": false,
+      "flag_95": false,
+      "V4.1-A correct": 1.0
+    },
+    {
+      "group": "Rangpur|Rangpur_c13",
+      "district": "Rangpur",
+      "segments": 40,
+      "closest_train_group": "Rangpur|Rangpur_c25",
+      "similarity": 0.42225183625416873,
+      "flag_99": false,
+      "flag_95": false,
+      "V4.1-A correct": 1.0
+    },
+    {
+      "group": "Tangail|Tangail_c24",
+      "district": "Tangail",
+      "segments": 1,
+      "closest_train_group": "Tangail|Tangail_c5",
+      "similarity": 0.4145674723241239,
+      "flag_99": false,
+      "flag_95": false,
+      "V4.1-A correct": 1.0
+    },
+    {
+      "group": "Tangail|Tangail_c2",
+      "district": "Tangail",
+      "segments": 2,
+      "closest_train_group": "Tangail|Tangail_c21",
+      "similarity": 0.357298600971282,
+      "flag_99": false,
+      "flag_95": false,
+      "V4.1-A correct": 1.0
+    },
+    {
+      "group": "Tangail|Tangail_c19",
+      "district": "Tangail",
+      "segments": 74,
+      "closest_train_group": "Tangail|Tangail_c7",
+      "similarity": 0.3457658139185605,
+      "flag_99": false,
+      "flag_95": false,
+      "V4.1-A correct": 0.0
+    },
+    {
+      "group": "Noakhali|Noakhali_c5",
+      "district": "Noakhali",
+      "segments": 1,
+      "closest_train_group": "Noakhali|Noakhali_c7",
+      "similarity": 0.2878814641355839,
+      "flag_99": false,
+      "flag_95": false,
+      "V4.1-A correct": 1.0
+    }
+  ],
+  "accuracy": {
+    "all test groups": {
+      "segments": 806.0,
+      "groups": 24.0,
+      "v3.1 accuracy": 0.10297766749379653,
+      "v3.1 group-balanced": 0.10084014521514521,
+      "V4.1-A accuracy": 0.7307692307692307,
+      "V4.1-A group-balanced": 0.8005678997141118
+    },
+    "without groups flagged at the 99th pct": {
+      "segments": 482.0,
+      "groups": 18.0,
+      "v3.1 accuracy": 0.056016597510373446,
+      "v3.1 group-balanced": 0.07827922077922078,
+      "V4.1-A accuracy": 0.6867219917012448,
+      "V4.1-A group-balanced": 0.7830452367849019
+    },
+    "without groups flagged at the 95th pct (stricter)": {
+      "segments": 152.0,
+      "groups": 9.0,
+      "v3.1 accuracy": 0.14473684210526316,
+      "v3.1 group-balanced": 0.13558201058201058,
+      "V4.1-A accuracy": 0.3355263157894737,
+      "V4.1-A group-balanced": 0.7486772486772486
+    }
+  },
+  "flagged_99": 6,
+  "flagged_95": 15
+}

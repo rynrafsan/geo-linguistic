@@ -1,0 +1,1353 @@
+{
+  "config": {
+    "epoch_samples": 4000,
+    "max_epochs": 15,
+    "lr_layer4": 1e-05,
+    "pool": {
+      "splits": [
+        "validated",
+        "other",
+        "invalidated"
+      ],
+      "per_cell": 3000,
+      "per_speaker": 10,
+      "budget_gb": 6.0
+    },
+    "multi": {
+      "langs": [
+        "hi",
+        "ur",
+        "mr",
+        "as",
+        "or",
+        "pa-IN",
+        "ne-NP",
+        "ta",
+        "ml",
+        "en"
+      ],
+      "per_cell": 3000,
+      "per_speaker": 6,
+      "budget_gb": 6.0
+    },
+    "use_b10k": false,
+    "smoke_test": false,
+    "rule": {
+      "gender_guard": 0.01,
+      "age_guard_v31_test": 0.02,
+      "adult_share_tol": 0.1
+    }
+  },
+  "attribution": [
+    "Mozilla Common Voice 17.0 (CC0), via fixie-ai/common_voice_17_0"
+  ],
+  "common_voice": {
+    "table": {
+      "clips": {
+        "train": 2366,
+        "val": 490,
+        "test": 489
+      },
+      "speakers": {
+        "train": 541,
+        "val": 109,
+        "test": 109
+      },
+      "Young-M": {
+        "train": 1060,
+        "val": 222,
+        "test": 218
+      },
+      "Young-F": {
+        "train": 823,
+        "val": 206,
+        "test": 168
+      },
+      "Adult-M": {
+        "train": 404,
+        "val": 58,
+        "test": 76
+      },
+      "Adult-F": {
+        "train": 79,
+        "val": 4,
+        "test": 27
+      }
+    },
+    "age_classes": [
+      "Young (<30)",
+      "Adult (30+)"
+    ],
+    "senior_speakers": 0
+  },
+  "census": [
+    {
+      "language": "bn",
+      "pool": "validated",
+      "files": 8,
+      "labelled clips": 15017,
+      "speakers Adult-F": 19,
+      "speakers Adult-M": 98,
+      "speakers Young-F": 219,
+      "speakers Young-M": 1219,
+      "NEW Young-M": 794,
+      "NEW Adult-F": 0,
+      "NEW Adult-M": 0,
+      "NEW Young-F": 0
+    },
+    {
+      "language": "bn",
+      "pool": "other",
+      "files": 224,
+      "labelled clips": 792534,
+      "speakers Adult-F": 30,
+      "speakers Adult-M": 183,
+      "speakers Young-F": 426,
+      "speakers Young-M": 1993,
+      "NEW Young-M": 1573,
+      "NEW Adult-F": 12,
+      "NEW Adult-M": 86,
+      "NEW Young-F": 208
+    },
+    {
+      "language": "bn",
+      "pool": "invalidated",
+      "files": 8,
+      "labelled clips": 2384,
+      "speakers Adult-F": 8,
+      "speakers Adult-M": 42,
+      "speakers Young-F": 68,
+      "speakers Young-M": 576,
+      "NEW Young-M": 377,
+      "NEW Adult-F": 2,
+      "NEW Adult-M": 9,
+      "NEW Young-F": 9
+    },
+    {
+      "language": "hi",
+      "pool": "validated",
+      "files": 8,
+      "labelled clips": 7130,
+      "speakers Adult-F": 3,
+      "speakers Adult-M": 31,
+      "speakers Young-F": 14,
+      "speakers Young-M": 76,
+      "NEW Young-M": 0,
+      "NEW Adult-F": 0,
+      "NEW Adult-M": 0,
+      "NEW Young-F": 0
+    },
+    {
+      "language": "ur",
+      "pool": "validated",
+      "files": 40,
+      "labelled clips": 23350,
+      "speakers Adult-F": 4,
+      "speakers Adult-M": 11,
+      "speakers Young-F": 56,
+      "speakers Young-M": 166,
+      "NEW Young-M": 0,
+      "NEW Adult-F": 0,
+      "NEW Adult-M": 0,
+      "NEW Young-F": 0
+    },
+    {
+      "language": "mr",
+      "pool": "validated",
+      "files": 8,
+      "labelled clips": 10442,
+      "speakers Adult-F": 1,
+      "speakers Adult-M": 5,
+      "speakers Young-F": 44,
+      "speakers Young-M": 12,
+      "NEW Young-M": 0,
+      "NEW Adult-F": 0,
+      "NEW Adult-M": 0,
+      "NEW Young-F": 0
+    },
+    {
+      "language": "as",
+      "pool": "validated",
+      "files": 0,
+      "labelled clips": 0,
+      "speakers Adult-F": 0,
+      "speakers Adult-M": 0,
+      "speakers Young-F": 0,
+      "speakers Young-M": 0,
+      "NEW Young-M": 0,
+      "NEW Adult-F": 0,
+      "NEW Adult-M": 0,
+      "NEW Young-F": 0
+    },
+    {
+      "language": "or",
+      "pool": "validated",
+      "files": 0,
+      "labelled clips": 0,
+      "speakers Adult-F": 0,
+      "speakers Adult-M": 0,
+      "speakers Young-F": 0,
+      "speakers Young-M": 0,
+      "NEW Young-M": 0,
+      "NEW Adult-F": 0,
+      "NEW Adult-M": 0,
+      "NEW Young-F": 0
+    },
+    {
+      "language": "pa-IN",
+      "pool": "validated",
+      "files": 0,
+      "labelled clips": 0,
+      "speakers Adult-F": 0,
+      "speakers Adult-M": 0,
+      "speakers Young-F": 0,
+      "speakers Young-M": 0,
+      "NEW Young-M": 0,
+      "NEW Adult-F": 0,
+      "NEW Adult-M": 0,
+      "NEW Young-F": 0
+    },
+    {
+      "language": "ne-NP",
+      "pool": "validated",
+      "files": 0,
+      "labelled clips": 0,
+      "speakers Adult-F": 0,
+      "speakers Adult-M": 0,
+      "speakers Young-F": 0,
+      "speakers Young-M": 0,
+      "NEW Young-M": 0,
+      "NEW Adult-F": 0,
+      "NEW Adult-M": 0,
+      "NEW Young-F": 0
+    },
+    {
+      "language": "ta",
+      "pool": "validated",
+      "files": 40,
+      "labelled clips": 49219,
+      "speakers Adult-F": 45,
+      "speakers Adult-M": 113,
+      "speakers Young-F": 51,
+      "speakers Young-M": 115,
+      "NEW Young-M": 0,
+      "NEW Adult-F": 0,
+      "NEW Adult-M": 0,
+      "NEW Young-F": 0
+    },
+    {
+      "language": "ml",
+      "pool": "validated",
+      "files": 8,
+      "labelled clips": 1925,
+      "speakers Adult-F": 1,
+      "speakers Adult-M": 8,
+      "speakers Young-F": 4,
+      "speakers Young-M": 17,
+      "NEW Young-M": 0,
+      "NEW Adult-F": 0,
+      "NEW Adult-M": 0,
+      "NEW Young-F": 0
+    },
+    {
+      "language": "en",
+      "pool": "validated",
+      "files": 40,
+      "labelled clips": 326717,
+      "speakers Adult-F": 1975,
+      "speakers Adult-M": 6304,
+      "speakers Young-F": 2033,
+      "speakers Young-M": 8322,
+      "NEW Young-M": 0,
+      "NEW Adult-F": 0,
+      "NEW Adult-M": 0,
+      "NEW Young-F": 0
+    }
+  ],
+  "pool": {
+    "table": [
+      {
+        "split": "test",
+        "cell": "Adult-F",
+        "clips": 13,
+        "speakers": 2
+      },
+      {
+        "split": "test",
+        "cell": "Adult-M",
+        "clips": 99,
+        "speakers": 15
+      },
+      {
+        "split": "test",
+        "cell": "Young-F",
+        "clips": 262,
+        "speakers": 36
+      },
+      {
+        "split": "test",
+        "cell": "Young-M",
+        "clips": 436,
+        "speakers": 57
+      },
+      {
+        "split": "train",
+        "cell": "Adult-F",
+        "clips": 66,
+        "speakers": 8
+      },
+      {
+        "split": "train",
+        "cell": "Adult-M",
+        "clips": 452,
+        "speakers": 54
+      },
+      {
+        "split": "train",
+        "cell": "Young-F",
+        "clips": 1208,
+        "speakers": 135
+      },
+      {
+        "split": "train",
+        "cell": "Young-M",
+        "clips": 1969,
+        "speakers": 241
+      },
+      {
+        "split": "val",
+        "cell": "Adult-F",
+        "clips": 14,
+        "speakers": 2
+      },
+      {
+        "split": "val",
+        "cell": "Adult-M",
+        "clips": 103,
+        "speakers": 16
+      },
+      {
+        "split": "val",
+        "cell": "Young-F",
+        "clips": 262,
+        "speakers": 37
+      },
+      {
+        "split": "val",
+        "cell": "Young-M",
+        "clips": 438,
+        "speakers": 58
+      }
+    ],
+    "audio_gb_planned": 1.54,
+    "from_pool": {
+      "other": 5298,
+      "invalidated": 24
+    }
+  },
+  "multi": {
+    "table": [
+      {
+        "lang": "en",
+        "cell": "Adult-F",
+        "clips": 1447,
+        "speakers": 670
+      },
+      {
+        "lang": "en",
+        "cell": "Adult-M",
+        "clips": 2116,
+        "speakers": 1189
+      },
+      {
+        "lang": "en",
+        "cell": "Young-F",
+        "clips": 1525,
+        "speakers": 697
+      },
+      {
+        "lang": "en",
+        "cell": "Young-M",
+        "clips": 1054,
+        "speakers": 748
+      },
+      {
+        "lang": "hi",
+        "cell": "Adult-F",
+        "clips": 9,
+        "speakers": 2
+      },
+      {
+        "lang": "hi",
+        "cell": "Adult-M",
+        "clips": 132,
+        "speakers": 28
+      },
+      {
+        "lang": "hi",
+        "cell": "Young-F",
+        "clips": 52,
+        "speakers": 14
+      },
+      {
+        "lang": "hi",
+        "cell": "Young-M",
+        "clips": 338,
+        "speakers": 73
+      },
+      {
+        "lang": "ml",
+        "cell": "Adult-F",
+        "clips": 5,
+        "speakers": 1
+      },
+      {
+        "lang": "ml",
+        "cell": "Adult-M",
+        "clips": 24,
+        "speakers": 7
+      },
+      {
+        "lang": "ml",
+        "cell": "Young-F",
+        "clips": 13,
+        "speakers": 4
+      },
+      {
+        "lang": "ml",
+        "cell": "Young-M",
+        "clips": 72,
+        "speakers": 16
+      },
+      {
+        "lang": "mr",
+        "cell": "Adult-F",
+        "clips": 6,
+        "speakers": 1
+      },
+      {
+        "lang": "mr",
+        "cell": "Adult-M",
+        "clips": 24,
+        "speakers": 4
+      },
+      {
+        "lang": "mr",
+        "cell": "Young-F",
+        "clips": 258,
+        "speakers": 44
+      },
+      {
+        "lang": "mr",
+        "cell": "Young-M",
+        "clips": 52,
+        "speakers": 11
+      },
+      {
+        "lang": "ta",
+        "cell": "Adult-F",
+        "clips": 252,
+        "speakers": 45
+      },
+      {
+        "lang": "ta",
+        "cell": "Adult-M",
+        "clips": 575,
+        "speakers": 111
+      },
+      {
+        "lang": "ta",
+        "cell": "Young-F",
+        "clips": 275,
+        "speakers": 50
+      },
+      {
+        "lang": "ta",
+        "cell": "Young-M",
+        "clips": 524,
+        "speakers": 111
+      },
+      {
+        "lang": "ur",
+        "cell": "Adult-F",
+        "clips": 20,
+        "speakers": 4
+      },
+      {
+        "lang": "ur",
+        "cell": "Adult-M",
+        "clips": 58,
+        "speakers": 11
+      },
+      {
+        "lang": "ur",
+        "cell": "Young-F",
+        "clips": 307,
+        "speakers": 56
+      },
+      {
+        "lang": "ur",
+        "cell": "Young-M",
+        "clips": 903,
+        "speakers": 166
+      }
+    ],
+    "audio_gb_planned": 1.81
+  },
+  "sets": {
+    "Validation": {
+      "clips": 1307,
+      "speakers": 222,
+      "adult_speakers": 34
+    },
+    "CV test": {
+      "clips": 489,
+      "speakers": 109,
+      "adult_speakers": 20
+    },
+    "Extended test": {
+      "clips": 1299,
+      "speakers": 219,
+      "adult_speakers": 37
+    },
+    "New-speaker test": {
+      "clips": 810,
+      "speakers": 110,
+      "adult_speakers": 17
+    }
+  },
+  "history": {
+    "C0_cv": [
+      {
+        "epoch": 1,
+        "loss": 0.6615973597764969,
+        "score": 0.6581890768314231,
+        "gender_f1": 0.7213624394403682,
+        "age_f1": 0.595015714222478
+      },
+      {
+        "epoch": 2,
+        "loss": 0.5030093911886215,
+        "score": 0.6682029564194341,
+        "gender_f1": 0.8395099259428811,
+        "age_f1": 0.4968959868959869
+      },
+      {
+        "epoch": 3,
+        "loss": 0.44569518518447876,
+        "score": 0.6973230003820874,
+        "gender_f1": 0.9453811047775394,
+        "age_f1": 0.4492648959866354
+      },
+      {
+        "epoch": 4,
+        "loss": 0.42680201411247254,
+        "score": 0.6957997318861899,
+        "gender_f1": 0.9454250840570497,
+        "age_f1": 0.44617437971533014
+      },
+      {
+        "epoch": 5,
+        "loss": 0.4174196379184723,
+        "score": 0.7256544008942851,
+        "gender_f1": 0.9438409215312273,
+        "age_f1": 0.5074678802573428
+      },
+      {
+        "epoch": 6,
+        "loss": 0.40990435993671415,
+        "score": 0.7553529122279812,
+        "gender_f1": 0.9516639890983375,
+        "age_f1": 0.5590418353576248
+      },
+      {
+        "epoch": 7,
+        "loss": 0.39767693912982943,
+        "score": 0.7063989577359465,
+        "gender_f1": 0.9456398732389557,
+        "age_f1": 0.46715804223293733
+      },
+      {
+        "epoch": 8,
+        "loss": 0.3954280427098274,
+        "score": 0.7046974448723745,
+        "gender_f1": 0.942821002976785,
+        "age_f1": 0.4665738867679641
+      },
+      {
+        "epoch": 9,
+        "loss": 0.39244042348861696,
+        "score": 0.6962991347406177,
+        "gender_f1": 0.9489658907698508,
+        "age_f1": 0.44363237871138445
+      },
+      {
+        "epoch": 10,
+        "loss": 0.37661407798528673,
+        "score": 0.7165126241771839,
+        "gender_f1": 0.9412174587257839,
+        "age_f1": 0.49180778962858385
+      }
+    ],
+    "C1_cv_l4": [
+      {
+        "epoch": 1,
+        "loss": 0.6661346888542176,
+        "score": 0.6886387435194234,
+        "gender_f1": 0.8027729489593896,
+        "age_f1": 0.5745045380794572
+      },
+      {
+        "epoch": 2,
+        "loss": 0.5007335209846496,
+        "score": 0.6492640745611332,
+        "gender_f1": 0.8463639196732695,
+        "age_f1": 0.452164229448997
+      },
+      {
+        "epoch": 3,
+        "loss": 0.44459146654605863,
+        "score": 0.7100479482012533,
+        "gender_f1": 0.9210482600313108,
+        "age_f1": 0.49904763637119576
+      },
+      {
+        "epoch": 4,
+        "loss": 0.43480533409118655,
+        "score": 0.6921640288611755,
+        "gender_f1": 0.9351690171531832,
+        "age_f1": 0.44915904056916767
+      },
+      {
+        "epoch": 5,
+        "loss": 0.41923819625377656,
+        "score": 0.7340448099147899,
+        "gender_f1": 0.9380738161375118,
+        "age_f1": 0.530015803692068
+      },
+      {
+        "epoch": 6,
+        "loss": 0.4046283427476883,
+        "score": 0.7518728778701443,
+        "gender_f1": 0.9485582554750682,
+        "age_f1": 0.5551875002652205
+      },
+      {
+        "epoch": 7,
+        "loss": 0.3896093609929085,
+        "score": 0.7185445437072412,
+        "gender_f1": 0.9455120168001867,
+        "age_f1": 0.49157707061429573
+      },
+      {
+        "epoch": 8,
+        "loss": 0.3917541446685791,
+        "score": 0.7167927141966867,
+        "gender_f1": 0.9329612782481636,
+        "age_f1": 0.5006241501452098
+      },
+      {
+        "epoch": 9,
+        "loss": 0.38243179267644883,
+        "score": 0.7169784627058369,
+        "gender_f1": 0.9462611698920016,
+        "age_f1": 0.48769575551967215
+      },
+      {
+        "epoch": 10,
+        "loss": 0.37330285757780074,
+        "score": 0.7327493458986104,
+        "gender_f1": 0.9521317976307747,
+        "age_f1": 0.5133668941664461
+      }
+    ],
+    "C2_pool": [
+      {
+        "epoch": 1,
+        "loss": 0.673214268565178,
+        "score": 0.7005673872554339,
+        "gender_f1": 0.839740630680015,
+        "age_f1": 0.5613941438308527
+      },
+      {
+        "epoch": 2,
+        "loss": 0.5292328922748566,
+        "score": 0.7300313144639948,
+        "gender_f1": 0.9406825814650086,
+        "age_f1": 0.519380047462981
+      },
+      {
+        "epoch": 3,
+        "loss": 0.4834315366744995,
+        "score": 0.7420644545691,
+        "gender_f1": 0.9390540744706051,
+        "age_f1": 0.5450748346675949
+      },
+      {
+        "epoch": 4,
+        "loss": 0.4590395381450653,
+        "score": 0.7206167121735282,
+        "gender_f1": 0.9455120168001867,
+        "age_f1": 0.4957214075468696
+      },
+      {
+        "epoch": 5,
+        "loss": 0.45137975144386294,
+        "score": 0.7334191559233187,
+        "gender_f1": 0.9480743799933029,
+        "age_f1": 0.5187639318533346
+      },
+      {
+        "epoch": 6,
+        "loss": 0.45296394908428195,
+        "score": 0.740566292123692,
+        "gender_f1": 0.94679315309831,
+        "age_f1": 0.534339431149074
+      },
+      {
+        "epoch": 7,
+        "loss": 0.43351386588811874,
+        "score": 0.7441132231844875,
+        "gender_f1": 0.9471799146270617,
+        "age_f1": 0.5410465317419132
+      },
+      {
+        "epoch": 8,
+        "loss": 0.4294869701266289,
+        "score": 0.7280867193940301,
+        "gender_f1": 0.955053587428385,
+        "age_f1": 0.5011198513596753
+      },
+      {
+        "epoch": 9,
+        "loss": 0.426191823720932,
+        "score": 0.7183714318455793,
+        "gender_f1": 0.9511072871464911,
+        "age_f1": 0.48563557654466744
+      },
+      {
+        "epoch": 10,
+        "loss": 0.41623399245738985,
+        "score": 0.7382323238009965,
+        "gender_f1": 0.9543298989656963,
+        "age_f1": 0.5221347486362966
+      },
+      {
+        "epoch": 11,
+        "loss": 0.40926592218875885,
+        "score": 0.7400541296290537,
+        "gender_f1": 0.954403416878062,
+        "age_f1": 0.5257048423800454
+      }
+    ],
+    "C3_multi": [
+      {
+        "epoch": 1,
+        "loss": 0.6820062725543976,
+        "score": 0.710725519243503,
+        "gender_f1": 0.8960404189632221,
+        "age_f1": 0.525410619523784
+      },
+      {
+        "epoch": 2,
+        "loss": 0.5723147904872894,
+        "score": 0.6907162277784605,
+        "gender_f1": 0.9357394632537593,
+        "age_f1": 0.4456929923031618
+      },
+      {
+        "epoch": 3,
+        "loss": 0.5171139628887177,
+        "score": 0.7419541103379315,
+        "gender_f1": 0.9310115829736669,
+        "age_f1": 0.5528966377021959
+      },
+      {
+        "epoch": 4,
+        "loss": 0.48201041543483736,
+        "score": 0.7435945290005072,
+        "gender_f1": 0.9421668801201573,
+        "age_f1": 0.545022177880857
+      },
+      {
+        "epoch": 5,
+        "loss": 0.4662092813253403,
+        "score": 0.7437550931629665,
+        "gender_f1": 0.9512240632930289,
+        "age_f1": 0.5362861230329041
+      },
+      {
+        "epoch": 6,
+        "loss": 0.45881934177875516,
+        "score": 0.7403606721180462,
+        "gender_f1": 0.9506551625195693,
+        "age_f1": 0.5300661817165231
+      },
+      {
+        "epoch": 7,
+        "loss": 0.45771873581409456,
+        "score": 0.7363944610025558,
+        "gender_f1": 0.9319301281253963,
+        "age_f1": 0.5408587938797152
+      },
+      {
+        "epoch": 8,
+        "loss": 0.43747717249393464,
+        "score": 0.7465577704499022,
+        "gender_f1": 0.9327081494557223,
+        "age_f1": 0.5604073914440821
+      },
+      {
+        "epoch": 9,
+        "loss": 0.4523783293962479,
+        "score": 0.7526294766387784,
+        "gender_f1": 0.9469444239427265,
+        "age_f1": 0.5583145293348305
+      },
+      {
+        "epoch": 10,
+        "loss": 0.4466804968118668,
+        "score": 0.7525891488639735,
+        "gender_f1": 0.9493020652661794,
+        "age_f1": 0.5558762324617676
+      },
+      {
+        "epoch": 11,
+        "loss": 0.44760140562057493,
+        "score": 0.7614343783456019,
+        "gender_f1": 0.9569315459592276,
+        "age_f1": 0.5659372107319762
+      },
+      {
+        "epoch": 12,
+        "loss": 0.44584835433959963,
+        "score": 0.748724190268127,
+        "gender_f1": 0.9522042166005014,
+        "age_f1": 0.5452441639357527
+      },
+      {
+        "epoch": 13,
+        "loss": 0.4349704022407532,
+        "score": 0.7485721237783447,
+        "gender_f1": 0.9538595316648634,
+        "age_f1": 0.5432847158918261
+      },
+      {
+        "epoch": 14,
+        "loss": 0.42966467773914335,
+        "score": 0.7567497570041084,
+        "gender_f1": 0.9562379709914879,
+        "age_f1": 0.5572615430167289
+      },
+      {
+        "epoch": 15,
+        "loss": 0.4256117553114891,
+        "score": 0.7517084466855195,
+        "gender_f1": 0.9550905404941071,
+        "age_f1": 0.548326352876932
+      }
+    ]
+  },
+  "validation": {
+    "v3.1": {
+      "gender accuracy": 0.9517980107115531,
+      "gender macro-F1": 0.9478408436580898,
+      "age balanced accuracy": 0.6390902967629463,
+      "age macro-F1": 0.5451320938407261,
+      "predicted Adult share": 0.3856159143075746,
+      "true Adult share": 0.1369548584544759
+    },
+    "V4.1-A": {
+      "gender accuracy": 0.9495026778882938,
+      "gender macro-F1": 0.945431427125506,
+      "age balanced accuracy": 0.6369457981694996,
+      "age macro-F1": 0.456256996762579,
+      "predicted Adult share": 0.5960214231063504,
+      "true Adult share": 0.1369548584544759
+    },
+    "C0_cv": {
+      "gender accuracy": 0.9525631216526397,
+      "gender macro-F1": 0.949227580537636,
+      "age balanced accuracy": 0.6551814651927572,
+      "age macro-F1": 0.5635992011483493,
+      "predicted Adult share": 0.3634276970160673,
+      "true Adult share": 0.1369548584544759
+    },
+    "C1_cv_l4": {
+      "gender accuracy": 0.9487375669472073,
+      "gender macro-F1": 0.9452017333896529,
+      "age balanced accuracy": 0.6160678909623994,
+      "age macro-F1": 0.5619493921073468,
+      "predicted Adult share": 0.29686304514154555,
+      "true Adult share": 0.1369548584544759
+    },
+    "C2_pool": {
+      "gender accuracy": 0.9472073450650345,
+      "gender macro-F1": 0.9429252223772772,
+      "age balanced accuracy": 0.5849899956416656,
+      "age macro-F1": 0.5358883481094036,
+      "predicted Adult share": 0.3114001530221882,
+      "true Adult share": 0.1369548584544759
+    },
+    "C3_multi": {
+      "gender accuracy": 0.96327467482785,
+      "gender macro-F1": 0.9609172144669103,
+      "age balanced accuracy": 0.6130071516304132,
+      "age macro-F1": 0.563653551497772,
+      "predicted Adult share": 0.28538638102524866,
+      "true Adult share": 0.1369548584544759
+    }
+  },
+  "winner": {
+    "passed_gender_guard": [
+      "C0_cv",
+      "C1_cv_l4",
+      "C2_pool",
+      "C3_multi"
+    ],
+    "winner": "C0_cv"
+  },
+  "comparison": {
+    "v3.1": {
+      "CV test: gender accuracy": 0.9325153374233128,
+      "CV test: gender macro-F1": 0.9284913477942969,
+      "CV test: age balanced accuracy": 0.6118768549725841,
+      "CV test: age macro-F1": 0.5807809212064531,
+      "CV test: predicted Adult share": 0.3476482617586912,
+      "CV test: true Adult share": 0.21063394683026584,
+      "Extended test: gender accuracy": 0.9137798306389531,
+      "Extended test: gender macro-F1": 0.9048968748692633,
+      "Extended test: age balanced accuracy": 0.5973933750965417,
+      "Extended test: age macro-F1": 0.5293263817018479,
+      "Extended test: predicted Adult share": 0.4095458044649731,
+      "Extended test: true Adult share": 0.16551193225558122,
+      "New-speaker test: gender accuracy": 0.9024691358024691,
+      "New-speaker test: gender macro-F1": 0.8891254966307943,
+      "New-speaker test: age balanced accuracy": 0.5981503274662301,
+      "New-speaker test: age macro-F1": 0.4989727616144211,
+      "New-speaker test: predicted Adult share": 0.4469135802469136,
+      "New-speaker test: true Adult share": 0.1382716049382716
+    },
+    "V4.1-A": {
+      "CV test: gender accuracy": 0.934560327198364,
+      "CV test: gender macro-F1": 0.9304409672830725,
+      "CV test: age balanced accuracy": 0.5713315559132753,
+      "CV test: age macro-F1": 0.46438920895573876,
+      "CV test: predicted Adult share": 0.6155419222903885,
+      "CV test: true Adult share": 0.21063394683026584,
+      "Extended test: gender accuracy": 0.9176289453425712,
+      "Extended test: gender macro-F1": 0.9092832690996074,
+      "Extended test: age balanced accuracy": 0.5862503218055437,
+      "Extended test: age macro-F1": 0.4358652966442771,
+      "Extended test: predicted Adult share": 0.6327944572748267,
+      "Extended test: true Adult share": 0.16551193225558122,
+      "New-speaker test: gender accuracy": 0.9074074074074074,
+      "New-speaker test: gender macro-F1": 0.8953443300745079,
+      "New-speaker test: age balanced accuracy": 0.603407695456406,
+      "New-speaker test: age macro-F1": 0.41788271222575946,
+      "New-speaker test: predicted Adult share": 0.6432098765432098,
+      "New-speaker test: true Adult share": 0.1382716049382716
+    },
+    "C0_cv": {
+      "CV test: gender accuracy": 0.9570552147239264,
+      "CV test: gender macro-F1": 0.9548530051833972,
+      "CV test: age balanced accuracy": 0.5920946727702601,
+      "CV test: age macro-F1": 0.5319088332391656,
+      "CV test: predicted Adult share": 0.4662576687116564,
+      "CV test: true Adult share": 0.21063394683026584,
+      "Extended test: gender accuracy": 0.9284064665127021,
+      "Extended test: gender macro-F1": 0.9218596077036271,
+      "Extended test: age balanced accuracy": 0.5955676649789754,
+      "Extended test: age macro-F1": 0.5255644045041858,
+      "Extended test: predicted Adult share": 0.4172440338722094,
+      "Extended test: true Adult share": 0.16551193225558122,
+      "New-speaker test: gender accuracy": 0.9111111111111111,
+      "New-speaker test: gender macro-F1": 0.9001841595410388,
+      "New-speaker test: age balanced accuracy": 0.591089336880884,
+      "New-speaker test: age macro-F1": 0.5158893056833463,
+      "New-speaker test: predicted Adult share": 0.38765432098765434,
+      "New-speaker test: true Adult share": 0.1382716049382716
+    },
+    "C1_cv_l4": {
+      "CV test: gender accuracy": 0.9631901840490797,
+      "CV test: gender macro-F1": 0.9614812351211315,
+      "CV test: age balanced accuracy": 0.5594471552895015,
+      "CV test: age macro-F1": 0.5404135338345865,
+      "CV test: predicted Adult share": 0.3333333333333333,
+      "CV test: true Adult share": 0.21063394683026584,
+      "Extended test: gender accuracy": 0.9330254041570438,
+      "Extended test: gender macro-F1": 0.9274535065775411,
+      "Extended test: age balanced accuracy": 0.603983952630224,
+      "Extended test: age macro-F1": 0.5620547812620984,
+      "Extended test: predicted Adult share": 0.31947652040030794,
+      "Extended test: true Adult share": 0.16551193225558122,
+      "New-speaker test: gender accuracy": 0.9148148148148149,
+      "New-speaker test: gender macro-F1": 0.9052793741557934,
+      "New-speaker test: age balanced accuracy": 0.6406825624232502,
+      "New-speaker test: age macro-F1": 0.5747882690557851,
+      "New-speaker test: predicted Adult share": 0.3111111111111111,
+      "New-speaker test: true Adult share": 0.1382716049382716
+    },
+    "C2_pool": {
+      "CV test: gender accuracy": 0.9570552147239264,
+      "CV test: gender macro-F1": 0.9548530051833972,
+      "CV test: age balanced accuracy": 0.596030987474219,
+      "CV test: age macro-F1": 0.5776925095106913,
+      "CV test: predicted Adult share": 0.3047034764826176,
+      "CV test: true Adult share": 0.21063394683026584,
+      "Extended test: gender accuracy": 0.9268668206312548,
+      "Extended test: gender macro-F1": 0.9197838020547255,
+      "Extended test: age balanced accuracy": 0.5827083154552476,
+      "Extended test: age macro-F1": 0.5400401090464702,
+      "Extended test: predicted Adult share": 0.34103156274056967,
+      "Extended test: true Adult share": 0.16551193225558122,
+      "New-speaker test: gender accuracy": 0.908641975308642,
+      "New-speaker test: gender macro-F1": 0.8964437748783725,
+      "New-speaker test: age balanced accuracy": 0.579512893982808,
+      "New-speaker test: age macro-F1": 0.5168437198204852,
+      "New-speaker test: predicted Adult share": 0.362962962962963,
+      "New-speaker test: true Adult share": 0.1382716049382716
+    },
+    "C3_multi": {
+      "CV test: gender accuracy": 0.9631901840490797,
+      "CV test: gender macro-F1": 0.9616169544740973,
+      "CV test: age balanced accuracy": 0.606381105689421,
+      "CV test: age macro-F1": 0.5813289372224734,
+      "CV test: predicted Adult share": 0.32719836400818,
+      "CV test: true Adult share": 0.21063394683026584,
+      "Extended test: gender accuracy": 0.9337952270977675,
+      "Extended test: gender macro-F1": 0.9287709069763883,
+      "Extended test: age balanced accuracy": 0.601639062902257,
+      "Extended test: age macro-F1": 0.561870898266859,
+      "Extended test: predicted Adult share": 0.3140877598152425,
+      "Extended test: true Adult share": 0.16551193225558122,
+      "New-speaker test: gender accuracy": 0.9160493827160494,
+      "New-speaker test: gender macro-F1": 0.9075193423597678,
+      "New-speaker test: age balanced accuracy": 0.5969223291035612,
+      "New-speaker test: age macro-F1": 0.5464285714285715,
+      "New-speaker test: predicted Adult share": 0.30617283950617286,
+      "New-speaker test: true Adult share": 0.1382716049382716
+    }
+  },
+  "bootstrap": {
+    "C0_cv minus v3.1 | CV test | gender accuracy": {
+      "difference": 0.024539877300613577,
+      "ci_low": 0.002036248431360477,
+      "ci_high": 0.05406192600367357,
+      "speakers": 109
+    },
+    "C0_cv minus v3.1 | CV test | age balanced accuracy": {
+      "difference": -0.019782182202324083,
+      "ci_low": -0.13333665323702826,
+      "ci_high": 0.12043335900374273,
+      "speakers": 109
+    },
+    "C0_cv minus v3.1 | Extended test | gender accuracy": {
+      "difference": 0.014626635873749017,
+      "ci_low": -0.0036632053702538164,
+      "ci_high": 0.03574270098242698,
+      "speakers": 219
+    },
+    "C0_cv minus v3.1 | Extended test | age balanced accuracy": {
+      "difference": -0.0018257101175662704,
+      "ci_low": -0.0733403833468837,
+      "ci_high": 0.08144968627902145,
+      "speakers": 219
+    },
+    "C0_cv minus V4.1-A | CV test | gender accuracy": {
+      "difference": 0.02249488752556239,
+      "ci_low": 0.004473280852393594,
+      "ci_high": 0.04137007821128985,
+      "speakers": 109
+    },
+    "C0_cv minus V4.1-A | CV test | age balanced accuracy": {
+      "difference": 0.02076311685698473,
+      "ci_low": -0.03587623410735456,
+      "ci_high": 0.06736060141482948,
+      "speakers": 109
+    },
+    "C0_cv minus V4.1-A | Extended test | gender accuracy": {
+      "difference": 0.010777521170130866,
+      "ci_low": -0.003282538399905002,
+      "ci_high": 0.024289464455433975,
+      "speakers": 219
+    },
+    "C0_cv minus V4.1-A | Extended test | age balanced accuracy": {
+      "difference": 0.009317343173431691,
+      "ci_low": -0.044275723000306,
+      "ci_high": 0.05818330117930855,
+      "speakers": 219
+    },
+    "C1_cv_l4 minus C0_cv | CV test | gender accuracy": {
+      "difference": 0.006134969325153339,
+      "ci_low": -0.007859710973232811,
+      "ci_high": 0.024754779301371137,
+      "speakers": 109
+    },
+    "C1_cv_l4 minus C0_cv | CV test | age balanced accuracy": {
+      "difference": -0.03264751748075856,
+      "ci_low": -0.1419884259259259,
+      "ci_high": 0.05892192094876951,
+      "speakers": 109
+    },
+    "C1_cv_l4 minus C0_cv | Extended test | gender accuracy": {
+      "difference": 0.004618937644341736,
+      "ci_low": -0.00838921871727492,
+      "ci_high": 0.01823631050861933,
+      "speakers": 219
+    },
+    "C1_cv_l4 minus C0_cv | Extended test | age balanced accuracy": {
+      "difference": 0.008416287651248577,
+      "ci_low": -0.06542755375538944,
+      "ci_high": 0.07847701589020663,
+      "speakers": 219
+    },
+    "C2_pool minus C1_cv_l4 | CV test | gender accuracy": {
+      "difference": -0.006134969325153339,
+      "ci_low": -0.021102565989598632,
+      "ci_high": 0.004265773876682609,
+      "speakers": 109
+    },
+    "C2_pool minus C1_cv_l4 | CV test | age balanced accuracy": {
+      "difference": 0.0365838321847175,
+      "ci_low": -0.0335361416969341,
+      "ci_high": 0.10598476670271735,
+      "speakers": 109
+    },
+    "C2_pool minus C1_cv_l4 | Extended test | gender accuracy": {
+      "difference": -0.006158583525789019,
+      "ci_low": -0.019548872180451097,
+      "ci_high": 0.006478090325936229,
+      "speakers": 219
+    },
+    "C2_pool minus C1_cv_l4 | Extended test | age balanced accuracy": {
+      "difference": -0.02127563717497638,
+      "ci_low": -0.0745402671398736,
+      "ci_high": 0.03120790634432654,
+      "speakers": 219
+    },
+    "C3_multi minus C2_pool | CV test | gender accuracy": {
+      "difference": 0.006134969325153339,
+      "ci_low": -0.009195719819648132,
+      "ci_high": 0.022993839507160538,
+      "speakers": 109
+    },
+    "C3_multi minus C2_pool | CV test | age balanced accuracy": {
+      "difference": 0.010350118215202042,
+      "ci_low": -0.06441388108852039,
+      "ci_high": 0.09864550727175643,
+      "speakers": 109
+    },
+    "C3_multi minus C2_pool | Extended test | gender accuracy": {
+      "difference": 0.006928406466512715,
+      "ci_low": -0.01249227067755831,
+      "ci_high": 0.024620155038759667,
+      "speakers": 219
+    },
+    "C3_multi minus C2_pool | Extended test | age balanced accuracy": {
+      "difference": 0.0189307474470094,
+      "ci_low": -0.026509149000029077,
+      "ci_high": 0.06750837063988659,
+      "speakers": 219
+    }
+  },
+  "coverage": {
+    "v3.1": [
+      {
+        "threshold": 0.5,
+        "answered": 1.0,
+        "age balanced accuracy": 0.5973933750965417,
+        "age accuracy": 0.6143187066974596
+      },
+      {
+        "threshold": 0.55,
+        "answered": 0.7575057736720554,
+        "age balanced accuracy": 0.6121097770154373,
+        "age accuracy": 0.6432926829268293
+      },
+      {
+        "threshold": 0.6,
+        "answered": 0.5458044649730562,
+        "age balanced accuracy": 0.6223577235772357,
+        "age accuracy": 0.7122708039492243
+      },
+      {
+        "threshold": 0.65,
+        "answered": 0.40261739799846036,
+        "age balanced accuracy": 0.5556915306915307,
+        "age accuracy": 0.7934990439770554
+      },
+      {
+        "threshold": 0.7,
+        "answered": 0.325635103926097,
+        "age balanced accuracy": 0.537467700258398,
+        "age accuracy": 0.8912529550827423
+      },
+      {
+        "threshold": 0.75,
+        "answered": 0.2779060816012317,
+        "age balanced accuracy": 0.4970326409495549,
+        "age accuracy": 0.9279778393351801
+      },
+      {
+        "threshold": 0.8,
+        "answered": 0.2155504234026174,
+        "age balanced accuracy": 0.5,
+        "age accuracy": 0.9428571428571428
+      },
+      {
+        "threshold": 0.85,
+        "answered": 0.10623556581986143,
+        "age balanced accuracy": 0.5,
+        "age accuracy": 0.927536231884058
+      },
+      {
+        "threshold": 0.9,
+        "answered": 0.01770592763664357,
+        "age balanced accuracy": 0.5,
+        "age accuracy": 0.9130434782608695
+      },
+      {
+        "threshold": 0.95,
+        "answered": 0.0007698229407236335,
+        "age balanced accuracy": NaN,
+        "age accuracy": 0.0
+      }
+    ],
+    "V4.1-A": [
+      {
+        "threshold": 0.5,
+        "answered": 1.0,
+        "age balanced accuracy": 0.5862503218055437,
+        "age accuracy": 0.4588144726712856
+      },
+      {
+        "threshold": 0.55,
+        "answered": 0.8252501924557352,
+        "age balanced accuracy": 0.5970914308073562,
+        "age accuracy": 0.4906716417910448
+      },
+      {
+        "threshold": 0.6,
+        "answered": 0.4210931485758276,
+        "age balanced accuracy": 0.666912689300749,
+        "age accuracy": 0.7404021937842779
+      },
+      {
+        "threshold": 0.65,
+        "answered": 0.24865280985373364,
+        "age balanced accuracy": 0.5149664429530201,
+        "age accuracy": 0.9164086687306502
+      },
+      {
+        "threshold": 0.7,
+        "answered": 0.15935334872979215,
+        "age balanced accuracy": 0.5,
+        "age accuracy": 0.9227053140096618
+      },
+      {
+        "threshold": 0.75,
+        "answered": 0.053117782909930716,
+        "age balanced accuracy": 0.5,
+        "age accuracy": 0.9855072463768116
+      },
+      {
+        "threshold": 0.8,
+        "answered": 0.0023094688221709007,
+        "age balanced accuracy": NaN,
+        "age accuracy": 1.0
+      },
+      {
+        "threshold": 0.85,
+        "answered": 0.0,
+        "age balanced accuracy": NaN,
+        "age accuracy": NaN
+      },
+      {
+        "threshold": 0.9,
+        "answered": 0.0,
+        "age balanced accuracy": NaN,
+        "age accuracy": NaN
+      },
+      {
+        "threshold": 0.95,
+        "answered": 0.0,
+        "age balanced accuracy": NaN,
+        "age accuracy": NaN
+      }
+    ],
+    "C0_cv": [
+      {
+        "threshold": 0.5,
+        "answered": 1.0,
+        "age balanced accuracy": 0.5955676649789754,
+        "age accuracy": 0.6081601231716706
+      },
+      {
+        "threshold": 0.55,
+        "answered": 0.4241724403387221,
+        "age balanced accuracy": 0.6200557511737089,
+        "age accuracy": 0.8294010889292196
+      },
+      {
+        "threshold": 0.6,
+        "answered": 0.32948421862971516,
+        "age balanced accuracy": 0.5,
+        "age accuracy": 0.9065420560747663
+      },
+      {
+        "threshold": 0.65,
+        "answered": 0.3040800615858353,
+        "age balanced accuracy": 0.5,
+        "age accuracy": 0.9189873417721519
+      },
+      {
+        "threshold": 0.7,
+        "answered": 0.25789068514241725,
+        "age balanced accuracy": 0.5,
+        "age accuracy": 0.9104477611940298
+      },
+      {
+        "threshold": 0.75,
+        "answered": 0.19091608929946113,
+        "age balanced accuracy": 0.5,
+        "age accuracy": 0.9233870967741935
+      },
+      {
+        "threshold": 0.8,
+        "answered": 0.07467282525019246,
+        "age balanced accuracy": 0.5,
+        "age accuracy": 0.9072164948453608
+      },
+      {
+        "threshold": 0.85,
+        "answered": 0.004618937644341801,
+        "age balanced accuracy": NaN,
+        "age accuracy": 0.6666666666666666
+      },
+      {
+        "threshold": 0.9,
+        "answered": 0.0,
+        "age balanced accuracy": NaN,
+        "age accuracy": NaN
+      },
+      {
+        "threshold": 0.95,
+        "answered": 0.0,
+        "age balanced accuracy": NaN,
+        "age accuracy": NaN
+      }
+    ]
+  },
+  "verdict": {
+    "checks": {
+      "Extended test: age balanced accuracy is higher than v3.1, and the 95% interval is above 0": false,
+      "v3.1's own Common Voice test: age balanced accuracy at most 2% below v3.1": true,
+      "Extended test: gender accuracy at most 1% below v3.1": true,
+      "Extended test: predicted Adult share within 10% of the true share": false
+    },
+    "adopt": false,
+    "answer": "KEEP v3.1 for gender and age; report D2 as an experiment",
+    "winner": "C0_cv"
+  }
+}

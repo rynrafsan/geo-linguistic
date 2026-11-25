@@ -1,0 +1,162 @@
+folder,file,path,seconds,district,district_conf,status,gender,gender_conf,age,age_conf,right_district
+Barishal,Barishal(1).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(1).mp3,2.35,Barishal,0.8206,confident,Female,0.6503,Adult,0.6536,True
+Barishal,Barishal(11).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(11).mp3,3.43,Barishal,0.9888,confident,Male,0.9851,Adult,0.7491,True
+Barishal,Barishal(113).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(113).mp3,2.83,Barishal,0.9615,confident,Male,0.9937,Adult,0.7438,True
+Barishal,Barishal(118).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(118).mp3,2.59,Barishal,0.9808,confident,Male,0.9602,Adult,0.802,True
+Barishal,Barishal(12).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(12).mp3,3.67,Barishal,0.8115,confident,Male,0.9852,Adult,0.7003,True
+Barishal,Barishal(19).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(19).mp3,1.87,Barishal,0.9824,confident,Male,0.9769,Adult,0.6956,True
+Barishal,Barishal(27).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(27).mp3,3.02,Barishal,0.9908,confident,Male,0.9848,Adult,0.6832,True
+Barishal,Barishal(32).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(32).mp3,2.66,Barishal,0.9811,confident,Male,0.9893,Adult,0.7763,True
+Barishal,Barishal(43).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(43).mp3,2.78,Barishal,0.888,confident,Male,0.9692,Adult,0.6622,True
+Barishal,Barishal(46).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(46).mp3,3.79,Barishal,0.9536,confident,Male,0.9888,Adult,0.5614,True
+Barishal,Barishal(5).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(5).mp3,3.22,Barishal,0.9318,confident,Male,0.987,Adult,0.6335,True
+Barishal,Barishal(57).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(57).mp3,3.82,Barishal,0.9925,confident,Male,0.9803,Adult,0.6259,True
+Barishal,Barishal(70).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(70).mp3,3.34,Barishal,0.9368,confident,Male,0.9822,Adult,0.7326,True
+Barishal,Barishal(74).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(74).mp3,4.1,Barishal,0.9162,confident,Male,0.9864,Adult,0.6553,True
+Barishal,Barishal(89).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(89).mp3,3.38,Barishal,0.999,confident,Male,0.9926,Adult,0.727,True
+Barishal,Barishal(90).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(90).mp3,3.07,Barishal,0.9486,confident,Male,0.9903,Adult,0.7185,True
+Barishal,Barishal(91).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(91).mp3,3.02,Barishal,0.9915,confident,Male,0.9911,Adult,0.6974,True
+Barishal,Barishal(97).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Barishal/Barishal(97).mp3,2.95,Barishal,0.9916,confident,Male,0.9726,Adult,0.7173,True
+Chottogram,Chottogram(1).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(1).mp3,3.98,Chottogram,0.9752,confident,Male,0.9728,Adult,0.5689,True
+Chottogram,Chottogram(11).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(11).mp3,2.98,Chottogram,0.7892,confident,Male,0.966,Adult,0.5043,True
+Chottogram,Chottogram(113).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(113).mp3,3.5,Chottogram,0.9719,confident,Male,0.9723,Young,0.5358,True
+Chottogram,Chottogram(118).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(118).mp3,2.54,Chottogram,0.9604,confident,Male,0.9611,Adult,0.5281,True
+Chottogram,Chottogram(12).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(12).mp3,3.5,Chottogram,0.971,confident,Male,0.9609,Young,0.5484,True
+Chottogram,Chottogram(19).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(19).mp3,4.15,Chottogram,0.9751,confident,Male,0.9673,Young,0.5298,True
+Chottogram,Chottogram(27).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(27).mp3,3.79,Chottogram,0.9574,confident,Male,0.9729,Young,0.5687,True
+Chottogram,Chottogram(32).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(32).mp3,2.9,Chottogram,0.9746,confident,Male,0.9699,Young,0.5519,True
+Chottogram,Chottogram(43).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(43).mp3,2.83,Chottogram,0.832,confident,Male,0.9788,Young,0.5149,True
+Chottogram,Chottogram(46).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(46).mp3,3.43,Chottogram,0.9283,confident,Male,0.9135,Adult,0.6041,True
+Chottogram,Chottogram(5).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(5).mp3,3.14,Chottogram,0.9859,confident,Male,0.9678,Young,0.5425,True
+Chottogram,Chottogram(57).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(57).mp3,3.38,Chottogram,0.9383,confident,Male,0.9765,Young,0.5274,True
+Chottogram,Chottogram(70).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(70).mp3,4.06,Chottogram,0.9668,confident,Male,0.9646,Young,0.5135,True
+Chottogram,Chottogram(74).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(74).mp3,3.91,Chottogram,0.9869,confident,Male,0.9767,Young,0.5593,True
+Chottogram,Chottogram(89).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(89).mp3,3.26,Chottogram,0.8526,confident,Male,0.9609,Young,0.5556,True
+Chottogram,Chottogram(90).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(90).mp3,4.06,Chottogram,0.9811,confident,Male,0.9741,Adult,0.5093,True
+Chottogram,Chottogram(91).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(91).mp3,4.1,Chottogram,0.9245,confident,Male,0.9727,Young,0.5614,True
+Chottogram,Chottogram(97).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Chottogram/Chottogram(97).mp3,3.31,Chottogram,0.9031,confident,Male,0.9692,Young,0.5706,True
+Jamalpur,Jamalpur(1).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(1).mp3,3.22,Jamalpur,0.9993,confident,Female,0.9273,Young,0.9122,True
+Jamalpur,Jamalpur(11).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(11).mp3,2.41,Jamalpur,0.9998,confident,Female,0.9834,Young,0.8951,True
+Jamalpur,Jamalpur(113).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(113).mp3,2.07,Jamalpur,0.9998,confident,Female,0.9692,Young,0.9059,True
+Jamalpur,Jamalpur(118).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(118).mp3,2.41,Jamalpur,0.9999,confident,Female,0.9809,Young,0.926,True
+Jamalpur,Jamalpur(12).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(12).mp3,2.09,Jamalpur,0.9999,confident,Female,0.9675,Young,0.8874,True
+Jamalpur,Jamalpur(19).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(19).mp3,2.18,Jamalpur,0.9997,confident,Female,0.9594,Young,0.887,True
+Jamalpur,Jamalpur(27).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(27).mp3,3.22,Jamalpur,0.9999,confident,Female,0.9677,Young,0.901,True
+Jamalpur,Jamalpur(32).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(32).mp3,2.15,Jamalpur,1.0,confident,Female,0.973,Young,0.8928,True
+Jamalpur,Jamalpur(43).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(43).mp3,3.05,Jamalpur,1.0,confident,Female,0.9711,Young,0.9212,True
+Jamalpur,Jamalpur(46).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(46).mp3,2.94,Jamalpur,0.9995,confident,Female,0.9629,Young,0.9115,True
+Jamalpur,Jamalpur(5).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(5).mp3,2.24,Jamalpur,0.9998,confident,Female,0.9817,Young,0.9032,True
+Jamalpur,Jamalpur(57).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(57).mp3,2.52,Jamalpur,0.9999,confident,Female,0.9794,Young,0.9105,True
+Jamalpur,Jamalpur(70).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(70).mp3,2.71,Jamalpur,0.9997,confident,Female,0.9733,Young,0.9149,True
+Jamalpur,Jamalpur(74).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(74).mp3,2.71,Jamalpur,0.9998,confident,Female,0.9722,Young,0.898,True
+Jamalpur,Jamalpur(89).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(89).mp3,2.77,Jamalpur,0.9993,confident,Female,0.9676,Young,0.8507,True
+Jamalpur,Jamalpur(90).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(90).mp3,2.97,Jamalpur,0.9998,confident,Female,0.9603,Young,0.8554,True
+Jamalpur,Jamalpur(91).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(91).mp3,2.43,Jamalpur,0.9999,confident,Female,0.9718,Young,0.9023,True
+Jamalpur,Jamalpur(97).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Jamalpur/Jamalpur(97).mp3,2.56,Jamalpur,1.0,confident,Female,0.9593,Young,0.896,True
+Mymensingh,Mymensingh(1).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(1).mp3,2.75,Mymensingh,0.9999,confident,Female,0.8218,Young,0.537,True
+Mymensingh,Mymensingh(11).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(11).mp3,2.71,Mymensingh,1.0,confident,Female,0.7852,Young,0.5858,True
+Mymensingh,Mymensingh(113).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(113).mp3,3.84,Mymensingh,1.0,confident,Female,0.831,Young,0.5477,True
+Mymensingh,Mymensingh(12).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(12).mp3,2.99,Mymensingh,1.0,confident,Female,0.8455,Young,0.5556,True
+Mymensingh,Mymensingh(19).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(19).mp3,5.23,Mymensingh,1.0,confident,Female,0.7749,Adult,0.5355,True
+Mymensingh,Mymensingh(27).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(27).mp3,4.1,Mymensingh,0.9999,confident,Female,0.7453,Adult,0.5412,True
+Mymensingh,Mymensingh(32).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(32).mp3,3.46,Mymensingh,1.0,confident,Female,0.7658,Young,0.5043,True
+Mymensingh,Mymensingh(43).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(43).mp3,4.16,Mymensingh,1.0,confident,Female,0.7965,Young,0.5869,True
+Mymensingh,Mymensingh(46).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(46).mp3,2.24,Mymensingh,1.0,confident,Female,0.7571,Young,0.5675,True
+Mymensingh,Mymensingh(5).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(5).mp3,4.86,Mymensingh,1.0,unknown_voice,Female,0.8585,Adult,0.5236,True
+Mymensingh,Mymensingh(57).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(57).mp3,3.2,Mymensingh,1.0,confident,Female,0.8708,Young,0.5717,True
+Mymensingh,Mymensingh(70).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(70).mp3,3.54,Mymensingh,1.0,confident,Female,0.7024,Young,0.6098,True
+Mymensingh,Mymensingh(74).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(74).mp3,3.67,Mymensingh,1.0,confident,Female,0.7874,Adult,0.5057,True
+Mymensingh,Mymensingh(89).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(89).mp3,2.84,Mymensingh,1.0,confident,Female,0.745,Adult,0.5082,True
+Mymensingh,Mymensingh(90).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(90).mp3,3.33,Mymensingh,1.0,confident,Female,0.874,Young,0.5169,True
+Mymensingh,Mymensingh(91).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(91).mp3,3.09,Mymensingh,1.0,confident,Female,0.8774,Young,0.6016,True
+Mymensingh,Mymensingh(97).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Mymensingh/Mymensingh(97).mp3,2.56,Mymensingh,1.0,unknown_voice,Female,0.9002,Young,0.5576,True
+Natore,Natore(1).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(1).mp3,2.54,Rangpur,0.9472,confident,Male,0.8672,Adult,0.561,False
+Natore,Natore(11).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(11).mp3,2.39,Natore,0.8676,confident,Male,0.9241,Adult,0.6883,True
+Natore,Natore(113).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(113).mp3,2.52,Natore,0.9999,confident,Male,0.9201,Adult,0.7102,True
+Natore,Natore(118).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(118).mp3,2.83,Barishal,0.5586,unsure,Male,0.5389,Adult,0.6411,False
+Natore,Natore(12).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(12).mp3,3.41,Natore,0.9813,confident,Male,0.9333,Adult,0.7064,True
+Natore,Natore(19).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(19).mp3,3.09,Natore,0.9997,confident,Male,0.8259,Adult,0.6721,True
+Natore,Natore(27).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(27).mp3,3.71,Natore,0.9997,confident,Male,0.9137,Adult,0.6863,True
+Natore,Natore(32).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(32).mp3,3.29,Natore,0.9999,confident,Male,0.9367,Adult,0.7067,True
+Natore,Natore(43).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(43).mp3,2.58,Natore,1.0,confident,Male,0.9533,Adult,0.7352,True
+Natore,Natore(46).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(46).mp3,2.86,Natore,0.9996,confident,Male,0.9091,Adult,0.7056,True
+Natore,Natore(5).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(5).mp3,3.41,Natore,0.9839,confident,Male,0.8585,Adult,0.6313,True
+Natore,Natore(57).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(57).mp3,3.5,Natore,0.9942,confident,Male,0.9114,Adult,0.6269,True
+Natore,Natore(70).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(70).mp3,3.11,Natore,0.9995,confident,Male,0.9487,Adult,0.6239,True
+Natore,Natore(74).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(74).mp3,2.5,Natore,0.9563,confident,Male,0.9309,Adult,0.7304,True
+Natore,Natore(89).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(89).mp3,3.18,Natore,0.9959,confident,Male,0.9243,Adult,0.6016,True
+Natore,Natore(90).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(90).mp3,2.33,Natore,0.9996,confident,Male,0.9027,Adult,0.6734,True
+Natore,Natore(91).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(91).mp3,2.39,Natore,0.9953,confident,Male,0.8591,Adult,0.7169,True
+Natore,Natore(97).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Natore/Natore(97).mp3,2.54,Natore,0.9999,confident,Male,0.8699,Adult,0.7004,True
+Noakhali,Noakhali(1).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(1).mp3,2.62,Noakhali,0.9988,confident,Female,0.9881,Young,0.6114,True
+Noakhali,Noakhali(11).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(11).mp3,2.45,Noakhali,0.9956,confident,Female,0.9881,Young,0.6396,True
+Noakhali,Noakhali(113).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(113).mp3,2.43,Noakhali,0.9999,confident,Female,0.9956,Young,0.6856,True
+Noakhali,Noakhali(118).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(118).mp3,2.9,Noakhali,0.9958,unknown_voice,Female,0.9974,Young,0.787,True
+Noakhali,Noakhali(12).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(12).mp3,2.45,Noakhali,0.9641,confident,Female,0.9919,Young,0.8181,True
+Noakhali,Noakhali(19).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(19).mp3,2.43,Noakhali,0.9935,confident,Female,0.9887,Young,0.7088,True
+Noakhali,Noakhali(27).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(27).mp3,3.14,Noakhali,0.9998,confident,Female,0.9929,Young,0.6765,True
+Noakhali,Noakhali(32).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(32).mp3,2.28,Noakhali,0.9966,confident,Female,0.9878,Young,0.6698,True
+Noakhali,Noakhali(43).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(43).mp3,2.45,Noakhali,0.9989,confident,Female,0.9957,Young,0.7416,True
+Noakhali,Noakhali(46).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(46).mp3,2.9,Noakhali,0.9992,confident,Female,0.9914,Young,0.7374,True
+Noakhali,Noakhali(5).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(5).mp3,2.24,Noakhali,0.9981,unknown_voice,Female,0.9884,Young,0.6512,True
+Noakhali,Noakhali(57).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(57).mp3,2.03,Noakhali,0.9998,confident,Female,0.9885,Young,0.6,True
+Noakhali,Noakhali(70).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(70).mp3,1.77,Noakhali,0.856,confident,Female,0.994,Young,0.7463,True
+Noakhali,Noakhali(74).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(74).mp3,3.01,Noakhali,0.9995,unknown_voice,Female,0.9941,Young,0.6646,True
+Noakhali,Noakhali(89).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(89).mp3,3.33,Noakhali,0.7853,unknown_voice,Female,0.9922,Young,0.8113,True
+Noakhali,Noakhali(90).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(90).mp3,3.2,Noakhali,0.9982,confident,Female,0.9965,Young,0.7761,True
+Noakhali,Noakhali(91).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(91).mp3,2.15,Noakhali,0.9621,unknown_voice,Female,0.9949,Young,0.7657,True
+Noakhali,Noakhali(97).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Noakhali/Noakhali(97).mp3,3.14,Noakhali,0.9999,confident,Female,0.9945,Young,0.7101,True
+Rangpur_Female,Rangpur_Female (1).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (1).mp3,2.69,Rangpur,0.9506,confident,Male,0.7963,Young,0.5857,True
+Rangpur_Female,Rangpur_Female (11).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (11).mp3,2.33,Rangpur,0.9837,confident,Male,0.7409,Young,0.5824,True
+Rangpur_Female,Rangpur_Female (113).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (113).mp3,1.81,Rangpur,0.9945,confident,Male,0.8079,Young,0.5662,True
+Rangpur_Female,Rangpur_Female (118).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (118).mp3,1.86,Rangpur,0.9944,confident,Male,0.8392,Young,0.5854,True
+Rangpur_Female,Rangpur_Female (12).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (12).mp3,1.92,Rangpur,0.8031,confident,Male,0.5857,Young,0.6387,True
+Rangpur_Female,Rangpur_Female (19).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (19).mp3,1.79,Rangpur,0.9861,confident,Male,0.9236,Young,0.6038,True
+Rangpur_Female,Rangpur_Female (27).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (27).mp3,1.81,Rangpur,0.9899,confident,Female,0.5179,Young,0.6371,True
+Rangpur_Female,Rangpur_Female (32).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (32).mp3,2.5,Rangpur,0.7808,unknown_voice,Male,0.8473,Young,0.5162,True
+Rangpur_Female,Rangpur_Female (43).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (43).mp3,2.88,Rangpur,0.9872,unknown_voice,Male,0.9439,Adult,0.5196,True
+Rangpur_Female,Rangpur_Female (46).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (46).mp3,2.09,Rangpur,0.9866,confident,Female,0.5,Young,0.557,True
+Rangpur_Female,Rangpur_Female (5).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (5).mp3,1.49,Rangpur,0.9897,confident,Male,0.701,Young,0.5255,True
+Rangpur_Female,Rangpur_Female (57).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (57).mp3,1.86,Rangpur,0.9952,confident,Male,0.7915,Young,0.6417,True
+Rangpur_Female,Rangpur_Female (70).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (70).mp3,2.54,Rangpur,0.9918,confident,Male,0.8498,Young,0.5295,True
+Rangpur_Female,Rangpur_Female (74).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (74).mp3,2.15,Rangpur,0.9886,confident,Male,0.8201,Young,0.5135,True
+Rangpur_Female,Rangpur_Female (89).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (89).mp3,2.03,Rangpur,0.9963,confident,Male,0.7804,Young,0.5204,True
+Rangpur_Female,Rangpur_Female (90).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (90).mp3,2.37,Rangpur,0.9942,confident,Male,0.8504,Young,0.5193,True
+Rangpur_Female,Rangpur_Female (91).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (91).mp3,2.05,Rangpur,0.995,confident,Male,0.9024,Adult,0.5506,True
+Rangpur_Female,Rangpur_Female (97).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Female/Rangpur_Female (97).mp3,2.79,Rangpur,0.9932,confident,Male,0.858,Adult,0.5993,True
+Rangpur_Male,Rangpure_male(1).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(1).mp3,2.88,Natore,0.5014,unsure,Male,0.8694,Adult,0.6037,False
+Rangpur_Male,Rangpure_male(11).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(11).mp3,3.75,Rangpur,0.9634,confident,Male,0.8727,Young,0.6817,True
+Rangpur_Male,Rangpure_male(113).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(113).mp3,1.82,Barishal,0.3371,unsure,Male,0.923,Adult,0.5449,False
+Rangpur_Male,Rangpure_male(118).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(118).mp3,3.38,Rangpur,0.4308,unsure,Male,0.8694,Young,0.6224,True
+Rangpur_Male,Rangpure_male(12).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(12).mp3,3.05,Rangpur,0.9598,confident,Male,0.9025,Young,0.6289,True
+Rangpur_Male,Rangpure_male(19).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(19).mp3,3.2,Rangpur,0.9234,confident,Male,0.8888,Young,0.6004,True
+Rangpur_Male,Rangpure_male(27).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(27).mp3,2.43,Natore,0.5068,unknown_voice,Male,0.9248,Adult,0.6494,False
+Rangpur_Male,Rangpure_male(32).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(32).mp3,3.82,Rangpur,0.877,confident,Male,0.9407,Young,0.6421,True
+Rangpur_Male,Rangpure_male(43).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(43).mp3,4.25,Rangpur,0.9555,confident,Male,0.9185,Young,0.703,True
+Rangpur_Male,Rangpure_male(46).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(46).mp3,3.71,Rangpur,0.8976,confident,Male,0.7786,Young,0.6342,True
+Rangpur_Male,Rangpure_male(5).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(5).mp3,2.71,Rangpur,0.9344,confident,Male,0.949,Young,0.5321,True
+Rangpur_Male,Rangpure_male(57).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(57).mp3,2.82,Rangpur,0.961,confident,Male,0.7631,Young,0.6247,True
+Rangpur_Male,Rangpure_male(70).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(70).mp3,3.39,Rangpur,0.7417,confident,Male,0.8875,Adult,0.5863,True
+Rangpur_Male,Rangpure_male(74).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(74).mp3,2.52,Natore,0.8171,confident,Male,0.9114,Adult,0.6422,False
+Rangpur_Male,Rangpure_male(89).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(89).mp3,3.37,Rangpur,0.9461,confident,Male,0.9465,Young,0.6466,True
+Rangpur_Male,Rangpure_male(90).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(90).mp3,2.86,Rangpur,0.737,confident,Male,0.8425,Young,0.6813,True
+Rangpur_Male,Rangpure_male(91).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(91).mp3,3.14,Natore,0.8855,unknown_voice,Male,0.9043,Young,0.6301,False
+Rangpur_Male,Rangpure_male(97).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Rangpur_Male/Rangpure_male(97).mp3,2.78,Rangpur,0.5108,unsure,Male,0.962,Adult,0.5245,True
+Tangail,Tangail(1).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(1).mp3,3.31,Tangail,0.9913,confident,Female,0.681,Young,0.5808,True
+Tangail,Tangail(11).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(11).mp3,1.99,Tangail,0.8455,confident,Female,0.809,Adult,0.5037,True
+Tangail,Tangail(113).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(113).mp3,2.38,Tangail,0.9834,confident,Female,0.8514,Young,0.5038,True
+Tangail,Tangail(118).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(118).mp3,2.59,Tangail,0.975,confident,Female,0.8159,Young,0.521,True
+Tangail,Tangail(12).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(12).mp3,2.38,Tangail,0.918,confident,Female,0.7283,Adult,0.5252,True
+Tangail,Tangail(19).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(19).mp3,2.18,Tangail,0.9025,confident,Female,0.788,Adult,0.5278,True
+Tangail,Tangail(27).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(27).mp3,1.75,Tangail,0.9828,confident,Female,0.8189,Adult,0.5603,True
+Tangail,Tangail(32).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(32).mp3,2.06,Tangail,0.9787,confident,Female,0.8437,Adult,0.5672,True
+Tangail,Tangail(43).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(43).mp3,2.26,Tangail,0.9795,confident,Female,0.8445,Adult,0.5498,True
+Tangail,Tangail(46).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(46).mp3,2.23,Tangail,0.9791,confident,Female,0.7668,Adult,0.5249,True
+Tangail,Tangail(5).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(5).mp3,2.83,Tangail,0.9354,confident,Female,0.7437,Adult,0.5118,True
+Tangail,Tangail(57).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(57).mp3,1.9,Tangail,0.9797,confident,Female,0.7186,Adult,0.5364,True
+Tangail,Tangail(70).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(70).mp3,2.83,Tangail,0.9834,confident,Female,0.8552,Young,0.5567,True
+Tangail,Tangail(74).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(74).mp3,2.35,Tangail,0.9892,confident,Female,0.7943,Adult,0.5369,True
+Tangail,Tangail(89).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(89).mp3,2.38,Tangail,0.9792,confident,Female,0.6885,Adult,0.5777,True
+Tangail,Tangail(90).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(90).mp3,2.54,Tangail,0.9507,confident,Female,0.6951,Young,0.5207,True
+Tangail,Tangail(91).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(91).mp3,3.19,Tangail,0.8927,confident,Female,0.7526,Adult,0.5328,True
+Tangail,Tangail(97).mp3,/home/claude/rbvd_data/RBVD Regional Bangla Voice Dataset/Tangail/Tangail(97).mp3,2.62,Tangail,0.9779,confident,Female,0.7659,Young,0.5062,True

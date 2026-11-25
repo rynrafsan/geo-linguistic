@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geo-Linguistic Audio Analysis</title>
+  <meta name="description" content="Identify the regional Bangla dialect, gender and age group of a speaker from a short voice clip.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wdth,wght@75..125,300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/web/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="project">Geo-Linguistic Audio Analysis</p>
+    <nav aria-label="Page sections">
+      <a href="#limits">What it can and cannot do</a>
+      <a href="#model">Model card</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <h1 id="hero-title">Which district does this voice come from?</h1>
+        <p class="lede-bn" lang="bn">কণ্ঠস্বর থেকে আঞ্চলিক ভাষা, লিঙ্গ ও বয়স শনাক্তকরণ</p>
+        <p class="lede">Record or upload some Bangla speech; 10 to 20 seconds works best. The model estimates the speaker's regional dialect, gender and age group, and says when it is unsure.</p>
+
+        <div class="controls">
+          <button id="record-btn" class="btn btn-primary" type="button" aria-pressed="false">
+            <span class="rec-dot" aria-hidden="true"></span><span id="record-label">Record your voice</span>
+          </button>
+          <label class="btn btn-quiet" for="file-input">Upload a recording</label>
+          <input id="file-input" type="file" accept="audio/*,.wav,.mp3,.m4a,.aac,.ogg,.webm,.flac" hidden>
+        </div>
+        <p id="record-hint" class="hint">Speak naturally for 10 to 20 seconds: longer speech gives steadier answers. Recording stops by itself after 30 seconds.</p>
+
+        <div id="sample-row" class="sample-row" hidden>
+          <label for="sample-select">Or try an RBVD clip</label>
+          <select id="sample-select">
+            <option value="">Choose a clip</option>
+          </select>
+        </div>
+
+        <div id="clip" class="clip" hidden>
+          <audio id="clip-audio" controls></audio>
+          <p id="clip-name" class="clip-name"></p>
+        </div>
+      </div>
+
+      <figure class="map-wrap" aria-labelledby="map-caption">
+        <svg id="map" viewBox="0 0 400 470" role="img" aria-labelledby="map-title map-desc">
+          <title id="map-title">The eight RBVD districts</title>
+          <desc id="map-desc">Each district is drawn at its real latitude and longitude. After a clip is analysed, each circle grows with the probability the model gives that district.</desc>
+        </svg>
+        <figcaption id="map-caption">The eight districts in RBVD, placed by latitude and longitude. After analysis, each circle grows with its probability.</figcaption>
+      </figure>
+    </section>
+
+    <section id="results" class="results" aria-live="polite" aria-labelledby="results-title" hidden>
+      <h2 id="results-title" class="visually-hidden">Results</h2>
+      <p id="status-line" class="status-line"></p>
+      <div id="voice-alert" class="voice-alert" hidden></div>
+      <div class="panels">
+        <article class="panel panel-dialect" aria-labelledby="dialect-title">
+          <h3 id="dialect-title">Dialect</h3>
+          <p class="answer"><span id="dialect-bn" class="answer-bn" lang="bn"></span><span id="dialect-en" class="answer-en"></span></p>
+          <p id="dialect-chip" class="chip"></p>
+          <ol id="dialect-list" class="score-list"></ol>
+        </article>
+        <article class="panel" aria-labelledby="gender-title">
+          <h3 id="gender-title">Gender</h3>
+          <p class="answer"><span id="gender-bn" class="answer-bn" lang="bn"></span><span id="gender-en" class="answer-en"></span></p>
+          <p id="gender-chip" class="chip"></p>
+          <ol id="gender-list" class="score-list"></ol>
+        </article>
+        <article class="panel" aria-labelledby="age-title">
+          <h3 id="age-title">Age group</h3>
+          <p class="answer"><span id="age-bn" class="answer-bn" lang="bn"></span><span id="age-en" class="answer-en"></span></p>
+          <p id="age-chip" class="chip"></p>
+          <ol id="age-list" class="score-list"></ol>
+        </article>
+      </div>
+    </section>
+
+    <section id="limits" class="limits" aria-labelledby="limits-title">
+      <h2 id="limits-title">What it can and cannot do</h2>
+      <div class="limits-grid">
+        <div>
+          <h3>Dialect of the nine RBVD speakers</h3>
+          <p>Reliable. On sentences it never heard from these speakers, the dialect macro-F1 is 0.983.</p>
+        </div>
+        <div>
+          <h3>Dialect of a new speaker</h3>
+          <p>Not reliable. Each RBVD district was recorded by one person, so the model learned to recognise those voices rather than the dialects. A held-out Rangpur speaker was recognised as Rangpur in 0% of clips. When a voice is unlike all nine, this page says <em>Unknown voice</em>.</p>
+        </div>
+        <div>
+          <h3>Gender and age group</h3>
+          <p>Tested on Common Voice speakers the model never heard: gender 94.3% accuracy, age group balanced accuracy 0.617. Common Voice Bangla has no labelled speakers aged 60 or over, so age has two groups. Recordings made in very different conditions may score lower.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="model" class="model-card" aria-labelledby="model-title">
+      <h2 id="model-title">Model card</h2>
+      <p>A ResNet-50 reads the log-mel spectrogram of each 5-second window and a two-layer Bi-LSTM reads its MFCC sequence. Their embeddings are joined in one shared layer that feeds three heads. Dialect was learned from the Regional Bangla Voice Dataset (RBVD, 1,067 clips, 8 districts); gender and age from Mozilla Common Voice Bangla. No gender or age label was taken from RBVD.</p>
+      <table>
+        <caption>Test results of the deployed model (V3.1)</caption>
+        <thead><tr><th scope="col">Task</th><th scope="col">Tested on</th><th scope="col">Result</th></tr></thead>
+        <tbody>
+          <tr><td>Dialect</td><td>Same 9 RBVD speakers, unseen sentences, 5 folds</td><td>Macro-F1 0.983 ± 0.016</td></tr>
+          <tr><td>Dialect</td><td>Held-out Rangpur speaker</td><td>0% recognised as Rangpur</td></tr>
+          <tr><td>Dialect</td><td>5 new speakers from 4 RBVD districts (BanglaAccent corpus, 40 clips)</td><td>6 of 40 correct (chance: 5 of 40)</td></tr>
+          <tr><td>Gender</td><td>6 new speakers from the BanglaAccent corpus (48 clips)</td><td>46 of 48 correct</td></tr>
+          <tr><td>Gender</td><td>109 unseen Common Voice speakers</td><td>Accuracy 0.943, macro-F1 0.939</td></tr>
+          <tr><td>Age group</td><td>Same Common Voice speakers</td><td>Balanced accuracy 0.617, macro-F1 0.587</td></tr>
+        </tbody>
+      </table>
+      <p id="calibration-note" class="fine"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Final Year Design Project, Department of Computer Science and Engineering, Daffodil International University.</p>
+    <p>Raiyan Jahan and Md. Ibna Labid. Supervised by Mushfiqur Rahman.</p>
+    <p>Sample clips from <a href="https://doi.org/10.17632/cwz5fgxznr.1">RBVD: Regional Bangla Voice Dataset</a> (Mushfiqur Rahman, Mendeley Data, 2025), licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Gender and age training data: <a href="https://commonvoice.mozilla.org/bn">Mozilla Common Voice</a> Bangla (CC0).</p>
+  </footer>
+
+  <script src="/web/app.js"></script>
+</body>
+</html>

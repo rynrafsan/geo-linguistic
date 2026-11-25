@@ -1,0 +1,28 @@
+{
+  "model_name_gender_age": "GEO D2 (C0 CV) for gender and age",
+  "rows": [
+    [
+      "Gender",
+      "Common Voice test speakers (same as v3.1)",
+      "Accuracy 95.7%"
+    ],
+    [
+      "Age group",
+      "Common Voice test speakers (same as v3.1)",
+      "Balanced accuracy 0.592"
+    ],
+    [
+      "Gender",
+      "Extended test (v3.1's test + new Bangla speakers)",
+      "Accuracy 92.8%"
+    ],
+    [
+      "Age group",
+      "Extended test (v3.1's test + new Bangla speakers)",
+      "Balanced accuracy 0.596"
+    ]
+  ],
+  "attribution": [
+    "Mozilla Common Voice 17.0 (CC0), via fixie-ai/common_voice_17_0"
+  ]
+}

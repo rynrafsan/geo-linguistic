@@ -1,0 +1,2036 @@
+{
+ "title": "Geo-Linguistic Audio Analysis: Automated Identification of Native Dialects and Speaker Attributes for Inclusive Services",
+ "generated_from": [
+  "d2_census.csv",
+  "d2_model_card.json",
+  "d2_results.json",
+  "early_versions.json",
+  "leak_groups.csv",
+  "leak_results.json",
+  "literature.json",
+  "v41_results.json",
+  "v4_results.json",
+  "c3_run/c3_results.json",
+  "c3_run/c3_predictions.csv",
+  "tools/sample_scores.csv"
+ ],
+ "headline": [
+  {
+   "value": 0.730769,
+   "format": "percent",
+   "label": "of clips from speakers the model never heard got the right district",
+   "detail": "GEO V4.1-A, RegSpeech12 test: 806 clips, 24 voice groups, 5 districts"
+  },
+  {
+   "value": 0.962655,
+   "format": "decimal",
+   "label": "macro-F1 on unseen sentences from the nine RBVD voices",
+   "detail": "GEO V4.1-A, RBVD test split: 161 clips, 8 districts"
+  },
+  {
+   "value": 0.932515,
+   "format": "percent",
+   "label": "gender accuracy on 109 Common Voice speakers held out from training",
+   "detail": "GEO v3.1, 489 clips; 96.1% on BanglaAccent, another corpus"
+  },
+  {
+   "value": 0.611877,
+   "format": "decimal",
+   "label": "balanced accuracy for age group (under 30 or 30+), the hardest output",
+   "detail": "GEO v3.1, same 109 speakers; chance is 0.50"
+  }
+ ],
+ "versions": [
+  {
+   "name": "GEO v1",
+   "platform": "Google Colab (T4)",
+   "notebook": "Geo_Linguistic_Dialect_Demographics (v1).ipynb",
+   "question": "Does the proposed ResNet-50 + Bi-LSTM network run end to end on RBVD?",
+   "data": "RBVD only, split 70/15/15 at random by clip. The Common Voice step failed (the official Hugging Face repository no longer loads), so gender came from the two Rangpur folders and age was not trained.",
+   "result": "Dialect macro-F1 0.995 on 161 test clips; gender 100% on 36 Rangpur clips. The same nine voices and the same 119 sentences were on both sides of the split.",
+   "decision": "Replaced: the random split let the model recognise voices and sentences it had already heard.",
+   "short": "99.5% on a random clip split: same voices in training and test",
+   "status": "replaced"
+  },
+  {
+   "name": "GEO v2",
+   "platform": "Google Colab (T4)",
+   "notebook": "Geo_Linguistic_Dialect_Demographics (V2).ipynb",
+   "question": "Can Common Voice teach gender and age before the dialect stage?",
+   "data": "Stage 1 on about 4,000 Common Voice Bangla clips through the fixie-ai mirror (gender; 3 age groups: under 25, 25-45, 45+); Stage 2 on RBVD with all three outputs; ResNet layer4 trained (15.9 M trainable parameters).",
+   "result": "The pipeline worked, but the network overfitted the 1,067 RBVD clips, and the random clip split still mixed voices and sentences. The saved notebook keeps no final scores.",
+   "decision": "Replaced by V3: smaller trainable network, stronger dropout and a sentence-disjoint test.",
+   "short": "Common Voice added; still a random split, and overfitting",
+   "status": "replaced"
+  },
+  {
+   "name": "GEO V3",
+   "platform": "Kaggle (T4 x2); Colab and local copies",
+   "notebook": "V3 notebook (Kaggle, Colab and local versions)",
+   "question": "What does the model score when test sentences and speakers are really new?",
+   "data": "ResNet-50 trunk frozen (0.9 M trainable parameters), fusion dropout 0.6; RBVD for dialect only; 5-fold sentence-disjoint test and a held-out Rangpur speaker.",
+   "result": "Dialect 0.981 macro-F1 on unseen sentences, but 4.2% and 0.8% on the two held-out Rangpur speakers. Gender 92.8% with only 55% recall for women; age 92.0%, which was simply always answering Young (no labelled speakers over 60).",
+   "decision": "Replaced by V3.1: the gender and age data needed balancing.",
+   "short": "Unseen sentences 98%, unseen speaker 0-4%: dialect equals speaker in RBVD",
+   "status": "replaced"
+  },
+  {
+   "name": "GEO v3.1",
+   "question": "Can one network learn dialect from RBVD and gender and age from Common Voice?",
+   "data": "RBVD (9 voices, 8 districts) for dialect; balanced Common Voice Bangla for gender and age. Common Voice drawn with gender and age quotas and split by speaker; age reduced to two groups (under 30, 30+).",
+   "result": "Known voices: macro-F1 0.966. New speakers: 10.3% on RegSpeech12, close to chance (12.5%). Gender 93.3%, age 0.612. Branch ablation (sentence-disjoint 5-fold macro-F1): fused 0.987, spectral only 0.929, temporal only 0.981.",
+   "decision": "Baseline for dialect: it recognises the nine RBVD voices rather than the dialects. Its gender and age answers are the ones the app uses.",
+   "status": "adopted",
+   "short": "10% on new speakers; answers gender and age in the app",
+   "platform": "Kaggle (T4 x2)",
+   "notebook": "Geo_Linguistic_Dialect_Demographics_V3.1_Kaggle.ipynb"
+  },
+  {
+   "name": "GEO V4",
+   "question": "Does adding RegSpeech12 (many speakers, 5 districts) teach the dialects themselves?",
+   "data": "RBVD + RegSpeech12 for dialect; every labelled Common Voice clip for gender and age",
+   "result": "New speakers: 47.1%. Gender 92.4%, age 0.513 (the unbalanced pool pushed age down).",
+   "decision": "Not adopted: gender and age dropped.",
+   "status": "rejected",
+   "short": "47% on new speakers; gender and age dropped",
+   "platform": "Kaggle",
+   "notebook": "Geo_Linguistic_V4_merge_Kaggle.ipynb"
+  },
+  {
+   "name": "GEO V4.1",
+   "question": "Can the dialect gain be kept without losing gender and age?",
+   "data": "V4 + v3.1's balanced Common Voice split, RegSpeech12 split by voice group, two starting points",
+   "result": "New speakers: 73.1% (+62.8 points over v3.1, 95% range +44.9 to +80.1). BanglaAccent gender −3.6 points, age −4.1 points, both inside their 95% ranges.",
+   "decision": "The pre-set rule said keep v3.1. After seeing the results the team combined the two: V4.1-A answers dialect, v3.1 answers gender and age.",
+   "status": "adopted",
+   "short": "73% on new speakers; answers dialect in the app",
+   "platform": "Kaggle",
+   "notebook": "Geo_Linguistic_V4.1_merge_Kaggle.ipynb"
+  },
+  {
+   "name": "Leakage check",
+   "question": "Is the 73% explained by the same people appearing in training and test?",
+   "data": "ECAPA voice fingerprints of every RegSpeech12 voice group",
+   "result": "Closest test-to-training similarity 0.74; the same voice scores 0.87 or more in 95% of cases. Without the 6 most similar groups: 68.7%.",
+   "decision": "No repeated speakers found. Accuracy varies a lot between voices (0–100% per group).",
+   "status": "check",
+   "short": "No repeated speakers found between training and test",
+   "platform": "Kaggle",
+   "notebook": "Geo_Linguistic_V4.1_leakage_check_Kaggle.ipynb"
+  },
+  {
+   "name": "D2",
+   "question": "Do more adult voices (new Bangla speakers, other languages) improve age?",
+   "data": "Common Voice Bangla pools v3.1 never used, plus 10 other languages for training only",
+   "result": "Gender up about 2–3 points (C3: 96.3% on the CV test). Age did not improve (0.602 vs 0.597 on the extended test).",
+   "decision": "The pre-set rule said keep v3.1. The team chose to confirm C3 on fresh voices (BanglaAccent).",
+   "status": "rejected",
+   "short": "Gender up 2 to 3 points; age unchanged",
+   "platform": "Kaggle",
+   "notebook": "Geo_Linguistic_D2_more_adult_voices_Kaggle.ipynb"
+  },
+  {
+   "name": "C3 confirmation",
+   "question": "Does C3's gender gain hold on voices it has never seen?",
+   "platform": "Kaggle",
+   "notebook": "Geo_Linguistic_C3_confirm_Kaggle.ipynb",
+   "data": "C3 retrained from D2's clips; BanglaAccent gender (24 speakers) as a fresh test",
+   "result": "Gender, Common Voice test: 96.3% against 93.3% for v3.1 (the D2 gain repeated). Gender on BanglaAccent, voices never used in training: 94.2% against 96.1%. Age, Common Voice test: 0.573 against 0.612.",
+   "decision": "The rule written before the run kept v3.1 for gender and age: BanglaAccent gender fell 1.9 points (1 allowed) and age fell 3.9 points on the Common Voice test (2 allowed).",
+   "status": "rejected",
+   "short": "Gender gain did not hold on fresh voices; v3.1 kept"
+  }
+ ],
+ "dialect": {
+  "table": {
+   "columns": [
+    "v3.1",
+    "V4-A",
+    "V4.1-A"
+   ],
+   "rows": [
+    {
+     "test": "RBVD known voices, macro-F1",
+     "format": "decimal",
+     "values": [
+      0.966471,
+      0.960474,
+      0.962655
+     ]
+    },
+    {
+     "test": "RegSpeech12 new speakers, accuracy",
+     "format": "percent",
+     "values": [
+      0.102978,
+      0.471223,
+      0.730769
+     ]
+    },
+    {
+     "test": "RegSpeech12 new speakers, per voice group",
+     "format": "percent",
+     "values": [
+      0.10084,
+      0.740741,
+      0.800568
+     ]
+    },
+    {
+     "test": "BanglaAccent read speech, accuracy",
+     "format": "percent",
+     "values": [
+      0.093333,
+      0.066667,
+      0.093333
+     ]
+    }
+   ],
+   "note": "V4's RegSpeech12 split differed from V4.1's, so its RegSpeech12 numbers are not directly comparable; v3.1 was scored on both splits."
+  },
+  "new_speakers_by_district": [
+   {
+    "district": "Rangpur",
+    "en": "Rangpur",
+    "v3.1": 0.362694,
+    "V4.1-A": 0.927461,
+    "test_clips": 193,
+    "train_clips": 900
+   },
+   {
+    "district": "Chottogram",
+    "en": "Chattogram",
+    "v3.1": 0.0,
+    "V4.1-A": 0.739623,
+    "test_clips": 265,
+    "train_clips": 1228
+   },
+   {
+    "district": "Barishal",
+    "en": "Barishal",
+    "v3.1": 0.084416,
+    "V4.1-A": 0.62987,
+    "test_clips": 154,
+    "train_clips": 700
+   },
+   {
+    "district": "Tangail",
+    "en": "Tangail",
+    "v3.1": 0.0,
+    "V4.1-A": 0.596859,
+    "test_clips": 191,
+    "train_clips": 889
+   },
+   {
+    "district": "Noakhali",
+    "en": "Noakhali",
+    "v3.1": 0.0,
+    "V4.1-A": 1.0,
+    "test_clips": 3,
+    "train_clips": 239
+   }
+  ],
+  "known_voices_by_district": [
+   {
+    "district": "Chottogram",
+    "en": "Chattogram",
+    "clips": 18,
+    "accuracy": 1.0,
+    "flagged_unknown": 0.0,
+    "confident": 1.0
+   },
+   {
+    "district": "Barishal",
+    "en": "Barishal",
+    "clips": 18,
+    "accuracy": 1.0,
+    "flagged_unknown": 0.0,
+    "confident": 1.0
+   },
+   {
+    "district": "Rangpur",
+    "en": "Rangpur",
+    "clips": 36,
+    "accuracy": 0.861111,
+    "flagged_unknown": 0.111111,
+    "confident": 0.777778
+   },
+   {
+    "district": "Noakhali",
+    "en": "Noakhali",
+    "clips": 18,
+    "accuracy": 1.0,
+    "flagged_unknown": 0.277778,
+    "confident": 0.722222
+   },
+   {
+    "district": "Mymensingh",
+    "en": "Mymensingh",
+    "clips": 17,
+    "accuracy": 1.0,
+    "flagged_unknown": 0.117647,
+    "confident": 0.882353
+   },
+   {
+    "district": "Tangail",
+    "en": "Tangail",
+    "clips": 18,
+    "accuracy": 1.0,
+    "flagged_unknown": 0.0,
+    "confident": 1.0
+   },
+   {
+    "district": "Jamalpur",
+    "en": "Jamalpur",
+    "clips": 18,
+    "accuracy": 1.0,
+    "flagged_unknown": 0.0,
+    "confident": 1.0
+   },
+   {
+    "district": "Natore",
+    "en": "Natore",
+    "clips": 18,
+    "accuracy": 0.888889,
+    "flagged_unknown": 0.0,
+    "confident": 0.944444
+   }
+  ],
+  "known_confusion": {
+   "labels": [
+    "Chottogram",
+    "Barishal",
+    "Rangpur",
+    "Noakhali",
+    "Mymensingh",
+    "Tangail",
+    "Jamalpur",
+    "Natore"
+   ],
+   "matrix": [
+    [
+     18,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     18,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     31,
+     0,
+     0,
+     0,
+     0,
+     4
+    ],
+    [
+     0,
+     0,
+     0,
+     18,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     17,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     18,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     18,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     16
+    ]
+   ]
+  },
+  "known_overall": {
+   "clips": 161,
+   "accuracy": 0.956522,
+   "flagged_unknown": 0.068323
+  },
+  "rbvd_only_share": {
+   "v3.1": 0.045906,
+   "V4.1-A": 0.0
+  },
+  "leakage": {
+   "groups": [
+    {
+     "group": "Barishal_c0",
+     "district": "Barishal",
+     "segments": 42,
+     "similarity": 0.744,
+     "accuracy": 0.929
+    },
+    {
+     "group": "Chottogram_c10",
+     "district": "Chottogram",
+     "segments": 82,
+     "similarity": 0.694,
+     "accuracy": 0.39
+    },
+    {
+     "group": "Rangpur_c16",
+     "district": "Rangpur",
+     "segments": 10,
+     "similarity": 0.678,
+     "accuracy": 1.0
+    },
+    {
+     "group": "Rangpur_c2",
+     "district": "Rangpur",
+     "segments": 74,
+     "similarity": 0.648,
+     "accuracy": 1.0
+    },
+    {
+     "group": "Tangail_c6",
+     "district": "Tangail",
+     "segments": 51,
+     "similarity": 0.642,
+     "accuracy": 1.0
+    },
+    {
+     "group": "Rangpur_c6",
+     "district": "Rangpur",
+     "segments": 65,
+     "similarity": 0.606,
+     "accuracy": 0.8
+    },
+    {
+     "group": "Tangail_c12",
+     "district": "Tangail",
+     "segments": 53,
+     "similarity": 0.603,
+     "accuracy": 0.943
+    },
+    {
+     "group": "Chottogram_c27",
+     "district": "Chottogram",
+     "segments": 10,
+     "similarity": 0.589,
+     "accuracy": 0.6
+    },
+    {
+     "group": "Barishal_c8",
+     "district": "Barishal",
+     "segments": 22,
+     "similarity": 0.578,
+     "accuracy": 0.318
+    },
+    {
+     "group": "Tangail_c11",
+     "district": "Tangail",
+     "segments": 10,
+     "similarity": 0.563,
+     "accuracy": 1.0
+    },
+    {
+     "group": "Chottogram_c12",
+     "district": "Chottogram",
+     "segments": 53,
+     "similarity": 0.556,
+     "accuracy": 0.811
+    },
+    {
+     "group": "Barishal_c26",
+     "district": "Barishal",
+     "segments": 12,
+     "similarity": 0.539,
+     "accuracy": 1.0
+    },
+    {
+     "group": "Chottogram_c20",
+     "district": "Chottogram",
+     "segments": 89,
+     "similarity": 0.512,
+     "accuracy": 0.944
+    },
+    {
+     "group": "Chottogram_c2",
+     "district": "Chottogram",
+     "segments": 31,
+     "similarity": 0.491,
+     "accuracy": 1.0
+    },
+    {
+     "group": "Barishal_c10",
+     "district": "Barishal",
+     "segments": 50,
+     "similarity": 0.485,
+     "accuracy": 0.74
+    },
+    {
+     "group": "Barishal_c3",
+     "district": "Barishal",
+     "segments": 28,
+     "similarity": 0.475,
+     "accuracy": 0.071
+    },
+    {
+     "group": "Rangpur_c31",
+     "district": "Rangpur",
+     "segments": 1,
+     "similarity": 0.468,
+     "accuracy": 1.0
+    },
+    {
+     "group": "Rangpur_c21",
+     "district": "Rangpur",
+     "segments": 3,
+     "similarity": 0.441,
+     "accuracy": 0.667
+    },
+    {
+     "group": "Noakhali_c3",
+     "district": "Noakhali",
+     "segments": 2,
+     "similarity": 0.436,
+     "accuracy": 1.0
+    },
+    {
+     "group": "Rangpur_c13",
+     "district": "Rangpur",
+     "segments": 40,
+     "similarity": 0.422,
+     "accuracy": 1.0
+    },
+    {
+     "group": "Tangail_c24",
+     "district": "Tangail",
+     "segments": 1,
+     "similarity": 0.415,
+     "accuracy": 1.0
+    },
+    {
+     "group": "Tangail_c2",
+     "district": "Tangail",
+     "segments": 2,
+     "similarity": 0.357,
+     "accuracy": 1.0
+    },
+    {
+     "group": "Tangail_c19",
+     "district": "Tangail",
+     "segments": 74,
+     "similarity": 0.346,
+     "accuracy": 0.0
+    },
+    {
+     "group": "Noakhali_c5",
+     "district": "Noakhali",
+     "segments": 1,
+     "similarity": 0.288,
+     "accuracy": 1.0
+    }
+   ],
+   "same_voice_p05": 0.872,
+   "same_voice_median": 0.97,
+   "different_people_p99": 0.605,
+   "different_people_median": 0.214,
+   "train_to_train_median": 0.532,
+   "accuracy": {
+    "all test groups": {
+     "clips": 806,
+     "groups": 24,
+     "v3.1": 0.102978,
+     "V4.1-A": 0.730769
+    },
+    "without groups flagged at the 99th pct": {
+     "clips": 482,
+     "groups": 18,
+     "v3.1": 0.056017,
+     "V4.1-A": 0.686722
+    },
+    "without groups flagged at the 95th pct (stricter)": {
+     "clips": 152,
+     "groups": 9,
+     "v3.1": 0.144737,
+     "V4.1-A": 0.335526
+    }
+   }
+  }
+ },
+ "demography": {
+  "models": [
+   {
+    "key": "v3.1",
+    "name": "GEO v3.1",
+    "note": "in the app"
+   },
+   {
+    "key": "V4.1-A",
+    "name": "GEO V4.1-A",
+    "note": "app dialect model"
+   },
+   {
+    "key": "C0_cv",
+    "name": "C0 Common Voice, new recipe",
+    "note": ""
+   },
+   {
+    "key": "C1_cv_l4",
+    "name": "C1 + layer4 fine-tuned",
+    "note": ""
+   },
+   {
+    "key": "C2_pool",
+    "name": "C2 + new Bangla speakers",
+    "note": ""
+   },
+   {
+    "key": "C3_multi",
+    "name": "C3 + other languages",
+    "note": "chosen for confirmation"
+   }
+  ],
+  "tests": [
+   {
+    "key": "CV test",
+    "label": "Common Voice test: 489 clips, 109 speakers",
+    "adult_speakers": 20
+   },
+   {
+    "key": "Extended test",
+    "label": "Extended test: 1299 clips, 219 speakers",
+    "adult_speakers": 37
+   },
+   {
+    "key": "New-speaker test",
+    "label": "New speakers only: 810 clips, 110 speakers",
+    "adult_speakers": 17
+   }
+  ],
+  "values": {
+   "v3.1": {
+    "CV test": {
+     "gender": 0.932515,
+     "age": 0.611877,
+     "adult_share": 0.347648,
+     "true_adult_share": 0.210634
+    },
+    "Extended test": {
+     "gender": 0.91378,
+     "age": 0.597393,
+     "adult_share": 0.409546,
+     "true_adult_share": 0.165512
+    },
+    "New-speaker test": {
+     "gender": 0.902469,
+     "age": 0.59815,
+     "adult_share": 0.446914,
+     "true_adult_share": 0.138272
+    }
+   },
+   "V4.1-A": {
+    "CV test": {
+     "gender": 0.93456,
+     "age": 0.571332,
+     "adult_share": 0.615542,
+     "true_adult_share": 0.210634
+    },
+    "Extended test": {
+     "gender": 0.917629,
+     "age": 0.58625,
+     "adult_share": 0.632794,
+     "true_adult_share": 0.165512
+    },
+    "New-speaker test": {
+     "gender": 0.907407,
+     "age": 0.603408,
+     "adult_share": 0.64321,
+     "true_adult_share": 0.138272
+    }
+   },
+   "C0_cv": {
+    "CV test": {
+     "gender": 0.957055,
+     "age": 0.592095,
+     "adult_share": 0.466258,
+     "true_adult_share": 0.210634
+    },
+    "Extended test": {
+     "gender": 0.928406,
+     "age": 0.595568,
+     "adult_share": 0.417244,
+     "true_adult_share": 0.165512
+    },
+    "New-speaker test": {
+     "gender": 0.911111,
+     "age": 0.591089,
+     "adult_share": 0.387654,
+     "true_adult_share": 0.138272
+    }
+   },
+   "C1_cv_l4": {
+    "CV test": {
+     "gender": 0.96319,
+     "age": 0.559447,
+     "adult_share": 0.333333,
+     "true_adult_share": 0.210634
+    },
+    "Extended test": {
+     "gender": 0.933025,
+     "age": 0.603984,
+     "adult_share": 0.319477,
+     "true_adult_share": 0.165512
+    },
+    "New-speaker test": {
+     "gender": 0.914815,
+     "age": 0.640683,
+     "adult_share": 0.311111,
+     "true_adult_share": 0.138272
+    }
+   },
+   "C2_pool": {
+    "CV test": {
+     "gender": 0.957055,
+     "age": 0.596031,
+     "adult_share": 0.304703,
+     "true_adult_share": 0.210634
+    },
+    "Extended test": {
+     "gender": 0.926867,
+     "age": 0.582708,
+     "adult_share": 0.341032,
+     "true_adult_share": 0.165512
+    },
+    "New-speaker test": {
+     "gender": 0.908642,
+     "age": 0.579513,
+     "adult_share": 0.362963,
+     "true_adult_share": 0.138272
+    }
+   },
+   "C3_multi": {
+    "CV test": {
+     "gender": 0.96319,
+     "age": 0.606381,
+     "adult_share": 0.327198,
+     "true_adult_share": 0.210634
+    },
+    "Extended test": {
+     "gender": 0.933795,
+     "age": 0.601639,
+     "adult_share": 0.314088,
+     "true_adult_share": 0.165512
+    },
+    "New-speaker test": {
+     "gender": 0.916049,
+     "age": 0.596922,
+     "adult_share": 0.306173,
+     "true_adult_share": 0.138272
+    }
+   }
+  },
+  "banglaaccent_gender": {
+   "v3.1": 0.961111,
+   "V4.1-A": 0.925
+  },
+  "bootstrap": [
+   {
+    "label": "C0 − v3.1, gender, CV test",
+    "difference": 0.02454,
+    "low": 0.002036,
+    "high": 0.054062,
+    "speakers": 109
+   },
+   {
+    "label": "C0 − v3.1, gender, extended test",
+    "difference": 0.014627,
+    "low": -0.003663,
+    "high": 0.035743,
+    "speakers": 219
+   },
+   {
+    "label": "C0 − v3.1, age, extended test",
+    "difference": -0.001826,
+    "low": -0.07334,
+    "high": 0.08145,
+    "speakers": 219
+   },
+   {
+    "label": "layer4 fine-tuning, age",
+    "difference": 0.008416,
+    "low": -0.065428,
+    "high": 0.078477,
+    "speakers": 219
+   },
+   {
+    "label": "new Bangla speakers, age",
+    "difference": -0.021276,
+    "low": -0.07454,
+    "high": 0.031208,
+    "speakers": 219
+   },
+   {
+    "label": "other languages, age",
+    "difference": 0.018931,
+    "low": -0.026509,
+    "high": 0.067508,
+    "speakers": 219
+   }
+  ],
+  "coverage": {
+   "v3.1": [
+    {
+     "threshold": 0.5,
+     "answered": 1.0,
+     "balanced": 0.597393
+    },
+    {
+     "threshold": 0.55,
+     "answered": 0.757506,
+     "balanced": 0.61211
+    },
+    {
+     "threshold": 0.6,
+     "answered": 0.545804,
+     "balanced": 0.622358
+    },
+    {
+     "threshold": 0.65,
+     "answered": 0.402617,
+     "balanced": 0.555692
+    },
+    {
+     "threshold": 0.7,
+     "answered": 0.325635,
+     "balanced": 0.537468
+    },
+    {
+     "threshold": 0.75,
+     "answered": 0.277906,
+     "balanced": 0.497033
+    },
+    {
+     "threshold": 0.8,
+     "answered": 0.21555,
+     "balanced": 0.5
+    },
+    {
+     "threshold": 0.85,
+     "answered": 0.106236,
+     "balanced": 0.5
+    },
+    {
+     "threshold": 0.9,
+     "answered": 0.017706,
+     "balanced": 0.5
+    },
+    {
+     "threshold": 0.95,
+     "answered": 0.00077,
+     "balanced": null
+    }
+   ],
+   "V4.1-A": [
+    {
+     "threshold": 0.5,
+     "answered": 1.0,
+     "balanced": 0.58625
+    },
+    {
+     "threshold": 0.55,
+     "answered": 0.82525,
+     "balanced": 0.597091
+    },
+    {
+     "threshold": 0.6,
+     "answered": 0.421093,
+     "balanced": 0.666913
+    },
+    {
+     "threshold": 0.65,
+     "answered": 0.248653,
+     "balanced": 0.514966
+    },
+    {
+     "threshold": 0.7,
+     "answered": 0.159353,
+     "balanced": 0.5
+    },
+    {
+     "threshold": 0.75,
+     "answered": 0.053118,
+     "balanced": 0.5
+    },
+    {
+     "threshold": 0.8,
+     "answered": 0.002309,
+     "balanced": null
+    },
+    {
+     "threshold": 0.85,
+     "answered": 0.0,
+     "balanced": null
+    },
+    {
+     "threshold": 0.9,
+     "answered": 0.0,
+     "balanced": null
+    },
+    {
+     "threshold": 0.95,
+     "answered": 0.0,
+     "balanced": null
+    }
+   ],
+   "C0_cv": [
+    {
+     "threshold": 0.5,
+     "answered": 1.0,
+     "balanced": 0.595568
+    },
+    {
+     "threshold": 0.55,
+     "answered": 0.424172,
+     "balanced": 0.620056
+    },
+    {
+     "threshold": 0.6,
+     "answered": 0.329484,
+     "balanced": 0.5
+    },
+    {
+     "threshold": 0.65,
+     "answered": 0.30408,
+     "balanced": 0.5
+    },
+    {
+     "threshold": 0.7,
+     "answered": 0.257891,
+     "balanced": 0.5
+    },
+    {
+     "threshold": 0.75,
+     "answered": 0.190916,
+     "balanced": 0.5
+    },
+    {
+     "threshold": 0.8,
+     "answered": 0.074673,
+     "balanced": 0.5
+    },
+    {
+     "threshold": 0.85,
+     "answered": 0.004619,
+     "balanced": null
+    },
+    {
+     "threshold": 0.9,
+     "answered": 0.0,
+     "balanced": null
+    },
+    {
+     "threshold": 0.95,
+     "answered": 0.0,
+     "balanced": null
+    }
+   ]
+  },
+  "verdict": {
+   "checks": {
+    "Extended test: age balanced accuracy is higher than v3.1, and the 95% interval is above 0": false,
+    "v3.1's own Common Voice test: age balanced accuracy at most 2% below v3.1": true,
+    "Extended test: gender accuracy at most 1% below v3.1": true,
+    "Extended test: predicted Adult share within 10% of the true share": false
+   },
+   "adopt": false,
+   "answer": "KEEP v3.1 for gender and age; report D2 as an experiment",
+   "winner": "C0_cv"
+  },
+  "c3_confirmation": {
+   "verdict": {
+    "checks": {
+     "K1 fresh voices: BanglaAccent gender at most 1% below v3.1": false,
+     "K2 gain reproduced: gender on v3.1's Common Voice test above v3.1": true,
+     "K3 age not worse: age balanced accuracy at most 2% below v3.1 on v3.1's test and the extended test": false
+    },
+    "use": {
+     "gender": "v3.1",
+     "age": "v3.1"
+    },
+    "answer": "Keep v3.1 for gender and age"
+   },
+   "values": {
+    "v3.1": {
+     "CV test: gender accuracy": 0.932515,
+     "CV test: gender macro-F1": 0.928491,
+     "CV test: age balanced accuracy": 0.611877,
+     "CV test: age macro-F1": 0.580781,
+     "CV test: predicted Adult share": 0.347648,
+     "CV test: true Adult share": 0.210634,
+     "Extended test: gender accuracy": 0.91378,
+     "Extended test: gender macro-F1": 0.904897,
+     "Extended test: age balanced accuracy": 0.597393,
+     "Extended test: age macro-F1": 0.529326,
+     "Extended test: predicted Adult share": 0.409546,
+     "Extended test: true Adult share": 0.165512,
+     "New-speaker test: gender accuracy": 0.902469,
+     "New-speaker test: gender macro-F1": 0.889125,
+     "New-speaker test: age balanced accuracy": 0.59815,
+     "New-speaker test: age macro-F1": 0.498973,
+     "New-speaker test: predicted Adult share": 0.446914,
+     "New-speaker test: true Adult share": 0.138272,
+     "BanglaAccent: gender accuracy": 0.961111,
+     "BanglaAccent: gender macro-F1": 0.953704
+    },
+    "V4.1-A": {
+     "CV test: gender accuracy": 0.93456,
+     "CV test: gender macro-F1": 0.930441,
+     "CV test: age balanced accuracy": 0.571332,
+     "CV test: age macro-F1": 0.464389,
+     "CV test: predicted Adult share": 0.615542,
+     "CV test: true Adult share": 0.210634,
+     "Extended test: gender accuracy": 0.917629,
+     "Extended test: gender macro-F1": 0.909283,
+     "Extended test: age balanced accuracy": 0.58625,
+     "Extended test: age macro-F1": 0.435865,
+     "Extended test: predicted Adult share": 0.632794,
+     "Extended test: true Adult share": 0.165512,
+     "New-speaker test: gender accuracy": 0.907407,
+     "New-speaker test: gender macro-F1": 0.895344,
+     "New-speaker test: age balanced accuracy": 0.603408,
+     "New-speaker test: age macro-F1": 0.417883,
+     "New-speaker test: predicted Adult share": 0.64321,
+     "New-speaker test: true Adult share": 0.138272,
+     "BanglaAccent: gender accuracy": 0.925,
+     "BanglaAccent: gender macro-F1": 0.908988
+    },
+    "C3": {
+     "CV test: gender accuracy": 0.96319,
+     "CV test: gender macro-F1": 0.961809,
+     "CV test: age balanced accuracy": 0.573369,
+     "CV test: age macro-F1": 0.554693,
+     "CV test: predicted Adult share": 0.321063,
+     "CV test: true Adult share": 0.210634,
+     "Extended test: gender accuracy": 0.930716,
+     "Extended test: gender macro-F1": 0.924987,
+     "Extended test: age balanced accuracy": 0.579325,
+     "Extended test: age macro-F1": 0.546197,
+     "Extended test: predicted Adult share": 0.309469,
+     "Extended test: true Adult share": 0.165512,
+     "New-speaker test: gender accuracy": 0.911111,
+     "New-speaker test: gender macro-F1": 0.900366,
+     "New-speaker test: age balanced accuracy": 0.583529,
+     "New-speaker test: age macro-F1": 0.538314,
+     "New-speaker test: predicted Adult share": 0.302469,
+     "New-speaker test: true Adult share": 0.138272,
+     "BanglaAccent: gender accuracy": 0.941667,
+     "BanglaAccent: gender macro-F1": 0.929994
+    }
+   },
+   "bootstrap": [
+    {
+     "label": "Gender, Common Voice test",
+     "difference": 0.030675,
+     "low": -0.009621,
+     "high": 0.075769,
+     "speakers": 109
+    },
+    {
+     "label": "Gender, extended test",
+     "difference": 0.016936,
+     "low": -0.007273,
+     "high": 0.044129,
+     "speakers": 219
+    },
+    {
+     "label": "Gender, BanglaAccent (fresh voices)",
+     "difference": -0.019444,
+     "low": -0.044514,
+     "high": 0.002778,
+     "speakers": 24
+    },
+    {
+     "label": "Age, Common Voice test",
+     "difference": -0.038508,
+     "low": -0.10801,
+     "high": 0.019965,
+     "speakers": 109
+    },
+    {
+     "label": "Age, extended test",
+     "difference": -0.018068,
+     "low": -0.083033,
+     "high": 0.045346,
+     "speakers": 219
+    }
+   ],
+   "groups": [
+    {
+     "label": "Women, Common Voice test",
+     "clips": 195,
+     "values": [
+      0.871795,
+      0.969231
+     ]
+    },
+    {
+     "label": "Men, Common Voice test",
+     "clips": 294,
+     "values": [
+      0.972789,
+      0.959184
+     ]
+    },
+    {
+     "label": "Women, Extended test",
+     "clips": 470,
+     "values": [
+      0.840426,
+      0.904255
+     ]
+    },
+    {
+     "label": "Men, Extended test",
+     "clips": 829,
+     "values": [
+      0.955368,
+      0.945718
+     ]
+    },
+    {
+     "label": "Women, BanglaAccent",
+     "clips": 105,
+     "values": [
+      0.961905,
+      0.914286
+     ]
+    },
+    {
+     "label": "Men, BanglaAccent",
+     "clips": 255,
+     "values": [
+      0.960784,
+      0.952941
+     ]
+    }
+   ]
+  }
+ },
+ "data": {
+  "datasets": [
+   {
+    "name": "RBVD: Regional Bangla Voice Dataset",
+    "role": "Dialect: training and test",
+    "size": "1,067 clips, 9 speakers, 8 districts (one speaker each; two for Rangpur)",
+    "split": "By sentence: 744 train, 162 validation, 161 test clips",
+    "labels": "District from the folder name. Gender and age are not taken from RBVD.",
+    "licence": "CC BY 4.0",
+    "source": "Mendeley Data, 10.17632/cwz5fgxznr.1 (Rahman, Rahman and Rana)"
+   },
+   {
+    "name": "RegSpeech12",
+    "role": "Dialect: training and test (5 districts)",
+    "size": "5,610 segments in 160 voice groups: Barishal 29, Chattogram 50, Noakhali 8, Rangpur 37, Tangail 36",
+    "split": "By voice group (ECAPA clustering), about 70 / 15 / 15 of each district's segments",
+    "labels": "Region from the corpus (spontaneous speech, 12 regions; 5 overlap with RBVD)",
+    "licence": "Released by its authors for public use",
+    "source": "Hassan et al., 2025, arXiv:2510.24096"
+   },
+   {
+    "name": "Mozilla Common Voice 17.0, Bangla",
+    "role": "Gender and age: training and test",
+    "size": "3,345 clips from 759 speakers (balanced by gender and age group)",
+    "split": "By speaker: 2,366 / 490 / 489 clips; 541 / 109 / 109 speakers",
+    "labels": "Self-reported gender and age band; under 30 = Young, 30+ = Adult",
+    "licence": "CC0",
+    "source": "fixie-ai/common_voice_17_0 (Hugging Face mirror)"
+   },
+   {
+    "name": "Common Voice 17.0, other pools and languages (D2)",
+    "role": "Gender and age: extra training data",
+    "size": "5,322 Bangla clips (979 training speakers in total); 10,041 clips from 4,052 speakers of other languages",
+    "split": "New Bangla speakers split by speaker; other-language speakers used for training only",
+    "labels": "As above",
+    "licence": "CC0",
+    "source": "fixie-ai/common_voice_17_0"
+   },
+   {
+    "name": "Bangla Regional Accent Speech Corpus (BanglaAccent)",
+    "role": "Test only: dialect and gender",
+    "size": "75 dialect clips from 5 speakers in RBVD districts; 360 gender clips from 24 speakers",
+    "split": "Never used for training",
+    "labels": "Place, gender and age from the corpus metadata",
+    "licence": "Data usage agreement: non-commercial research, no redistribution of audio",
+    "source": "Daffodil International University, 10.17632/phk8yrfrc4.4",
+    "attribution": "This research utilized the Bangla Regional Accent Speech Corpus, developed by Daffodil International University: 10.17632/phk8yrfrc4.4, representing regional Bangla speech diversity across Bangladesh."
+   }
+  ],
+  "common_voice_cells": [
+   {
+    "cell": "Young-M",
+    "train": 1060,
+    "val": 222,
+    "test": 218
+   },
+   {
+    "cell": "Young-F",
+    "train": 823,
+    "val": 206,
+    "test": 168
+   },
+   {
+    "cell": "Adult-M",
+    "train": 404,
+    "val": 58,
+    "test": 76
+   },
+   {
+    "cell": "Adult-F",
+    "train": 79,
+    "val": 4,
+    "test": 27
+   }
+  ],
+  "census": [
+   {
+    "language": "bn",
+    "pool": "validated",
+    "clips": 15017,
+    "adult_f": 19,
+    "adult_m": 98,
+    "young_f": 219,
+    "young_m": 1219,
+    "new_adult_f": 0
+   },
+   {
+    "language": "bn",
+    "pool": "other",
+    "clips": 792534,
+    "adult_f": 30,
+    "adult_m": 183,
+    "young_f": 426,
+    "young_m": 1993,
+    "new_adult_f": 12
+   },
+   {
+    "language": "bn",
+    "pool": "invalidated",
+    "clips": 2384,
+    "adult_f": 8,
+    "adult_m": 42,
+    "young_f": 68,
+    "young_m": 576,
+    "new_adult_f": 2
+   },
+   {
+    "language": "hi",
+    "pool": "validated",
+    "clips": 7130,
+    "adult_f": 3,
+    "adult_m": 31,
+    "young_f": 14,
+    "young_m": 76,
+    "new_adult_f": 0
+   },
+   {
+    "language": "ur",
+    "pool": "validated",
+    "clips": 23350,
+    "adult_f": 4,
+    "adult_m": 11,
+    "young_f": 56,
+    "young_m": 166,
+    "new_adult_f": 0
+   },
+   {
+    "language": "mr",
+    "pool": "validated",
+    "clips": 10442,
+    "adult_f": 1,
+    "adult_m": 5,
+    "young_f": 44,
+    "young_m": 12,
+    "new_adult_f": 0
+   },
+   {
+    "language": "ta",
+    "pool": "validated",
+    "clips": 49219,
+    "adult_f": 45,
+    "adult_m": 113,
+    "young_f": 51,
+    "young_m": 115,
+    "new_adult_f": 0
+   },
+   {
+    "language": "ml",
+    "pool": "validated",
+    "clips": 1925,
+    "adult_f": 1,
+    "adult_m": 8,
+    "young_f": 4,
+    "young_m": 17,
+    "new_adult_f": 0
+   },
+   {
+    "language": "en",
+    "pool": "validated",
+    "clips": 326717,
+    "adult_f": 1975,
+    "adult_m": 6304,
+    "young_f": 2033,
+    "young_m": 8322,
+    "new_adult_f": 0
+   }
+  ],
+  "d2_sets": {
+   "Validation": {
+    "clips": 1307,
+    "speakers": 222,
+    "adult_speakers": 34
+   },
+   "CV test": {
+    "clips": 489,
+    "speakers": 109,
+    "adult_speakers": 20
+   },
+   "Extended test": {
+    "clips": 1299,
+    "speakers": 219,
+    "adult_speakers": 37
+   },
+   "New-speaker test": {
+    "clips": 810,
+    "speakers": 110,
+    "adult_speakers": 17
+   }
+  }
+ },
+ "model": {
+  "parameters_m": 24.46,
+  "history_v41": [
+   {
+    "epoch": 1,
+    "new_speakers": 0.432332,
+    "known_voices": 0.684121
+   },
+   {
+    "epoch": 2,
+    "new_speakers": 0.45239,
+    "known_voices": 0.878751
+   },
+   {
+    "epoch": 3,
+    "new_speakers": 0.482595,
+    "known_voices": 0.942382
+   },
+   {
+    "epoch": 4,
+    "new_speakers": 0.446804,
+    "known_voices": 0.916065
+   },
+   {
+    "epoch": 5,
+    "new_speakers": 0.439587,
+    "known_voices": 0.972881
+   },
+   {
+    "epoch": 6,
+    "new_speakers": 0.492581,
+    "known_voices": 0.950035
+   },
+   {
+    "epoch": 7,
+    "new_speakers": 0.483785,
+    "known_voices": 0.979311
+   },
+   {
+    "epoch": 8,
+    "new_speakers": 0.540907,
+    "known_voices": 0.948214
+   },
+   {
+    "epoch": 9,
+    "new_speakers": 0.548364,
+    "known_voices": 0.979311
+   },
+   {
+    "epoch": 10,
+    "new_speakers": 0.549207,
+    "known_voices": 0.94528
+   },
+   {
+    "epoch": 11,
+    "new_speakers": 0.595041,
+    "known_voices": 0.976082
+   },
+   {
+    "epoch": 12,
+    "new_speakers": 0.549988,
+    "known_voices": 0.989672
+   },
+   {
+    "epoch": 13,
+    "new_speakers": 0.615632,
+    "known_voices": 0.963772
+   },
+   {
+    "epoch": 14,
+    "new_speakers": 0.557616,
+    "known_voices": 0.961881
+   },
+   {
+    "epoch": 15,
+    "new_speakers": 0.582874,
+    "known_voices": 0.982628
+   },
+   {
+    "epoch": 16,
+    "new_speakers": 0.552749,
+    "known_voices": 0.96938
+   },
+   {
+    "epoch": 17,
+    "new_speakers": 0.643131,
+    "known_voices": 0.98443
+   },
+   {
+    "epoch": 18,
+    "new_speakers": 0.613334,
+    "known_voices": 0.95073
+   },
+   {
+    "epoch": 19,
+    "new_speakers": 0.562989,
+    "known_voices": 0.97251
+   },
+   {
+    "epoch": 20,
+    "new_speakers": 0.552711,
+    "known_voices": 0.979653
+   },
+   {
+    "epoch": 21,
+    "new_speakers": 0.594221,
+    "known_voices": 0.972721
+   },
+   {
+    "epoch": 22,
+    "new_speakers": 0.548844,
+    "known_voices": 0.98985
+   },
+   {
+    "epoch": 23,
+    "new_speakers": 0.614565,
+    "known_voices": 0.981271
+   }
+  ],
+  "ablation": {
+   "source": "GEO v3.1 notebook (Kaggle), branch ablation: sentence-disjoint 5-fold dialect macro-F1 on RBVD",
+   "rows": [
+    {
+     "variant": "Fused (ResNet-50 + Bi-LSTM)",
+     "params": 899212,
+     "mean": 0.9867,
+     "std": 0.0088,
+     "diff": null,
+     "low": null,
+     "high": null,
+     "p": null
+    },
+    {
+     "variant": "Spectral only (ResNet-50)",
+     "params": 280588,
+     "mean": 0.9287,
+     "std": 0.0118,
+     "diff": 0.058,
+     "low": 0.0437,
+     "high": 0.0723,
+     "p": 0.0004
+    },
+    {
+     "variant": "Temporal only (Bi-LSTM)",
+     "params": 620556,
+     "mean": 0.9808,
+     "std": 0.0134,
+     "diff": 0.006,
+     "low": -0.0067,
+     "high": 0.0186,
+     "p": 0.262
+    },
+    {
+     "variant": "Temporal only, widened to the fused size",
+     "params": 892044,
+     "mean": 0.9772,
+     "std": 0.0095,
+     "diff": 0.0096,
+     "low": -0.0077,
+     "high": 0.0268,
+     "p": 0.1977
+    }
+   ]
+  },
+  "unknown_voice": {
+   "threshold": 13.62,
+   "flagged": {
+    "validation (known + unseen speakers of the 8 districts)": 0.050495,
+    "BanglaAccent places outside the 8 districts": 0.438596
+   }
+  },
+  "temperature_dialect": 1.27
+ },
+ "literature": {
+  "themes": [
+   {
+    "id": "A",
+    "name": "Dialect identification beyond Bangla",
+    "summary": "Dialect identification stays hard even with large multi-speaker corpora and strong encoders; combining two views of the signal helps."
+   },
+   {
+    "id": "B",
+    "name": "Bangla dialect and accent",
+    "summary": "Reported scores range from 75% to above 95%, but every split mixes clips of the same speakers across training and test."
+   },
+   {
+    "id": "C",
+    "name": "Age and gender from speech",
+    "summary": "Gender is above 90% almost everywhere; age is markedly harder, and Common Voice labels are self-reported and noisy."
+   },
+   {
+    "id": "D",
+    "name": "Fusing two views of the same audio",
+    "summary": "A spectral CNN and a temporal model capture different information; simple concatenation works as well as complex fusion."
+   },
+   {
+    "id": "E",
+    "name": "Evaluation protocol",
+    "summary": "The most conservative numbers come from studies that keep test speakers out of training and report confidence intervals."
+   },
+   {
+    "id": "F",
+    "name": "Fairness and inclusion",
+    "summary": "Speech systems fail more often for dialect and accent speakers, and average accuracy hides those per-group failures."
+   }
+  ],
+  "studies": [
+   {
+    "authors": "This project (GEO V4.1-A for dialect, v3.1 for gender and age)",
+    "year": 2026,
+    "theme": "ours",
+    "title": "Geo-Linguistic Audio Analysis: Automated Identification of Native Dialects and Speaker Attributes for Inclusive Services",
+    "venue": "FYDP, Daffodil International University",
+    "method": "ResNet-50 on log-mel + 2-layer Bi-LSTM on MFCC, fused; RBVD + RegSpeech12 for dialect, Common Voice Bangla for gender and age",
+    "findings": "Dialect 73.1% on new speakers (macro-F1 0.963 on known voices); gender 93.3%; age balanced accuracy 0.61",
+    "speakers": "Yes: held-out RegSpeech12 voices, unseen Common Voice speakers, BanglaAccent"
+   },
+   {
+    "theme": "A",
+    "authors": "Ali et al.",
+    "year": 2016,
+    "title": "Automatic dialect detection in Arabic broadcast speech",
+    "venue": "Interspeech",
+    "method": "Lexical, phonetic and i-vector features with an SVM back end; score fusion; 5 Arabic dialects",
+    "findings": "5-way accuracy about 60%; fusion of feature types helps",
+    "speakers": "Yes: test set from other channels and speakers"
+   },
+   {
+    "theme": "A",
+    "authors": "Angra et al.",
+    "year": 2025,
+    "title": "Aggregated wav2vec 2.0 features and dual-stream TDNN for spoken dialect identification",
+    "venue": "IEEE Access",
+    "method": "All-layer wav2vec 2.0 aggregation; global and local TDNN streams; Indian dialects",
+    "findings": "Aggregated self-supervised features beat single layers; dual-stream TDNN beats x-vector baselines",
+    "speakers": "Not stated (7:3 split)"
+   },
+   {
+    "theme": "A",
+    "authors": "Luo and Zhou",
+    "year": 2023,
+    "title": "Exploring the impact of back-end network on wav2vec 2.0 for dialect identification",
+    "venue": "Interspeech",
+    "method": "XLS-R features with spectral and temporal graph-attention back ends; Chinese dialects",
+    "findings": "Back end halves the error of mean pooling (Cavg 0.030 vs 0.065)",
+    "speakers": "Not stated"
+   },
+   {
+    "theme": "A",
+    "authors": "Kumar, Amartyaveer and Ghosh",
+    "year": 2025,
+    "title": "Jointly improving dialect identification and ASR in Indian languages using multimodal feature fusion",
+    "venue": "Interspeech",
+    "method": "IndicWav2Vec + Conformer; gated acoustic and text-like fusion; RESPIN, 8 languages, 33 dialects",
+    "findings": "Average dialect accuracy 81.6%; Bengali only 74.5%",
+    "speakers": "Not stated"
+   },
+   {
+    "theme": "B",
+    "authors": "Kabir and Sagar",
+    "year": 2025,
+    "title": "BengDiDa dataset and Bengali dialect classification",
+    "venue": "B.Sc. thesis, IUB",
+    "method": "48,000 ten-second social-media clips, 20 dialects; CNN-BiGRU and ResNet-50 + BiGRU",
+    "findings": "90.3% (CNN-BiGRU); ResNet-50 + BiGRU 80.8% frozen, 85.3% fine-tuned",
+    "speakers": "No: random 70/20/10 split after augmentation"
+   },
+   {
+    "theme": "B",
+    "authors": "Hossain, Chakrabarty, Kim and Piran",
+    "year": 2022,
+    "title": "Multi-label extreme learning machines for Bangla regional speech recognition",
+    "venue": "Applied Sciences (and Hossain's M.Sc. thesis, BRAC)",
+    "method": "Stacked convolutional autoencoder + multi-label ELMs; own 30 h corpus, 7 regions; dialect, age and gender together",
+    "findings": "Dialect 85%, 95% when the age class is used; gender 92%; age 91%",
+    "speakers": "No: random split of 1-second segments"
+   },
+   {
+    "theme": "B",
+    "authors": "Ali et al.",
+    "year": 2024,
+    "title": "Artificial neural networks to recognize speakers' division from continuous Bengali speech",
+    "venue": "arXiv (Daffodil International University)",
+    "method": "MFCC + dense network; 45 h from 633 speakers; 8 divisions",
+    "findings": "85.4% validation accuracy",
+    "speakers": "No: segment-level 80/10/10 split"
+   },
+   {
+    "theme": "B",
+    "authors": "Samin et al.",
+    "year": 2024,
+    "title": "BanglaDialecto: end-to-end regional speech standardization",
+    "venue": "arXiv",
+    "method": "Whisper ASR, BanglaT5 translation and TTS for Noakhali speech; 24 readers of one paragraph",
+    "findings": "Character error rate 0.8%, word error rate 1.5%",
+    "speakers": "No: random split, same text for everyone"
+   },
+   {
+    "theme": "B",
+    "authors": "Samiha et al.",
+    "year": 2025,
+    "title": "A hybrid deep learning approach for dialect-specific sentiment analysis of Bangla regional linguistics",
+    "venue": "NCIM",
+    "method": "Hybrid CNN-LSTM for sentiment; Naive Bayes for dialect; text data",
+    "findings": "Sentiment accuracy 94.69%",
+    "speakers": "Not applicable (text)"
+   },
+   {
+    "theme": "C",
+    "authors": "Kwasny and Hemmerling",
+    "year": 2021,
+    "title": "Gender and age estimation methods based on speech using deep neural networks",
+    "venue": "Sensors",
+    "method": "x-vector, d-vector and QuartzNet embeddings; Common Voice English, then TIMIT",
+    "findings": "Gender 99.6% on TIMIT; age error about 5 years; forgetting after fine-tuning",
+    "speakers": "Partly: authors warn their Common Voice split may share speakers"
+   },
+   {
+    "theme": "C",
+    "authors": "Burkhardt et al.",
+    "year": 2023,
+    "title": "Speech-based age and gender prediction with transformers",
+    "venue": "ITG Conference on Speech Communication",
+    "method": "wav2vec 2.0 with age and gender heads; 4 corpora",
+    "findings": "Joint model equals separate models; gender at least 91%; age error grows 4-5 years across corpora",
+    "speakers": "Yes"
+   },
+   {
+    "theme": "C",
+    "authors": "Yang, Thebaud and Dehak",
+    "year": 2025,
+    "title": "Demographic attributes prediction from speech using WavLM embeddings",
+    "venue": "arXiv",
+    "method": "Frozen WavLM with MLP, ResNet and BiLSTM heads; 5 corpora including Common Voice",
+    "findings": "Gender up to 99.8%; accent 61-63%; Common Voice among the weakest (self-reported labels)",
+    "speakers": "Not stated"
+   },
+   {
+    "theme": "C",
+    "authors": "Sinha et al.",
+    "year": 2025,
+    "title": "Layer-wise analysis of self-supervised representations for age and gender in children's speech",
+    "venue": "arXiv",
+    "method": "Frozen wav2vec 2.0 layers with a small CNN",
+    "findings": "Early layers carry speaker traits; MFCCs already strong for gender",
+    "speakers": "Yes"
+   },
+   {
+    "theme": "C",
+    "authors": "Baali et al.",
+    "year": 2025,
+    "title": "CoLMbo: speaker language model for descriptive profiling",
+    "venue": "arXiv",
+    "method": "Frozen speaker encoder + mapper + GPT-2; dialect, gender and age together",
+    "findings": "Dialect 88.6%; a 25 M-parameter model beats a 7.7 B audio language model; noise augmentation helps age",
+    "speakers": "Yes"
+   },
+   {
+    "theme": "C",
+    "authors": "Reza et al.",
+    "year": 2024,
+    "title": "Acoustic analysis of speech for gender and age classification using CNN and machine learning",
+    "venue": "ICCA (ACM)",
+    "method": "22 hand-made features + 1D CNN; English Common Voice (not Bangla); 5 age groups",
+    "findings": "Age 88.1%, gender 96.9%",
+    "speakers": "No: random 80/20 split of clips"
+   },
+   {
+    "theme": "C",
+    "authors": "Hridy, Hasan and Emon",
+    "year": 2019,
+    "title": "Age and gender recognition from Bengali speech (MFCC + GMM)",
+    "venue": "B.Sc. thesis, BRAC University",
+    "method": "MFCC + Gaussian mixture models; SHRUTI corpus, 34 speakers; age cut at 30",
+    "findings": "Gender 88%, age 76% on 34 speaker decisions (95% range about 60-88%)",
+    "speakers": "Not described"
+   },
+   {
+    "theme": "C",
+    "authors": "Alam et al.",
+    "year": 2022,
+    "title": "Bengali Common Voice speech dataset for automatic speech recognition",
+    "venue": "arXiv",
+    "method": "Common Voice Bangla v9: 399 h, about 20,000 speakers; ASR baselines",
+    "findings": "About 84% of training audio is male; age and gender only from logged-in contributors",
+    "speakers": "Yes (ASR split)"
+   },
+   {
+    "theme": "C",
+    "authors": "Chatterjee et al.",
+    "year": 2011,
+    "title": "Age and gender effects on voice range profile in Bengali adult speakers (phonetogram)",
+    "venue": "Int. J. Phonosurgery and Laryngology",
+    "method": "Clinical phonetogram measurements",
+    "findings": "Age and gender shift the pitch range of Bengali voices",
+    "speakers": "Not applicable (measurement study)"
+   },
+   {
+    "theme": "D",
+    "authors": "Fedorishin et al.",
+    "year": 2021,
+    "title": "Waveforms and spectrograms: multimodal feature fusion for acoustic scene classification",
+    "venue": "DCASE Workshop",
+    "method": "2D CNN on log-mel + 1D CNN on waveform; late fusion; parameter-matched ablation",
+    "findings": "Fusion 70.8% vs 66.5% and 64.8% for single branches; concatenation as good as other fusions",
+    "speakers": "Not applicable (scenes)"
+   },
+   {
+    "theme": "D",
+    "authors": "Chang et al.",
+    "year": 2023,
+    "title": "A two-stream convolution architecture for environmental sound classification",
+    "venue": "ACML",
+    "method": "One MFCC input split into time and frequency streams",
+    "findings": "Combined streams best; the two streams make different errors",
+    "speakers": "Not applicable (sounds)"
+   },
+   {
+    "theme": "D",
+    "authors": "Jahangir et al.",
+    "year": 2023,
+    "title": "Environmental sound classification using feature fusion and data enhancement",
+    "venue": "Computers, Materials and Continua",
+    "method": "Seven fused spectral features; 1D CNN and Transformer; noise, pitch and stretch augmentation",
+    "findings": "Up to 0.98 accuracy (UrbanSound8K)",
+    "speakers": "Not applicable; augmentation before cross-validation"
+   },
+   {
+    "theme": "D",
+    "authors": "Kong et al.",
+    "year": 2020,
+    "title": "Sound event detection with CNN-Transformer and automatic threshold optimization",
+    "venue": "IEEE/ACM TASLP",
+    "method": "CNN, CNN-BiGRU and CNN-Transformer on weak labels",
+    "findings": "CNN-Transformer about equal to CNN + recurrent layer",
+    "speakers": "Not applicable (sounds)"
+   },
+   {
+    "theme": "D",
+    "authors": "Zhou",
+    "year": 2026,
+    "title": "Music genre classification with a transformer-enhanced convolutional recurrent network",
+    "venue": "Discover Computing",
+    "method": "CNN on mel spectrograms + BiLSTM + attention, fused with handcrafted features",
+    "findings": "93.3%; removing fusion costs 4.0 points, removing the BiLSTM 2.6 points",
+    "speakers": "Not applicable (music)"
+   },
+   {
+    "theme": "E",
+    "authors": "Joshi et al.",
+    "year": 2025,
+    "title": "Recognizing every voice: towards inclusive ASR for rural Bhojpuri women (SRUTI)",
+    "venue": "Interspeech",
+    "method": "Speaker-disjoint benchmark of 51 speakers; synthetic speech from 100 women",
+    "findings": "Word error rate 33.8 to 29.1 with synthetic data; 15 h left out because it shared speakers",
+    "speakers": "Yes"
+   },
+   {
+    "theme": "F",
+    "authors": "Koenecke et al.",
+    "year": 2020,
+    "title": "Racial disparities in automated speech recognition",
+    "venue": "PNAS",
+    "method": "5 commercial recognisers; matched Black and white speakers",
+    "findings": "Word error rate 0.35 vs 0.19; the gap grows with dialect density",
+    "speakers": "Not applicable (evaluation only)"
+   },
+   {
+    "theme": "F",
+    "authors": "Chan et al.",
+    "year": 2022,
+    "title": "Training and typological bias in ASR performance for world Englishes",
+    "venue": "Interspeech",
+    "method": "Commercial ASR on 24 English varieties; mixed-effects analysis",
+    "findings": "Unsupported varieties 0.135 vs 0.071 word error rate; Bengali-L1 speakers 0.129",
+    "speakers": "Not applicable (evaluation only)"
+   },
+   {
+    "theme": "F",
+    "authors": "Saha, Bao and Patwari",
+    "year": 2026,
+    "title": "Evaluating bias in phoneme-based ASR: IPA transcription models",
+    "venue": "arXiv",
+    "method": "2 IPA recognisers, 11 languages including Bangla; bootstrap confidence intervals",
+    "findings": "Accent and dialect are the most robust axis of disparity",
+    "speakers": "Not applicable (evaluation only)"
+   },
+   {
+    "theme": "F",
+    "authors": "Danilevskyi, Perez-Tellez and Vasic",
+    "year": 2026,
+    "title": "Addressing accent disparities in ASR: single vs two-step adaptation",
+    "venue": "SPEAKABLE Workshop, LREC",
+    "method": "Whisper and XLSR on AfriSpeech; word error rate gaps with confidence intervals",
+    "findings": "Average error falls after fine-tuning, but accent gaps remain",
+    "speakers": "Yes"
+   },
+   {
+    "theme": "F",
+    "authors": "Nakatumba-Nabende et al.",
+    "year": 2025,
+    "title": "Systematic review on bias in ASR for low-resource African languages",
+    "venue": "ACM Computing Surveys",
+    "method": "PRISMA systematic review",
+    "findings": "Dialect, accent, gender and age bias; mitigation is mostly more data, augmentation and transfer learning",
+    "speakers": "Not applicable (review)"
+   }
+  ],
+  "gaps": [
+   {
+    "gap": "Joint dialect and demographic profiling",
+    "literature": "No Bangla study predicts dialect, gender and age with one audio-only model that uses transfer learning for gender and age; the only joint Bangla model needed a corpus with all three labels.",
+    "here": "One ResNet-50 + Bi-LSTM network with three outputs. Gender and age are learned from Common Voice, so no Bangla dialect corpus needs those labels."
+   },
+   {
+    "gap": "Testing on speakers kept out of training",
+    "literature": "Every Bangla dialect study reviewed splits clips or segments at random; none tests on unseen speakers, although that is standard in the age, gender and accent literature.",
+    "here": "Dialect is tested on RegSpeech12 voice groups held out from training; gender and age on 109 (and 219) Common Voice speakers held out from training; BanglaAccent is a third corpus used only for testing."
+   },
+   {
+    "gap": "Separating dialect from speaker identity",
+    "literature": "No study checks whether its dialect labels can be told apart from who is speaking.",
+    "here": "RBVD has one reader per district, so dialect equals speaker there: an unseen Rangpur speaker was recognised 0% of the time. A separate leakage check found no repeated voices between RegSpeech12 training and test groups."
+   },
+   {
+    "gap": "Branch ablation for Bangla",
+    "literature": "Fusing a spectral CNN with a temporal recurrent branch is well supported outside speech, but no Bangla dialect study reports what each branch adds.",
+    "here": "Removing the Bi-LSTM branch drops sentence-disjoint macro-F1 from 0.987 to 0.929 (95% range of the difference +4.4 to +7.2 points); removing the ResNet-50 branch leaves 0.981, a difference within chance."
+   }
+  ],
+  "comparison": {
+   "columns": [
+    "BengDiDa (Kabir and Sagar)",
+    "MLELM (Hossain et al.)",
+    "DIU division (Ali et al.)",
+    "BanglaDialecto (Samin et al.)",
+    "Kumar et al.",
+    "CoLMbo (Baali et al.)",
+    "This project"
+   ],
+   "rows": [
+    {
+     "feature": "Language and dialects",
+     "values": [
+      "Bengali, 20 dialects",
+      "Bangla, 7 regions",
+      "Bangla, 8 divisions",
+      "Noakhali only",
+      "8 Indian languages",
+      "English",
+      "Bangla, 8 districts"
+     ]
+    },
+    {
+     "feature": "Predicts dialect",
+     "values": [
+      "Yes",
+      "Yes",
+      "Yes",
+      "No (ASR)",
+      "Yes",
+      "Yes",
+      "Yes"
+     ]
+    },
+    {
+     "feature": "Predicts gender",
+     "values": [
+      "No",
+      "Yes",
+      "No",
+      "No",
+      "No",
+      "Yes",
+      "Yes"
+     ]
+    },
+    {
+     "feature": "Predicts age",
+     "values": [
+      "No",
+      "Yes (2 groups)",
+      "No",
+      "No",
+      "No",
+      "Yes",
+      "Yes (2 groups)"
+     ]
+    },
+    {
+     "feature": "One shared multi-task network",
+     "values": [
+      "No",
+      "Yes",
+      "No",
+      "No",
+      "Yes (dialect + ASR)",
+      "Yes",
+      "Yes (one design; the app runs two trained copies)"
+     ]
+    },
+    {
+     "feature": "Audio only, no text",
+     "values": [
+      "Yes",
+      "Yes",
+      "Yes",
+      "No",
+      "No",
+      "Yes",
+      "Yes"
+     ]
+    },
+    {
+     "feature": "Fuses two views of the audio",
+     "values": [
+      "Stacked feature channels",
+      "No",
+      "No",
+      "No",
+      "Yes (gated)",
+      "No",
+      "Yes (log-mel CNN + MFCC Bi-LSTM)"
+     ]
+    },
+    {
+     "feature": "Transfer learning for gender and age",
+     "values": [
+      "n/a",
+      "No",
+      "n/a",
+      "n/a",
+      "n/a",
+      "Pretrained encoder",
+      "Yes (Common Voice stage)"
+     ]
+    },
+    {
+     "feature": "Test speakers kept out of training",
+     "values": [
+      "No",
+      "No",
+      "No",
+      "No",
+      "Not stated",
+      "Yes",
+      "Yes (new RegSpeech12 voices; unseen Common Voice speakers)"
+     ]
+    },
+    {
+     "feature": "Augmentation on training data only",
+     "values": [
+      "No",
+      "Not stated",
+      "Not stated",
+      "Not stated",
+      "Not stated",
+      "Not stated",
+      "Yes"
+     ]
+    },
+    {
+     "feature": "Checks dialect vs speaker identity",
+     "values": [
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "Yes (RBVD audit and leakage check)"
+     ]
+    }
+   ],
+   "reported": [
+    "90.3% accuracy",
+    "85-95% dialect",
+    "85.4% accuracy",
+    "CER 0.8%",
+    "74.5% (Bengali)",
+    "88.6% dialect",
+    "Dialect 73.1% on new speakers; gender 93.3%; age 0.61 balanced"
+   ]
+  },
+  "source": "Literature review and gap analysis of the thesis draft (Chapter 2, Tables 2.1 and 2.2), plus the demography papers read on 2026-11-25. Descriptions are summaries; numbers are as reported by each study."
+ },
+ "c3_available": true
+}

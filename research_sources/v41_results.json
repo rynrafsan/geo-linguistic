@@ -1,0 +1,652 @@
+{
+  "config": {
+    "variants": [
+      "A_fresh",
+      "B_from_v31"
+    ],
+    "selection_weights": {
+      "regspeech_val": 0.7,
+      "rbvd_val": 0.3
+    },
+    "rbvd_share_in_shared": 0.3,
+    "stage2_epoch_samples": 4000,
+    "rs_split_fractions": {
+      "train": 0.7,
+      "val": 0.15,
+      "test": 0.15
+    },
+    "rs_train_cap_per_group": 60,
+    "cluster_merge_cos": 0.8,
+    "variant_guard": {
+      "gender_acc": 0.01,
+      "age_bal_acc": 0.02
+    },
+    "common_voice": "v3.1 quota manifest and split",
+    "smoke_test": false
+  },
+  "regspeech": {
+    "group_method": "voice clustering (ECAPA speaker embeddings)",
+    "segments": 5610,
+    "merges": {
+      "Barishal": 0,
+      "Chottogram": 0,
+      "Noakhali": 0,
+      "Rangpur": 0,
+      "Tangail": 0
+    },
+    "groups_per_region": {
+      "Barishal": 29,
+      "Chottogram": 50,
+      "Noakhali": 8,
+      "Rangpur": 37,
+      "Tangail": 36
+    },
+    "group_sizes": {
+      "groups": {
+        "Barishal": 29,
+        "Chottogram": 50,
+        "Noakhali": 8,
+        "Rangpur": 37,
+        "Tangail": 36
+      },
+      "min": {
+        "Barishal": 1,
+        "Chottogram": 1,
+        "Noakhali": 1,
+        "Rangpur": 1,
+        "Tangail": 1
+      },
+      "median": {
+        "Barishal": 20.0,
+        "Chottogram": 11.5,
+        "Noakhali": 37.5,
+        "Rangpur": 9.0,
+        "Tangail": 14.5
+      },
+      "max": {
+        "Barishal": 139,
+        "Chottogram": 386,
+        "Noakhali": 73,
+        "Rangpur": 362,
+        "Tangail": 276
+      },
+      "largest 3": {
+        "Barishal": "139, 117, 116",
+        "Chottogram": "386, 168, 138",
+        "Noakhali": "73, 60, 57",
+        "Rangpur": "362, 142, 110",
+        "Tangail": "276, 130, 117"
+      }
+    },
+    "split_segments": {
+      "train": {
+        "Barishal": 700,
+        "Chottogram": 1228,
+        "Noakhali": 239,
+        "Rangpur": 900,
+        "Tangail": 889
+      },
+      "val": {
+        "Barishal": 152,
+        "Chottogram": 264,
+        "Noakhali": 36,
+        "Rangpur": 205,
+        "Tangail": 191
+      },
+      "test": {
+        "Barishal": 154,
+        "Chottogram": 265,
+        "Noakhali": 3,
+        "Rangpur": 193,
+        "Tangail": 191
+      }
+    },
+    "split_groups": {
+      "train": {
+        "Barishal": 19,
+        "Chottogram": 37,
+        "Noakhali": 4,
+        "Rangpur": 27,
+        "Tangail": 25
+      },
+      "val": {
+        "Barishal": 5,
+        "Chottogram": 8,
+        "Noakhali": 2,
+        "Rangpur": 4,
+        "Tangail": 5
+      },
+      "test": {
+        "Barishal": 5,
+        "Chottogram": 5,
+        "Noakhali": 2,
+        "Rangpur": 6,
+        "Tangail": 6
+      }
+    }
+  },
+  "common_voice": {
+    "table": {
+      "clips": {
+        "train": 2366,
+        "val": 490,
+        "test": 489
+      },
+      "speakers": {
+        "train": 541,
+        "val": 109,
+        "test": 109
+      },
+      "Young-M": {
+        "train": 1060,
+        "val": 222,
+        "test": 218
+      },
+      "Young-F": {
+        "train": 823,
+        "val": 206,
+        "test": 168
+      },
+      "Adult-M": {
+        "train": 404,
+        "val": 58,
+        "test": 76
+      },
+      "Adult-F": {
+        "train": 79,
+        "val": 4,
+        "test": 27
+      }
+    },
+    "age_classes": [
+      "Young (<30)",
+      "Adult (30+)"
+    ],
+    "senior_speakers": 0
+  },
+  "stage1_val": {
+    "gender_f1": 0.9790887830525256,
+    "age_f1": 0.518850798243051
+  },
+  "stage2_history": {
+    "A_fresh": [
+      {
+        "epoch": 1,
+        "loss": 1.5559098007678986,
+        "score": 0.5078687365084881,
+        "regspeech_val": 0.43233211233211233,
+        "rbvd_val": 0.6841208595866981
+      },
+      {
+        "epoch": 2,
+        "loss": 1.0597599729299545,
+        "score": 0.5802980974666456,
+        "regspeech_val": 0.45238971998465666,
+        "rbvd_val": 0.8787509782579532
+      },
+      {
+        "epoch": 3,
+        "loss": 0.8845162124633789,
+        "score": 0.6205311011282036,
+        "regspeech_val": 0.48259518448202277,
+        "rbvd_val": 0.942381573302626
+      },
+      {
+        "epoch": 4,
+        "loss": 0.831009663105011,
+        "score": 0.5875819130931154,
+        "regspeech_val": 0.446803585033874,
+        "rbvd_val": 0.9160646785646785
+      },
+      {
+        "epoch": 5,
+        "loss": 0.7601634296178817,
+        "score": 0.599575393167102,
+        "regspeech_val": 0.4395871481237335,
+        "rbvd_val": 0.9728812982682952
+      },
+      {
+        "epoch": 6,
+        "loss": 0.6960267720222473,
+        "score": 0.6298170921323094,
+        "regspeech_val": 0.4925808191025582,
+        "rbvd_val": 0.9500350625350625
+      },
+      {
+        "epoch": 7,
+        "loss": 0.6987035671472549,
+        "score": 0.6324431812355074,
+        "regspeech_val": 0.4837853926085742,
+        "rbvd_val": 0.9793113546983516
+      },
+      {
+        "epoch": 8,
+        "loss": 0.6819226266145706,
+        "score": 0.6630992806456119,
+        "regspeech_val": 0.5409071356161803,
+        "rbvd_val": 0.9482142857142857
+      },
+      {
+        "epoch": 9,
+        "loss": 0.642979021191597,
+        "score": 0.6776485497239242,
+        "regspeech_val": 0.5483644904491697,
+        "rbvd_val": 0.9793113546983516
+      },
+      {
+        "epoch": 10,
+        "loss": 0.6566654255390167,
+        "score": 0.6680288164450121,
+        "regspeech_val": 0.5492070861700495,
+        "rbvd_val": 0.9452795204199248
+      },
+      {
+        "epoch": 11,
+        "loss": 0.6154107050895691,
+        "score": 0.7093535738757231,
+        "regspeech_val": 0.5950414481403168,
+        "rbvd_val": 0.9760818672583378
+      },
+      {
+        "epoch": 12,
+        "loss": 0.5950696306228638,
+        "score": 0.6818933572670414,
+        "regspeech_val": 0.5499883040935672,
+        "rbvd_val": 0.9896718146718146
+      },
+      {
+        "epoch": 13,
+        "loss": 0.5639663284420967,
+        "score": 0.7200739545943433,
+        "regspeech_val": 0.6156321205264474,
+        "rbvd_val": 0.9637715674194338
+      },
+      {
+        "epoch": 14,
+        "loss": 0.5915868366360665,
+        "score": 0.6788954030744155,
+        "regspeech_val": 0.5576159451262107,
+        "rbvd_val": 0.9618808049535603
+      },
+      {
+        "epoch": 15,
+        "loss": 0.5653677885532379,
+        "score": 0.7028002138693314,
+        "regspeech_val": 0.582873949579832,
+        "rbvd_val": 0.9826281638781639
+      },
+      {
+        "epoch": 16,
+        "loss": 0.5518736388087273,
+        "score": 0.6777380109085506,
+        "regspeech_val": 0.5527487554923837,
+        "rbvd_val": 0.9693796068796069
+      },
+      {
+        "epoch": 17,
+        "loss": 0.5537033694982528,
+        "score": 0.7455208729756047,
+        "regspeech_val": 0.6431312118553627,
+        "rbvd_val": 0.9844300822561692
+      },
+      {
+        "epoch": 18,
+        "loss": 0.5546323429346085,
+        "score": 0.7145529512399734,
+        "regspeech_val": 0.6133341342592036,
+        "rbvd_val": 0.9507301908617698
+      },
+      {
+        "epoch": 19,
+        "loss": 0.529963176548481,
+        "score": 0.6858455229104207,
+        "regspeech_val": 0.5629891304347827,
+        "rbvd_val": 0.9725104386869093
+      },
+      {
+        "epoch": 20,
+        "loss": 0.501195828795433,
+        "score": 0.6807940247405257,
+        "regspeech_val": 0.5527114799879941,
+        "rbvd_val": 0.9796532958297665
+      },
+      {
+        "epoch": 21,
+        "loss": 0.49838937652111054,
+        "score": 0.7077707590477005,
+        "regspeech_val": 0.5942208603307768,
+        "rbvd_val": 0.9727205227205227
+      },
+      {
+        "epoch": 22,
+        "loss": 0.46256739693880083,
+        "score": 0.6811457018643434,
+        "regspeech_val": 0.5488440209232832,
+        "rbvd_val": 0.9898496240601504
+      },
+      {
+        "epoch": 23,
+        "loss": 0.45410143458843233,
+        "score": 0.7245765434831899,
+        "regspeech_val": 0.6145645860497585,
+        "rbvd_val": 0.9812711108278631
+      }
+    ],
+    "B_from_v31": [
+      {
+        "epoch": 1,
+        "loss": 1.114335403084755,
+        "score": 0.5692803001952849,
+        "regspeech_val": 0.4042596909051578,
+        "rbvd_val": 0.9543283885389149
+      },
+      {
+        "epoch": 2,
+        "loss": 0.9178634679317474,
+        "score": 0.6098879728066482,
+        "regspeech_val": 0.4634943230652306,
+        "rbvd_val": 0.951473155536623
+      },
+      {
+        "epoch": 3,
+        "loss": 0.8033911962509155,
+        "score": 0.6000562627324642,
+        "regspeech_val": 0.43977740727740733,
+        "rbvd_val": 0.9740402587942634
+      },
+      {
+        "epoch": 4,
+        "loss": 0.7597956230640411,
+        "score": 0.6138905454624719,
+        "regspeech_val": 0.45359595725001733,
+        "rbvd_val": 0.9879112512915329
+      },
+      {
+        "epoch": 5,
+        "loss": 0.6552893278598786,
+        "score": 0.6520873242329811,
+        "regspeech_val": 0.5117019078343589,
+        "rbvd_val": 0.9796532958297665
+      },
+      {
+        "epoch": 6,
+        "loss": 0.654198799431324,
+        "score": 0.6420072551661851,
+        "regspeech_val": 0.5104441628831873,
+        "rbvd_val": 0.9489878038265136
+      },
+      {
+        "epoch": 7,
+        "loss": 0.626045814037323,
+        "score": 0.635078587268288,
+        "regspeech_val": 0.4897685380936297,
+        "rbvd_val": 0.9741353686758243
+      },
+      {
+        "epoch": 8,
+        "loss": 0.6206941131949425,
+        "score": 0.655785059571621,
+        "regspeech_val": 0.5193160683835002,
+        "rbvd_val": 0.9742127056772365
+      },
+      {
+        "epoch": 9,
+        "loss": 0.5970290254950523,
+        "score": 0.6848275690135031,
+        "regspeech_val": 0.5519560736301445,
+        "rbvd_val": 0.99486105824134
+      },
+      {
+        "epoch": 10,
+        "loss": 0.5865108240246772,
+        "score": 0.7046232649369368,
+        "regspeech_val": 0.5802977030550035,
+        "rbvd_val": 0.9947162426614482
+      },
+      {
+        "epoch": 11,
+        "loss": 0.5778073786497117,
+        "score": 0.6989723852960282,
+        "regspeech_val": 0.5721629540337518,
+        "rbvd_val": 0.99486105824134
+      },
+      {
+        "epoch": 12,
+        "loss": 0.5499634254574776,
+        "score": 0.6989545202505058,
+        "regspeech_val": 0.5721374325401483,
+        "rbvd_val": 0.99486105824134
+      },
+      {
+        "epoch": 13,
+        "loss": 0.5714263548851013,
+        "score": 0.6598243447327599,
+        "regspeech_val": 0.5285249391914459,
+        "rbvd_val": 0.9661896243291592
+      },
+      {
+        "epoch": 14,
+        "loss": 0.5285617194771767,
+        "score": 0.6790470143421248,
+        "regspeech_val": 0.541495734774464,
+        "rbvd_val": 1.0
+      },
+      {
+        "epoch": 15,
+        "loss": 0.5141046672463417,
+        "score": 0.6678986861018017,
+        "regspeech_val": 0.5255695515740025,
+        "rbvd_val": 1.0
+      },
+      {
+        "epoch": 16,
+        "loss": 0.45892591106891634,
+        "score": 0.6997817652802463,
+        "regspeech_val": 0.571116807543209,
+        "rbvd_val": 1.0
+      }
+    ]
+  },
+  "validation_gender_age": {
+    "v3.1": {
+      "gender_acc": 0.9795918367346939,
+      "age_bal_acc": 0.6558637322882123
+    },
+    "A_fresh": {
+      "gender_acc": 0.9734693877551021,
+      "age_bal_acc": 0.685483870967742
+    },
+    "B_from_v31": {
+      "gender_acc": 0.9795918367346939,
+      "age_bal_acc": 0.6778715706964125
+    }
+  },
+  "variant_choice": {
+    "passed_guard": [
+      "A_fresh",
+      "B_from_v31"
+    ],
+    "chosen": "A_fresh"
+  },
+  "comparison": {
+    "v3.1": {
+      "RBVD test macro-F1 (known voices)": 0.9664710418580388,
+      "RegSpeech12 test accuracy (new speakers)": 0.10297766749379653,
+      "RegSpeech12 test macro-F1 (5 districts)": 0.06707213322472623,
+      "RegSpeech12 group-balanced accuracy": 0.10084014521514521,
+      "RegSpeech12 per-speaker-group accuracy (majority)": 0.041666666666666664,
+      "RegSpeech12 clips sent to RBVD-only districts": 0.04590570719602978,
+      "BanglaAccent dialect accuracy": 0.09333333333333334,
+      "BanglaAccent gender accuracy": 0.9611111111111111,
+      "CV gender accuracy": 0.9325153374233128,
+      "CV gender macro-F1": 0.9284913477942969,
+      "CV age balanced accuracy": 0.6118768549725841,
+      "CV age macro-F1": 0.5807809212064531,
+      "CV age: share answered Adult (true share 0.21)": 0.3476482617586912
+    },
+    "V4.1-A": {
+      "RBVD test macro-F1 (known voices)": 0.9626547987616099,
+      "RegSpeech12 test accuracy (new speakers)": 0.7307692307692307,
+      "RegSpeech12 test macro-F1 (5 districts)": 0.6201426741587357,
+      "RegSpeech12 group-balanced accuracy": 0.8005678997141118,
+      "RegSpeech12 per-speaker-group accuracy (majority)": 0.875,
+      "RegSpeech12 clips sent to RBVD-only districts": 0.0,
+      "BanglaAccent dialect accuracy": 0.09333333333333334,
+      "BanglaAccent gender accuracy": 0.925,
+      "CV gender accuracy": 0.934560327198364,
+      "CV gender macro-F1": 0.9304409672830725,
+      "CV age balanced accuracy": 0.5713315559132753,
+      "CV age macro-F1": 0.46438920895573876,
+      "CV age: share answered Adult (true share 0.21)": 0.6155419222903885
+    },
+    "V4.1-B": {
+      "RBVD test macro-F1 (known voices)": 0.993050193050193,
+      "RegSpeech12 test accuracy (new speakers)": 0.6923076923076923,
+      "RegSpeech12 test macro-F1 (5 districts)": 0.6031993507767976,
+      "RegSpeech12 group-balanced accuracy": 0.7745854696371852,
+      "RegSpeech12 per-speaker-group accuracy (majority)": 0.875,
+      "RegSpeech12 clips sent to RBVD-only districts": 0.0,
+      "BanglaAccent dialect accuracy": 0.02666666666666667,
+      "BanglaAccent gender accuracy": 0.9444444444444444,
+      "CV gender accuracy": 0.9406952965235174,
+      "CV gender macro-F1": 0.9370284684076609,
+      "CV age balanced accuracy": 0.5376905276925399,
+      "CV age macro-F1": 0.46476857288458556,
+      "CV age: share answered Adult (true share 0.21)": 0.5521472392638037
+    }
+  },
+  "regspeech_recall_per_district": {
+    "v3.1": {
+      "Chottogram": 0.0,
+      "Barishal": 0.08441558441558442,
+      "Rangpur": 0.3626943005181347,
+      "Noakhali": 0.0,
+      "Tangail": 0.0
+    },
+    "V4.1-A": {
+      "Chottogram": 0.7396226415094339,
+      "Barishal": 0.6298701298701299,
+      "Rangpur": 0.927461139896373,
+      "Noakhali": 1.0,
+      "Tangail": 0.5968586387434555
+    },
+    "V4.1-B": {
+      "Chottogram": 0.8452830188679246,
+      "Barishal": 0.5,
+      "Rangpur": 0.7616580310880829,
+      "Noakhali": 1.0,
+      "Tangail": 0.5602094240837696
+    }
+  },
+  "bootstrap_vs_v31": {
+    "RegSpeech12 accuracy (new speakers)": {
+      "difference": 0.6277915632754342,
+      "ci_low": 0.4485325726320648,
+      "ci_high": 0.8006693690568575,
+      "speakers": 24
+    },
+    "CV gender accuracy": {
+      "difference": 0.002044989775051187,
+      "ci_low": -0.019651338556842764,
+      "ci_high": 0.02483105029233203,
+      "speakers": 109
+    },
+    "CV age balanced accuracy": {
+      "difference": -0.040545299059308815,
+      "ci_low": -0.13487217795129028,
+      "ci_high": 0.08436131966542922,
+      "speakers": 109
+    },
+    "BanglaAccent dialect accuracy": {
+      "difference": 0.0,
+      "ci_low": -0.03999999999999998,
+      "ci_high": 0.04,
+      "speakers": 5
+    },
+    "BanglaAccent gender accuracy": {
+      "difference": -0.036111111111111094,
+      "ci_low": -0.10277777777777775,
+      "ci_high": 0.005555555555555536,
+      "speakers": 24
+    }
+  },
+  "chottogram_test_groups": [
+    {
+      "group": "Chottogram|Chottogram_c10",
+      "segments": 82,
+      "correct": 0.3902439024390244,
+      "most_predicted": "Chottogram"
+    },
+    {
+      "group": "Chottogram|Chottogram_c12",
+      "segments": 53,
+      "correct": 0.8113207547169812,
+      "most_predicted": "Chottogram"
+    },
+    {
+      "group": "Chottogram|Chottogram_c2",
+      "segments": 31,
+      "correct": 1.0,
+      "most_predicted": "Chottogram"
+    },
+    {
+      "group": "Chottogram|Chottogram_c20",
+      "segments": 89,
+      "correct": 0.9438202247191011,
+      "most_predicted": "Chottogram"
+    },
+    {
+      "group": "Chottogram|Chottogram_c27",
+      "segments": 10,
+      "correct": 0.6,
+      "most_predicted": "Chottogram"
+    }
+  ],
+  "best_variant": "A_fresh",
+  "best_name": "V4.1-A",
+  "verdict_lines": [
+    "RegSpeech12 test accuracy (new speakers)     v3.1 0.103 -> V4.1-A 0.731 (+0.628)",
+    "RegSpeech12 group-balanced accuracy          v3.1 0.101 -> V4.1-A 0.801 (+0.700)",
+    "BanglaAccent dialect accuracy                v3.1 0.093 -> V4.1-A 0.093 (+0.000)",
+    "CV gender accuracy                           v3.1 0.933 -> V4.1-A 0.935 (+0.002)",
+    "BanglaAccent gender accuracy                 v3.1 0.961 -> V4.1-A 0.925 (-0.036)",
+    "CV age balanced accuracy                     v3.1 0.612 -> V4.1-A 0.571 (-0.041)",
+    "RBVD test macro-F1 (known voices)            v3.1 0.966 -> V4.1-A 0.963 (-0.004)"
+  ],
+  "checks": [
+    {
+      "rule": "Dialect on new RegSpeech12 speakers is better, and the 95% interval is above 0",
+      "passed": true
+    },
+    {
+      "rule": "Common Voice gender accuracy is at most 1 point below v3.1",
+      "passed": true
+    },
+    {
+      "rule": "BanglaAccent gender accuracy is at most 2 points below v3.1",
+      "passed": false
+    },
+    {
+      "rule": "Common Voice age balanced accuracy is at most 2 points below v3.1",
+      "passed": false
+    },
+    {
+      "rule": "RBVD known-voice macro-F1 stays at 0.90 or above",
+      "passed": true
+    }
+  ],
+  "adopt": false,
+  "export": {
+    "temperature": {
+      "dialect": 1.2667442560195923,
+      "gender": 1.0,
+      "age": 1.0
+    },
+    "age_bias": null,
+    "unknown_voice_threshold": 13.615679740905762,
+    "unknown_voice_flagged": {
+      "validation (known + unseen speakers of the 8 districts)": 0.0504950495049505,
+      "BanglaAccent places outside the 8 districts": 0.43859649122807015
+    }
+  }
+}

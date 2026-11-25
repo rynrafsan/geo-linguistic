@@ -1,0 +1,58 @@
+[
+  {
+    "file": "Barishal_Barishal_89.mp3",
+    "district": "Barishal",
+    "speaker": "Barishal",
+    "source": "RBVD test split, Barishal(89).mp3",
+    "seconds": 3.4
+  },
+  {
+    "file": "Chottogram_Chottogram_74.mp3",
+    "district": "Chottogram",
+    "speaker": "Chottogram",
+    "source": "RBVD test split, Chottogram(74).mp3",
+    "seconds": 3.9
+  },
+  {
+    "file": "Jamalpur_Jamalpur_11.mp3",
+    "district": "Jamalpur",
+    "speaker": "Jamalpur",
+    "source": "RBVD test split, Jamalpur(11).mp3",
+    "seconds": 2.4
+  },
+  {
+    "file": "Mymensingh_Mymensingh_91.mp3",
+    "district": "Mymensingh",
+    "speaker": "Mymensingh",
+    "source": "RBVD test split, Mymensingh(91).mp3",
+    "seconds": 3.1
+  },
+  {
+    "file": "Natore_Natore_43.mp3",
+    "district": "Natore",
+    "speaker": "Natore",
+    "source": "RBVD test split, Natore(43).mp3",
+    "seconds": 2.6
+  },
+  {
+    "file": "Noakhali_Noakhali_113.mp3",
+    "district": "Noakhali",
+    "speaker": "Noakhali",
+    "source": "RBVD test split, Noakhali(113).mp3",
+    "seconds": 2.4
+  },
+  {
+    "file": "Rangpur_Male_Rangpure_male_89.mp3",
+    "district": "Rangpur",
+    "speaker": "Rangpur_Male",
+    "source": "RBVD test split, Rangpure_male(89).mp3",
+    "seconds": 3.4
+  },
+  {
+    "file": "Tangail_Tangail_70.mp3",
+    "district": "Tangail",
+    "speaker": "Tangail",
+    "source": "RBVD test split, Tangail(70).mp3",
+    "seconds": 2.8
+  }
+]

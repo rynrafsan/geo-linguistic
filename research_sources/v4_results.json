@@ -1,0 +1,509 @@
+{
+  "config": {
+    "variants": [
+      "A_merged",
+      "B_merged_robust"
+    ],
+    "selection_weights": {
+      "regspeech_val": 0.7,
+      "rbvd_val": 0.3
+    },
+    "rbvd_share_in_shared": 0.3,
+    "stage2_epoch_samples": 4000,
+    "cv_max_per_speaker": 15,
+    "smoke_test": false
+  },
+  "regspeech": {
+    "group_method": "voice clustering (ECAPA speaker embeddings)",
+    "segments": 5610,
+    "groups_per_region": {
+      "Barishal": 29,
+      "Chottogram": 50,
+      "Noakhali": 8,
+      "Rangpur": 37,
+      "Tangail": 36
+    },
+    "split_counts": {
+      "train": 3266,
+      "val": 1510,
+      "test": 834
+    }
+  },
+  "common_voice": {
+    "table": {
+      "clips": {
+        "v4 train": 6502,
+        "v4 val": 1054,
+        "test (=v3.1)": 489,
+        "v3.1 train+val": 2856
+      },
+      "speakers": {
+        "v4 train": 1237,
+        "v4 val": 207,
+        "test (=v3.1)": 109,
+        "v3.1 train+val": 650
+      },
+      "Young-M": {
+        "v4 train": 5102,
+        "v4 val": 882,
+        "test (=v3.1)": 218,
+        "v3.1 train+val": 1282
+      },
+      "Young-F": {
+        "v4 train": 923,
+        "v4 val": 106,
+        "test (=v3.1)": 168,
+        "v3.1 train+val": 1029
+      },
+      "Adult-M": {
+        "v4 train": 408,
+        "v4 val": 54,
+        "test (=v3.1)": 76,
+        "v3.1 train+val": 462
+      },
+      "Adult-F": {
+        "v4 train": 69,
+        "v4 val": 12,
+        "test (=v3.1)": 27,
+        "v3.1 train+val": 83
+      }
+    },
+    "age_classes": [
+      "Young (<30)",
+      "Adult (30+)"
+    ],
+    "senior_speakers": 0
+  },
+  "stage1_val": {
+    "gender_f1": 0.8997543688437141,
+    "age_f1": 0.5040466779597215
+  },
+  "stage2_history": {
+    "A_merged": [
+      {
+        "epoch": 1,
+        "loss": 1.6633919706344604,
+        "score": 0.43748883043328396,
+        "regspeech_val": 0.3584144862666395,
+        "rbvd_val": 0.6219956334887877
+      },
+      {
+        "epoch": 2,
+        "loss": 1.0912686595916747,
+        "score": 0.5570528611801476,
+        "regspeech_val": 0.44384279679076427,
+        "rbvd_val": 0.8212096780887088
+      },
+      {
+        "epoch": 3,
+        "loss": 0.9019365615844727,
+        "score": 0.5710603141194983,
+        "regspeech_val": 0.4408677843099129,
+        "rbvd_val": 0.8748428836751974
+      },
+      {
+        "epoch": 4,
+        "loss": 0.7979798308610916,
+        "score": 0.612228968940836,
+        "regspeech_val": 0.48613729318008214,
+        "rbvd_val": 0.906442879049262
+      },
+      {
+        "epoch": 5,
+        "loss": 0.7222969533205033,
+        "score": 0.6222835311807582,
+        "regspeech_val": 0.4960676683235959,
+        "rbvd_val": 0.9167872111808038
+      },
+      {
+        "epoch": 6,
+        "loss": 0.6740269552469254,
+        "score": 0.6379519944259324,
+        "regspeech_val": 0.5181289530884525,
+        "rbvd_val": 0.917539090880052
+      },
+      {
+        "epoch": 7,
+        "loss": 0.6268078379631042,
+        "score": 0.6438915111647383,
+        "regspeech_val": 0.5106913035838396,
+        "rbvd_val": 0.9546919955201689
+      },
+      {
+        "epoch": 8,
+        "loss": 0.6506424732208252,
+        "score": 0.6233774291933678,
+        "regspeech_val": 0.4928157419428671,
+        "rbvd_val": 0.9280213661112028
+      },
+      {
+        "epoch": 9,
+        "loss": 0.6191994177699089,
+        "score": 0.6647435953392371,
+        "regspeech_val": 0.5417334369217597,
+        "rbvd_val": 0.9517672983133509
+      },
+      {
+        "epoch": 10,
+        "loss": 0.6261067648530007,
+        "score": 0.6575178190682426,
+        "regspeech_val": 0.5309019863123658,
+        "rbvd_val": 0.9529547621652885
+      },
+      {
+        "epoch": 11,
+        "loss": 0.6172315918207169,
+        "score": 0.6502865252930063,
+        "regspeech_val": 0.5136677561582179,
+        "rbvd_val": 0.9690636532741796
+      },
+      {
+        "epoch": 12,
+        "loss": 0.5743094010949135,
+        "score": 0.6338650701555264,
+        "regspeech_val": 0.4836229221123938,
+        "rbvd_val": 0.9844300822561692
+      },
+      {
+        "epoch": 13,
+        "loss": 0.5566880755424499,
+        "score": 0.6473862407586686,
+        "regspeech_val": 0.5014469505302982,
+        "rbvd_val": 0.987911251291533
+      },
+      {
+        "epoch": 14,
+        "loss": 0.508887245118618,
+        "score": 0.6782380629448119,
+        "regspeech_val": 0.5447664550618108,
+        "rbvd_val": 0.9896718146718146
+      },
+      {
+        "epoch": 15,
+        "loss": 0.50814419901371,
+        "score": 0.6476274231648247,
+        "regspeech_val": 0.4988130081320324,
+        "rbvd_val": 0.99486105824134
+      },
+      {
+        "epoch": 16,
+        "loss": 0.47307731223106386,
+        "score": 0.6545036409901391,
+        "regspeech_val": 0.5130303907096967,
+        "rbvd_val": 0.9846078916445049
+      },
+      {
+        "epoch": 17,
+        "loss": 0.4707207280397415,
+        "score": 0.6549317768705603,
+        "regspeech_val": 0.5136420133960127,
+        "rbvd_val": 0.9846078916445049
+      },
+      {
+        "epoch": 18,
+        "loss": 0.44077350676059723,
+        "score": 0.6656438124219428,
+        "regspeech_val": 0.5308567068212628,
+        "rbvd_val": 0.9801470588235295
+      },
+      {
+        "epoch": 19,
+        "loss": 0.4163315721750259,
+        "score": 0.6669008914807066,
+        "regspeech_val": 0.5263465342975782,
+        "rbvd_val": 0.99486105824134
+      },
+      {
+        "epoch": 20,
+        "loss": 0.40759087401628497,
+        "score": 0.6574662172100341,
+        "regspeech_val": 0.510666024585763,
+        "rbvd_val": 1.0
+      }
+    ],
+    "B_merged_robust": [
+      {
+        "epoch": 1,
+        "loss": 1.854197259426117,
+        "score": 0.3439120441473954,
+        "regspeech_val": 0.30295261124533657,
+        "rbvd_val": 0.43948405425219944
+      },
+      {
+        "epoch": 2,
+        "loss": 1.4432887933254241,
+        "score": 0.437540544991683,
+        "regspeech_val": 0.3530581306423418,
+        "rbvd_val": 0.6346661784734791
+      },
+      {
+        "epoch": 3,
+        "loss": 1.245927753686905,
+        "score": 0.514667676042577,
+        "regspeech_val": 0.4053532798908438,
+        "rbvd_val": 0.7697346003966213
+      },
+      {
+        "epoch": 4,
+        "loss": 1.1766050572395326,
+        "score": 0.5432466311589802,
+        "regspeech_val": 0.42011749103554374,
+        "rbvd_val": 0.8305479581136652
+      },
+      {
+        "epoch": 5,
+        "loss": 1.107920441389084,
+        "score": 0.5155490186635363,
+        "regspeech_val": 0.39663166275731987,
+        "rbvd_val": 0.7930228491113749
+      },
+      {
+        "epoch": 6,
+        "loss": 1.000841874361038,
+        "score": 0.5987673986510119,
+        "regspeech_val": 0.47778413218994603,
+        "rbvd_val": 0.8810616870601657
+      },
+      {
+        "epoch": 7,
+        "loss": 1.0110853276252747,
+        "score": 0.5889927157221959,
+        "regspeech_val": 0.46948244823787205,
+        "rbvd_val": 0.8678500065189516
+      },
+      {
+        "epoch": 8,
+        "loss": 0.9911092311143875,
+        "score": 0.6193094949296074,
+        "regspeech_val": 0.5041931740922045,
+        "rbvd_val": 0.8879142435502143
+      },
+      {
+        "epoch": 9,
+        "loss": 0.9517767148017884,
+        "score": 0.583217016444878,
+        "regspeech_val": 0.4475916332099029,
+        "rbvd_val": 0.8996762439931533
+      },
+      {
+        "epoch": 10,
+        "loss": 0.9495531663894653,
+        "score": 0.5935348542408909,
+        "regspeech_val": 0.47029991727113674,
+        "rbvd_val": 0.8810830405036508
+      },
+      {
+        "epoch": 11,
+        "loss": 0.9263687963485718,
+        "score": 0.6148994217875221,
+        "regspeech_val": 0.49285491605503945,
+        "rbvd_val": 0.8996699351633151
+      },
+      {
+        "epoch": 12,
+        "loss": 0.9063451859951019,
+        "score": 0.6336320051412532,
+        "regspeech_val": 0.5082286308264288,
+        "rbvd_val": 0.9262398785425101
+      },
+      {
+        "epoch": 13,
+        "loss": 0.8760792201757431,
+        "score": 0.5986153248310933,
+        "regspeech_val": 0.4597936557034002,
+        "rbvd_val": 0.9225325527957107
+      },
+      {
+        "epoch": 14,
+        "loss": 0.9080859954357148,
+        "score": 0.6301500840931151,
+        "regspeech_val": 0.5120996741155542,
+        "rbvd_val": 0.9056010407074238
+      },
+      {
+        "epoch": 15,
+        "loss": 0.8613230133056641,
+        "score": 0.6169432365864553,
+        "regspeech_val": 0.48753409635808787,
+        "rbvd_val": 0.9188978971193127
+      },
+      {
+        "epoch": 16,
+        "loss": 0.840057201385498,
+        "score": 0.6390911139972589,
+        "regspeech_val": 0.5139142577542131,
+        "rbvd_val": 0.9311704452310328
+      },
+      {
+        "epoch": 17,
+        "loss": 0.8325467346906662,
+        "score": 0.6167818525148576,
+        "regspeech_val": 0.47723074737141236,
+        "rbvd_val": 0.9424010978495636
+      },
+      {
+        "epoch": 18,
+        "loss": 0.766088103055954,
+        "score": 0.6146459134093216,
+        "regspeech_val": 0.48331410488498355,
+        "rbvd_val": 0.9210867999661103
+      },
+      {
+        "epoch": 19,
+        "loss": 0.805385036110878,
+        "score": 0.6381465955295109,
+        "regspeech_val": 0.5073204758053753,
+        "rbvd_val": 0.9434075415524941
+      },
+      {
+        "epoch": 20,
+        "loss": 0.805471666932106,
+        "score": 0.6140069937327766,
+        "regspeech_val": 0.4762986817632382,
+        "rbvd_val": 0.9353263883283663
+      },
+      {
+        "epoch": 21,
+        "loss": 0.7553074302673339,
+        "score": 0.6313926215481291,
+        "regspeech_val": 0.4973681381300228,
+        "rbvd_val": 0.9441164161903773
+      },
+      {
+        "epoch": 22,
+        "loss": 0.7529053167104721,
+        "score": 0.6594092208909828,
+        "regspeech_val": 0.531275683838915,
+        "rbvd_val": 0.958387474012474
+      },
+      {
+        "epoch": 23,
+        "loss": 0.7426211932897567,
+        "score": 0.6419038425854124,
+        "regspeech_val": 0.5130633066061023,
+        "rbvd_val": 0.9425317598704694
+      },
+      {
+        "epoch": 24,
+        "loss": 0.7277134054899216,
+        "score": 0.6516132906971239,
+        "regspeech_val": 0.5226335984262697,
+        "rbvd_val": 0.9525659059957841
+      },
+      {
+        "epoch": 25,
+        "loss": 0.7165400432348251,
+        "score": 0.640900036086193,
+        "regspeech_val": 0.5140947441030713,
+        "rbvd_val": 0.936779050713477
+      },
+      {
+        "epoch": 26,
+        "loss": 0.711726895570755,
+        "score": 0.6558294024361349,
+        "regspeech_val": 0.5192660135628046,
+        "rbvd_val": 0.9744773098072391
+      },
+      {
+        "epoch": 27,
+        "loss": 0.7251147190332413,
+        "score": 0.6673129426254323,
+        "regspeech_val": 0.5421434894649033,
+        "rbvd_val": 0.959375
+      },
+      {
+        "epoch": 28,
+        "loss": 0.7167488420009613,
+        "score": 0.6477937997695429,
+        "regspeech_val": 0.5142589996707756,
+        "rbvd_val": 0.959375
+      },
+      {
+        "epoch": 29,
+        "loss": 0.701980406999588,
+        "score": 0.6414903051779224,
+        "regspeech_val": 0.5051937018489217,
+        "rbvd_val": 0.959515712945591
+      },
+      {
+        "epoch": 30,
+        "loss": 0.6812526942491531,
+        "score": 0.6498326709280708,
+        "regspeech_val": 0.5171113672062766,
+        "rbvd_val": 0.959515712945591
+      }
+    ]
+  },
+  "comparison": {
+    "v3.1": {
+      "RBVD test macro-F1 (known voices)": 0.9664710418580388,
+      "RegSpeech12 test accuracy (new speakers)": 0.15947242206235013,
+      "RegSpeech12 test macro-F1 (5 districts)": 0.17747467717540633,
+      "RegSpeech12 clips sent to RBVD-only districts": 0.07553956834532374,
+      "RegSpeech12 per-speaker accuracy": 0.14814814814814814,
+      "BanglaAccent dialect accuracy": 0.09333333333333334,
+      "BanglaAccent gender accuracy": 0.9611111111111111,
+      "BanglaAccent age accuracy": 0.3611111111111111,
+      "CV gender accuracy": 0.9325153374233128,
+      "CV gender macro-F1": 0.9284913477942969,
+      "CV age balanced accuracy": 0.6118768549725841,
+      "CV age macro-F1": 0.5807809212064531,
+      "CV age balanced accuracy (cut-off from val)": 0.5606418833945369,
+      "CV age macro-F1 (cut-off from val)": 0.44606881339847904,
+      "age bias (Adult logit)": 0.75
+    },
+    "V4-A": {
+      "RBVD test macro-F1 (known voices)": 0.9604738673253951,
+      "RegSpeech12 test accuracy (new speakers)": 0.4712230215827338,
+      "RegSpeech12 test macro-F1 (5 districts)": 0.5352773626912903,
+      "RegSpeech12 clips sent to RBVD-only districts": 0.001199040767386091,
+      "RegSpeech12 per-speaker accuracy": 0.7407407407407407,
+      "BanglaAccent dialect accuracy": 0.06666666666666667,
+      "BanglaAccent gender accuracy": 0.9194444444444444,
+      "BanglaAccent age accuracy": 0.9555555555555556,
+      "CV gender accuracy": 0.9243353783231084,
+      "CV gender macro-F1": 0.9189545118591682,
+      "CV age balanced accuracy": 0.5129407917903315,
+      "CV age macro-F1": 0.4756680963378423,
+      "CV age balanced accuracy (cut-off from val)": 0.5146134111373811,
+      "CV age macro-F1 (cut-off from val)": 0.3041293588726435,
+      "age bias (Adult logit)": 0.6
+    },
+    "V4-B": {
+      "RBVD test macro-F1 (known voices)": 0.9383024627020052,
+      "RegSpeech12 test accuracy (new speakers)": 0.4352517985611511,
+      "RegSpeech12 test macro-F1 (5 districts)": 0.45861166625361544,
+      "RegSpeech12 clips sent to RBVD-only districts": 0.002398081534772182,
+      "RegSpeech12 per-speaker accuracy": 0.5555555555555556,
+      "BanglaAccent dialect accuracy": 0.04,
+      "BanglaAccent gender accuracy": 0.9111111111111111,
+      "BanglaAccent age accuracy": 0.95,
+      "CV gender accuracy": 0.9263803680981595,
+      "CV gender macro-F1": 0.9212334896373984,
+      "CV age balanced accuracy": 0.527805724634036,
+      "CV age macro-F1": 0.5223054379680886,
+      "CV age balanced accuracy (cut-off from val)": 0.5221464862417626,
+      "CV age macro-F1 (cut-off from val)": 0.4452552506515407,
+      "age bias (Adult logit)": 0.5
+    }
+  },
+  "best_variant": "A_merged",
+  "verdict_lines": [
+    "RegSpeech12 test accuracy (new speakers)         v3.1 0.159 -> V4-A 0.471 (+0.312)",
+    "BanglaAccent dialect accuracy                    v3.1 0.093 -> V4-A 0.067 (-0.027)",
+    "CV gender accuracy                               v3.1 0.933 -> V4-A 0.924 (-0.008)",
+    "CV age balanced accuracy (cut-off from val)      v3.1 0.561 -> V4-A 0.515 (-0.046)",
+    "CV age balanced accuracy                         v3.1 0.612 -> V4-A 0.513 (-0.099)",
+    "RBVD test macro-F1 (known voices)                v3.1 0.966 -> V4-A 0.960 (-0.006)"
+  ],
+  "export": {
+    "temperature": {
+      "dialect": 1.5318835973739624,
+      "gender": 0.991682767868042,
+      "age": 0.25
+    },
+    "age_bias": 0.6,
+    "unknown_voice_threshold": 11.752388000488281
+  },
+  "better_on_new_speakers": true
+}

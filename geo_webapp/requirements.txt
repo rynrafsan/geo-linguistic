@@ -1,0 +1,15 @@
+# Used by both versions: the laptop (run_local.bat) and the Hugging Face Space.
+# torch 2.11 is one of the versions Hugging Face ZeroGPU accepts; torchvision/torchaudio must match it.
+# gradio is NOT listed: the Space provides it, and the laptop version does not need it.
+torch==2.11.0
+torchvision==0.26.0
+torchaudio==2.11.0
+fastapi>=0.115
+uvicorn>=0.30
+python-multipart>=0.0.18
+numpy>=1.26,<2.3
+soundfile>=0.12.1
+soxr>=0.5.0
+imageio-ffmpeg>=0.5.1
+scikit-learn>=1.3
+pandas>=2.0,<3
